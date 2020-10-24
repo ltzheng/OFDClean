@@ -1,4 +1,6 @@
 import pandas as pd
+from collections import Counter
+import scipy.stats
 
 
 # get the num of functional dependencies
@@ -81,11 +83,55 @@ def optimal_senses(data, senses):
     senses_dict = {}
     attributeA, attributeB = get_attribute(data)
     for i, attr in zip(range(len(attributeA)), attributeA):
-        senses_dict[i] = sense_select(test_data[test_data['A'] == attr]['C'].tolist(), senses)
+        senses_dict[i] = sense_select(data[data['A'] == attr]['C'].tolist(), senses)
     for i, attr in zip(range(len(attributeA), len(attributeA) + len(attributeB)), attributeB):
-        senses_dict[i] = sense_select(test_data[test_data['B'] == attr]['C'].tolist(), senses)
+        senses_dict[i] = sense_select(data[data['B'] == attr]['C'].tolist(), senses)
 
     return senses_dict
+
+
+# return table of probability for each node
+def prob_table(data, senses):
+    attributeA, attributeB = get_attribute(data)
+    nodes = [i for i in range(len(attributeA) + len(attributeB))]
+
+    synonyms = []
+    for ind in senses:
+        synonyms += senses[ind]
+    synonyms = list(set(synonyms))
+    # print('synonyms:', synonyms)
+    prob = pd.DataFrame(index=nodes, columns=synonyms)
+    prob.loc[:, :] = 0
+
+    for i, attr in zip(range(len(attributeA)), attributeA):
+        attrC = data[data['A'] == attr]['C'].tolist()
+        # print('attrC:', attrC)
+        counter = Counter(attrC)
+        # print('counter:', counter)
+        for f in counter:
+            prob.loc[i, str(f)] = counter[f] / len(attrC)
+    for i, attr in zip(range(len(attributeA), len(attributeA) + len(attributeB)), attributeB):
+        attrC = data[data['B'] == attr]['C'].tolist()
+        # print('attrC:', attrC)
+        counter = Counter(attrC)
+        # print('counter:', counter)
+        for f in counter:
+            prob.loc[i, str(f)] = counter[f] / len(attrC)
+
+    return prob
+
+
+# calculate KL-divergence of 2 probability distribution for nodes in graph
+def KL_table(graph, prob):
+    table = {}
+    for i in graph:
+        table[i] = {}
+    for node_x in graph:
+        for node_y in graph[node_x]:
+            # print(prob.loc[node_x].tolist(), prob.loc[node_y].tolist())
+            table[node_x][node_y] = scipy.stats.entropy(prob.loc[node_x].tolist(), prob.loc[node_y].tolist())
+
+    return table
 
 
 def BFS(graph, s):
@@ -119,5 +165,9 @@ test_graph = build_graph(test_data)
 print('graph:', test_graph)
 
 print('optimal_senses:', optimal_senses(test_data, test_senses))
+
+print('prob_table:', prob_table(test_data, test_senses))
+
+print(KL_table(test_graph, prob_table(test_data, test_senses)))
 
 # BFS(test_graph, 'a')
