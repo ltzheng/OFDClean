@@ -1,37 +1,14 @@
-## Welcome to GitHub Pages
+# OFDClean
 
-You can use the [editor on GitHub](https://github.com/ltzheng/OFDClean/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Datasets
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Kiva
+The [Kiva dataset](https://www.kaggle.com/kiva/data-science-for-good-kiva-crowdfunding?select=loan_themes_by_region.csv) describes issued loans over two years via the Kiva.org, online crowdfunding platform to extend financial services to financially excluded citizens around the world.
+#### OFDs
 
-### Markdown
+### Clinical
+The [Linked Clinical Trials](LinkedCT.org) database describes clinical patient data characteristics such as the clinical study, country, medical diagnosis, prescribed drugs, illnesses, symptoms, treatment, and outcomes. 
+#### OFDs
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ltzheng/OFDClean/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## Source code
+The source code is available [here](https://github.com/ltzheng/OFDClean)
