@@ -1,26 +1,53 @@
 import pandas as pd
+import csv
 
 
-def read_data():
-    data_path = 'data.csv'
-    senses_path = 'senses.csv'
-    test_threshold = 0.2
-    test_data = pd.read_csv(data_path)
-    sense_set = pd.read_csv(senses_path, header=None, index_col=0)
+def read_data(data_path, senses_path, sense_num=4):
+    # read data
+    data = pd.read_csv(data_path)
+    
+    # read senses
+    with open(senses_path, mode='r') as f:
+        reader = csv.reader(f)
+        sense_dict = {rows[0]:rows[1:] for rows in reader}
 
-    sense_set = sense_set.to_dict()[1]
-    sense_set = sense2str(sense_set)
-    print('senses:', sense_set)
+    return data, sense_dict
 
-    return test_data, sense_set
 
 # get the num of functional dependencies
-def get_attribute(data):
-    return data['A'].unique(), data['B'].unique()
+def get_attribute(data, col_name='A'):
+    return data[col_name].unique()
 
 
-# convert element in senses to string format
+# convert element in senses from int to dict
+def sense2dict(sense_table):
+    '''
+    input: sense dataframe
+    output: sense dict
+    '''
+    sense_dict = dict.fromkeys(sense_table.iloc[:, 0].tolist())
+    # for i in senses:
+    #     senses[i] = [int(i) for i in list(str(senses[i]))]
+    # return senses
+
+
+# convert element in senses from int to list
+def sense2list(senses):
+    '''
+    input: {1: 123, 2: 24, 3: 145, 4: 235, 5: 125}
+    output: {1: [1, 2, 3], 2: [2, 4], 3: [1, 4, 5], 4: [2, 3, 5], 5: [1, 2, 5]}
+    '''
+    for i in senses:
+        senses[i] = [int(i) for i in list(str(senses[i]))]
+    return senses
+
+
+# convert element in senses from int to string
 def sense2str(senses):
+    '''
+    input: {1: 123, 2: 24, 3: 145, 4: 235, 5: 125}
+    output: {1: '123', 2: '24', 3: '145', 4: '235', 5: '125'}
+    '''
     for i in senses:
         senses[i] = str(senses[i])
     return senses
