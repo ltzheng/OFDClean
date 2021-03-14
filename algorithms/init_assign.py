@@ -7,7 +7,7 @@ import numpy as np
 
 def cover(sense, attr):
     '''
-    senses: a sense
+    senses: a sense, i.e., a list of synonyms
     attr: a list of attribute of x
     '''
     coverage = 0
