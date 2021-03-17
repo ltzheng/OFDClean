@@ -181,6 +181,8 @@ class DependencyGraph(object):
             if reassign_cost1 > reassign_cost2:
                 # new_w = EMD(self.distribution(attr2, self.sense_dict[self.sense_assignment[attr2]]), self.distribution(attr2, sense1))
                 new_w = self.EMD(val2, val2, self.sense_assignment[attr2], sense1)
+                print('sense1:', self.sense_assignment[attr2])
+                print('sense2:', sense1)
                 if new_w < self.weight[(u, v)]:
                     self.sense_assignment[attr2] = sense1
                     self.weight[(u, v)] = new_w
@@ -188,11 +190,14 @@ class DependencyGraph(object):
             else:
                 # new_w = EMD(self.distribution(attr1, self.sense_dict[self.sense_assignment[attr1]]), self.distribution(attr1, sense2))
                 new_w = self.EMD(val1, val1, self.sense_assignment[attr1], sense2)
+                print('sense1:', self.sense_assignment[attr1])
+                print('sense2:', sense2)
                 if new_w < self.weight[(u, v)]:
                     self.sense_assignment[attr1] = sense2
                     self.weight[(u, v)] = new_w
                     self.weight[(v, u)] = new_w
 
+    # Earth mover's distance of transforming val1 to val2
     def EMD(self, val1, val2, sense1, sense2):
         print('val1:', val1)
         print('val2:', val2)
@@ -204,8 +209,17 @@ class DependencyGraph(object):
         dist2.update(dict(Counter(val2)))
         print('dist1:', dist1)
         print('dist2:', dist2)
-        emd = wasserstein_distance(list(dist1.values()), list(dist2.values()))
-        print('EMD:', emd)
+
+        # emd = wasserstein_distance(list(dist1.values()), list(dist2.values()))
+        emds = []
+        emds.append(0)
+        dist1, dist2 = list(dist1.values()), list(dist2.values())
+        for i, p_i, q_i in zip(range(len(dist1)), dist1, dist2):
+            emds.append(p_i + emds[i] - q_i)
+        emd = sum(abs(number) for number in emds)
+        print('EMDs:', emds)
+        print('emd:', emd)
+
         return emd
     
     def replace(self, vals, sense):
