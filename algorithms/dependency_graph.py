@@ -66,9 +66,9 @@ class DependencyGraph(object):
                  sense_dict, right_col_name,
                  col_name1='A', col_name2='B', threshold=0.2):
         """
-        vals: a list of attribute values of x
-        sense1, sense2: lists of synonyms
-        sense_dict: map sense id->value synonyms
+        attr: a list of attribute values of x
+        sense: sense assignment map
+        sense_dict: map sense id->value synonyms list
         """
         self.attrs1 = attrs1
         self.attrs2 = attrs2
