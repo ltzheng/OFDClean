@@ -1,0 +1,3107 @@
+id,countrycode,country,disease,medicine,status,study_design
+1,CA,Canada,asthma,Advair,complete,research
+2,CANADA,Canada,asthma,Advair,active,clinical
+3,GER,Germany,asthma,Advair,active,clinical
+4,GERMANY,Germany,asthma,Advicor,active,clinical
+5,DE,Germany,asthma_attacks,Advair,active,clinical
+6,GER,Germany,arthritis,Celebrex,active,clinical
+7,CANADA,Canada,arthritis,Celebra,active,clinical
+8,CANADA,Canada,Osteoarthritis,Celebrex,active,research
+9,USA,United States,Osteoarthritis,Celexa,active,clinical
+10,SE,Sweden,Osteoarthritis,Celebrex,active,clinical
+11,SW,Sweden,anxiety,Lexapro,complete,clinical
+12,SW,Sweden,phobias,Lexapr,active,clinical
+13,SWEDEN,Sweden,high_cholesterol,CoZaar,active,research
+14,US,United States,depression,Lexapro,active,clinical
+15,USA,United States,hyperlipidemia,CoZaar,active,clinical
+16,ES,Spain,phobias,Lexapro,active,clinical
+17,ES,Spain,phobias,Lexapro,active,clinical
+18,SP,Spain,high_cholesterol,Zocor,complete,research
+19,US,United States,OCD,Loxitane,active,clinical
+20,ES,Spain,anxiety,Loxitane,active,clinical
+21,CANADA,Canada,high_cholesterol,CoZaar,active,research
+22,CANADA,Canada,high_cholesterol,CoZaar,active,clinical
+23,DK,Denmark,hyperlipidemia,CoZa,active,clinical
+24,DK,Denmark,high_cholesterol,Zocor,active,clinical
+25,DN,Denmark,high_cholesterol,Zocor,active,clinical
+26,US,United States,high_cholesterol,Zocor,active,clinical
+27,PL,Poland,deep_vein_thrombosis,Lovenox,active,clinical
+28,PL,Poland,deep_vein_thrombosis,Levemir,active,research
+29,USA,United States,deep_vein_thrombosis,Levemir,active,clinical
+30,POL,Poland,arthritis,Celebra,active,clinical
+31,CANADA,Canada,deep_vein_thrombosis,Lovenox,active,clinical
+32,POL,Poland,asthma_attacks,Advair,active,clinical
+33,UK,United Kingdom,Osteoarthritis,Celebrex,active,research
+34,US,United States,deep_vein_thrombosis,Clexane,active,clinical
+35,USA,United States,phobias,Lexapro,active,clinical
+36,UK,United Kingdom,depression,Lepro,active,clinical
+37,UK,United Kingdom,anxiety,Loxitane,active,clinical
+38,GB,United Kingdom,phobias,Loxitane,active,research
+39,US,United States,arthritis,Celexa,active,clinical
+40,GB,United Kingdom,anxiety,Loxitane,active,clinical
+41,CA,Canada,asthma,Advair,complete,research
+42,CAN,Canada,asthma_attacks,Advair,active,clinical
+43,GER,Germany,asthma,Advair,active,clinical
+44,DE,Germany,asthma_attacks,Advicor,active,clinical
+45,GERMANY,Germany,asthma,Advair,active,clinical
+46,GER,Germany,arthritis,Celebrex,active,clinical
+47,CAD,Canada,Osteoarthritis,Celexa,active,clinical
+48,CAD,Canada,Osteoarthritis,Cele,active,research
+49,USA,United States,arthritis,Celexa,active,clinical
+50,SE,Sweden,Osteoarthritis,Celebrex,active,clinical
+51,SW,Sweden,phobias,Lexapro,complete,clinical
+52,SW,Sweden,anxiety,Lexapro,active,clinical
+53,SE,Sweden,hyperlipidemia,CoZaar,active,research
+54,US,United States,anxiety,Lexapro,active,clinical
+55,USA,United States,high_cholesterol,CoZaar,active,clinical
+56,ES,Spain,anxiety,Lexapro,active,clinical
+57,ES,Spain,anxiety,Lexapro,active,clinical
+58,SP,Spain,high_cholesterol,Zocor,complete,research
+59,US,United States,phobias,Loxitane,active,clinical
+60,ES,Spain,anxiety,Loxitane,active,clinical
+61,CANADA,Canada,high_cholesterol,CoZaar,active,research
+62,CAN,Canada,hyperlipidemia,CoZaar,active,clinical
+63,DK,Denmark,high_cholesterol,CoZaar,active,clinical
+64,DK,Denmark,high_cholesterol,Zocor,active,clinical
+65,DN,Denmark,high_cholesterol,Zocor,active,clinical
+66,AMERICA,United States,hyperlipidemia,Zocor,active,clinical
+67,PL,Poland,deep_vein_thrombosis,Lovenox,active,clinical
+68,PL,Poland,deep_vein_thrombosis,Levemir,active,research
+69,USA,United States,deep_vein_thrombosis,Levemir,active,clinical
+70,POL,Poland,arthritis,Celebra,active,clinical
+71,CAN,Canada,deep_vein_thrombosis,Lovenox,active,clinical
+72,POL,Poland,asthma_attacks,Seretide,active,clinical
+73,UK,United Kingdom,Osteoarthritis,Celebra,active,research
+74,US,United States,deep_vein_thrombosis,Clexane,active,clinical
+75,USA,United States,anxiety,Lexapro,active,clinical
+76,UK,United Kingdom,phobias,Lexapro,active,clinical
+77,UK,United Kingdom,depression,Loxitane,active,clinical
+78,GB,United Kingdom,anxiety,Loxitane,active,research
+79,US,United States,arthritis,Celexa,active,clinical
+80,GB,United Kingdom,anxiety,Loxitane,active,clinical
+81,CA,Canada,asthma,Advair,complete,research
+82,CAN,Canada,asthma,Advair,active,clinical
+83,GER,Germany,asthma_attacks,Advair,active,clinical
+84,Deutschland,Germany,asthma_attacks,Advicor,active,clinical
+85,DE,Germany,asthma,Advair,active,clinical
+86,GERMANY,Germany,Osteoarthritis,Celebrex,active,clinical
+87,CANADA,Canada,arthritis,Celexa,active,clinical
+88,CAD,Canada,Osteoarthritis,Celebrex,active,research
+89,USA,United States,Osteoarthritis,Celexa,active,clinical
+90,SE,Sweden,arthritis,Celebrex,active,clinical
+91,SW,Sweden,anxiety,Lexapro,complete,clinical
+92,SW,Sweden,phobias,Lexapro,active,clinical
+93,SE,Sweden,high_cholesterol,CoZaar,active,research
+94,US,United States,anxiety,Lexapro,active,clinical
+95,USA,United States,hyperlipidemia,CoZaar,active,clinical
+96,ES,Spain,anxiety,Lexapro,active,clinical
+97,ES,Spain,phobias,Lexapro,active,clinical
+98,SP,Spain,high_cholesterol,Zocor,complete,research
+99,US,United States,anxiety,Loxitane,active,clinical
+100,ES,Spain,anxiety,Loxitane,active,clinical
+101,CA,Canada,high_cholesterol,CoZaar,active,research
+102,CAN,Canada,high_cholesterol,CoZaar,active,clinical
+103,DK,Denmark,hyperlipidemia,CoZaar,active,clinical
+104,DK,Denmark,high_cholesterol,Zocor,active,clinical
+105,DN,Denmark,high_cholesterol,Simovil,active,clinical
+106,US,United States,high_cholesterol,Zocor,active,clinical
+107,PL,Poland,deep_vein_thrombosis,Lovenox,active,clinical
+108,PL,Poland,deep_vein_thrombosis,Levemir,active,research
+109,USA,United States,deep_vein_thrombosis,Levemir,active,clinical
+110,POL,Poland,Osteoarthritis,Celebrex,active,clinical
+111,CANADA,Canada,deep_vein_thrombosis,Lovenox,active,clinical
+112,POL,Poland,asthma,Advair,active,clinical
+113,UK,United Kingdom,Osteoarthritis,Celebra,active,research
+114,US,United States,deep_vein_thrombosis,Clexane,active,clinical
+115,USA,United States,anxiety,Lexapro,active,clinical
+116,UK,United Kingdom,depression,Lexapro,active,clinical
+117,UK,United Kingdom,anxiety,Loxitane,active,clinical
+118,GB,United Kingdom,anxiety,Loxitane,active,research
+119,US,United States,Osteoarthritis,Celebra,active,clinical
+120,GB,United Kingdom,anxiety,Loxitane,active,clinical
+121,CA,Canada,asthma_attacks,Advair,complete,research
+122,CAN,Canada,asthma,Advair,active,clinical
+123,GER,Germany,asthma,Advair,active,clinical
+124,DE,Germany,asthma_attacks,Advicor,active,clinical
+125,DE,Germany,asthma_attacks,Advair,active,clinical
+126,GERMANY,Germany,arthritis,Celebra,active,clinical
+127,CAD,Canada,Osteoarthritis,Celebra,active,clinical
+128,CANADA,Canada,arthritis,Celebra,active,research
+129,USA,United States,arthritis,Celebra,active,clinical
+130,SE,Sweden,Osteoarthritis,Celebra,active,clinical
+131,SWEDEN,Sweden,anxiety,Lexapro,complete,clinical
+132,SW,Sweden,anxiety,Lexapro,active,clinical
+133,SWEDEN,Sweden,hyperlipidemia,CoZaar,active,research
+134,US,United States,anxiety,Lexapro,active,clinical
+135,USA,United States,high_cholesterol,CoZaar,active,clinical
+136,ES,Spain,anxiety,Lexapro,active,clinical
+137,ES,Spain,anxiety,Lexapro,active,clinical
+138,SP,Spain,cholesterol,Zocor,complete,research
+139,US,United States,anxiety,Loxitane,active,clinical
+140,ES,Spain,anxiety,Loxitane,active,clinical
+141,CA,Canada,high_cholesterol,CoZaar,active,research
+142,CAN,Canada,hyperlipidemia,CoZaar,active,clinical
+143,DK,Denmark,high_cholesterol,CoZaar,active,clinical
+144,DK,Denmark,high_cholesterol,Zocor,active,clinical
+145,DN,Denmark,high_cholesterol,Simovil,active,clinical
+146,US,United States,hyperlipidemia,Zocor,active,clinical
+147,PL,Poland,deep_vein_thrombosis,Lovenox,active,clinical
+148,POLAND,Poland,deep_vein_thrombosis,Levemir,active,research
+149,USA,United States,deep_vein_thrombosis,Levemir,active,clinical
+150,POL,Poland,arthritis,Celebra,active,clinical
+151,CANADA,Canada,deep_vein_thrombosis,Lovenox,active,clinical
+152,POL,Poland,asthma,Advair,active,clinical
+153,UK,United Kingdom,Osteoarthritis,Celebra,active,research
+154,US,United States,deep_vein_thrombosis,Lovenox,active,clinical
+155,USA,United States,anxiety,Lexapro,active,clinical
+156,UK,United Kingdom,phobias,Lexapro,active,clinical
+157,UK,United Kingdom,anxiety,Loxitane,active,clinical
+158,GB,United Kingdom,anxiety,Loxitane,active,research
+159,US,United States,arthritis,Celebra,active,clinical
+160,GB,United Kingdom,anxiety,Loxitane,active,clinical
+161,CA,Canada,asthma,Advair,complete,research
+162,CAN,Canada,asthma,Advair,active,clinical
+163,GER,Germany,asthma_attacks,Advair,active,clinical
+164,DE,Germany,asthma,Advicor,active,clinical
+165,Deutschland,Germany,asthma_attacks,Advair,active,clinical
+166,GER,Germany,arthritis,Celebra,active,clinical
+167,CAD,Canada,arthritis,Celebra,active,clinical
+168,CANADA,Canada,Osteoarthritis,Celebra,active,research
+169,USA,United States,Osteoarthritis,Celebra,active,clinical
+170,SE,Sweden,arthritis,Celebra,active,clinical
+171,SW,Sweden,anxiety,Lexapro,complete,clinical
+172,SW,Sweden,phobias,Lexapro,active,clinical
+173,SWEDEN,Sweden,high_cholesterol,CoZaar,active,research
+174,US,United States,anxiety,Lexapro,active,clinical
+175,USA,United States,high_cholesterol,CoZaar,active,clinical
+176,ES,Spain,anxiety,Lexapro,active,clinical
+177,ES,Spain,anxiety,Lexapro,active,clinical
+178,SP,Spain,high_cholesterol,Zocor,complete,research
+179,US,United States,anxiety,Loxitane,active,clinical
+180,ES,Spain,anxiety,Loxitane,active,clinical
+181,CA,Canada,hyperlipidemia,CoZaar,active,research
+182,CAN,Canada,high_cholesterol,Simovil,active,clinical
+183,DK,Denmark,high_cholesterol,CoZaar,active,clinical
+184,DK,Denmark,high_cholesterol,Zocor,active,clinical
+185,DN,Denmark,high_cholesterol,Zocor,active,clinical
+186,US,United States,hyperlipidemia,Simovil,active,clinical
+187,PL,Poland,deep_vein_thrombosis,Lovenox,active,clinical
+188,PL,Poland,deep_vein_thrombosis,Levemir,active,research
+189,USA,United States,deep_vein_thrombosis,Levemir,active,clinical
+190,POL,Poland,arthritis,Celebra,active,clinical
+191,CANADA,Canada,deep_vein_thrombosis,Lovenox,active,clinical
+192,POL,Poland,asthma,Advair,active,clinical
+193,UK,United Kingdom,arthritis,Celebra,active,research
+194,US,United States,deep_vein_thrombosis,Lovenox,active,clinical
+195,USA,United States,phobias,Lexapro,active,clinical
+196,UK,United Kingdom,OCD,Lexapro,active,clinical
+197,UK,United Kingdom,depression,Loxitane,active,clinical
+198,GB,United Kingdom,anxiety,Loxitane,active,research
+199,US,United States,arthritis,Celebra,active,clinical
+200,GB,United Kingdom,anxiety,Loxitane,active,clinical
+201,CA,Canada,asthma,Advair,complete,research
+202,CAN,Canada,asthma,Advair,active,clinical
+203,GER,Germany,asthma,Advair,active,clinical
+204,GERMANY,Germany,asthma,Advicor,active,clinical
+205,DE,Germany,asthma,Advair,active,clinical
+206,GER,Germany,Osteoarthritis,Celebra,active,clinical
+207,CAD,Canada,arthritis,Celexa,active,clinical
+208,CAD,Canada,arthritis,Celebrex,active,research
+209,USA,United States,arthritis,Celexa,active,clinical
+210,SE,Sweden,arthritis,Celebrex,active,clinical
+211,SW,Sweden,anxiety,Lexapro,complete,clinical
+212,SWEDEN,Sweden,anxiety,Lexapro,active,clinical
+213,SE,Sweden,high_cholesterol,CoZaar,active,research
+214,US,United States,phobias,Lexapro,active,clinical
+215,USA,United States,high_cholesterol,CoZaar,active,clinical
+216,ES,Spain,depression,Lexapro,active,clinical
+217,ES,Spain,anxiety,Lexapro,active,clinical
+218,SP,Spain,hyperlipidemia,Zocor,complete,research
+219,US,United States,anxiety,Loxitane,active,clinical
+220,ES,Spain,anxiety,Loxitane,active,clinical
+221,CA,Canada,high_cholesterol,Simovil,active,research
+222,CAN,Canada,hyperlipidemia,CoZaar,active,clinical
+223,DK,Denmark,high_cholesterol,CoZaar,active,clinical
+224,DK,Denmark,high_cholesterol,Zocor,active,clinical
+225,DN,Denmark,high_cholesterol,Zocor,active,clinical
+226,US,United States,hyperlipidemia,Zocor,active,clinical
+227,POLAND,Poland,deep_vein_thrombosis,Lovenox,active,clinical
+228,PL,Poland,deep_vein_thrombosis,Levemir,active,research
+229,USA,United States,deep_vein_thrombosis,Levemir,active,clinical
+230,POL,Poland,arthritis,Celebrex,active,clinical
+231,CAN,Canada,deep_vein_thrombosis,Lovenox,active,clinical
+232,POLAND,Poland,asthma,Advair,active,clinical
+233,UK,United Kingdom,arthritis,Celebrex,active,research
+234,US,United States,deep_vein_thrombosis,Lovenox,active,clinical
+235,USA,United States,phobias,Lexapro,active,clinical
+236,UK,United Kingdom,anxiety,Lexapro,active,clinical
+237,UK,United Kingdom,anxiety,Loxitane,active,clinical
+238,GB,United Kingdom,anxiety,Loxitane,active,research
+239,AMERICA,United States,arthritis,Celexa,active,clinical
+240,GB,United Kingdom,anxiety,Loxitane,active,clinical
+241,CA,Canada,asthma,Advair,complete,research
+242,CAN,Canada,asthma,Advair,active,clinical
+243,Deutschland,Germany,asthma,Advair,active,clinical
+244,DE,Germany,asthma,Advicor,active,clinical
+245,GERMANY,Germany,asthma,Advair,active,clinical
+246,GER,Germany,arthritis,Celebrex,active,clinical
+247,CAD,Canada,Osteoarthritis,Celexa,active,clinical
+248,CANADA,Canada,Osteoarthritis,Celebrex,active,research
+249,USA,United States,arthritis,Celexa,active,clinical
+250,SE,Sweden,Osteoarthritis,Celebrex,active,clinical
+251,SWEDEN,Sweden,phobias,Lexapro,complete,clinical
+252,SW,Sweden,anxiety,Lexapro,active,clinical
+253,SE,Sweden,high_cholesterol,CoZaar,active,research
+254,US,United States,phobias,Lexapro,active,clinical
+255,USA,United States,high_cholesterol,CoZaar,active,clinical
+256,ES,Spain,anxiety,Lexapro,active,clinical
+257,ES,Spain,depression,Lexapro,active,clinical
+258,SP,Spain,hyperlipidemia,Zocor,complete,research
+259,US,United States,phobias,Loxitane,active,clinical
+260,ES,Spain,anxiety,Loxitane,active,clinical
+261,CANADA,Canada,high_cholesterol,CoZaar,active,research
+262,CANADA,Canada,high_cholesterol,CoZaar,active,clinical
+263,DK,Denmark,hyperlipidemia,CoZaar,active,clinical
+264,DK,Denmark,high_cholesterol,Zocor,active,clinical
+265,DN,Denmark,high_cholesterol,Zocor,active,clinical
+266,US,United States,high_cholesterol,Zocor,active,clinical
+267,PL,Poland,deep_vein_thrombosis,Clexane,active,clinical
+268,PL,Poland,deep_vein_thrombosis,Levemir,active,research
+269,USA,United States,deep_vein_thrombosis,Levemir,active,clinical
+270,POL,Poland,Osteoarthritis,Celebrex,active,clinical
+271,CANADA,Canada,deep_vein_thrombosis,Lovenox,active,clinical
+272,POL,Poland,asthma,Advair,active,clinical
+273,UK,United Kingdom,Osteoarthritis,Celebrex,active,research
+274,US,United States,deep_vein_thrombosis,Clexane,active,clinical
+275,USA,United States,anxiety,Lexapro,active,clinical
+276,UK,United Kingdom,anxiety,Lexapro,active,clinical
+277,UK,United Kingdom,anxiety,Loxitane,active,clinical
+278,GB,United Kingdom,anxiety,Loxitane,active,research
+279,US,United States,Osteoarthritis,Celexa,active,clinical
+280,GB,United Kingdom,anxiety,Loxitane,active,clinical
+281,CANADA,Canada,asthma,Advair,complete,research
+282,CANADA,Canada,asthma,Advair,active,clinical
+283,GER,Germany,asthma,Advair,active,clinical
+284,DE,Germany,asthma,Advicor,active,clinical
+285,DE,Germany,asthma,Advair,active,clinical
+286,GER,Germany,Osteoarthritis,Celebrex,active,clinical
+287,CANADA,Canada,Osteoarthritis,Celexa,active,clinical
+288,CANADA,Canada,Osteoarthritis,Celebrex,active,research
+289,USA,United States,Osteoarthritis,Celexa,active,clinical
+290,SWEDEN,Sweden,Osteoarthritis,Celebrex,active,clinical
+291,SWEDEN,Sweden,anxiety,Lexapro,complete,clinical
+292,SWEDEN,Sweden,anxiety,Lexapro,active,clinical
+293,SWEDEN,Sweden,high_cholesterol,CoZaar,active,research
+294,US,United States,anxiety,Lexapro,active,clinical
+295,USA,United States,high_cholesterol,CoZaar,active,clinical
+296,ES,Spain,phobias,Lexapro,active,clinical
+297,ES,Spain,depression,Lexapro,active,clinical
+298,SP,Spain,high_cholesterol,Zocor,complete,research
+299,US,United States,anxiety,Loxitane,active,clinical
+300,ES,Spain,anxiety,Loxitane,active,clinical
+301,CANADA,Canada,hyperlipidemia,CoZaar,active,research
+302,CANADA,Canada,high_cholesterol,CoZaar,active,clinical
+303,DK,Denmark,high_cholesterol,CoZaar,active,clinical
+304,DK,Denmark,high_cholesterol,Simovil,active,clinical
+305,DN,Denmark,hyperlipidemia,Zocor,active,clinical
+306,US,United States,high_cholesterol,Zocor,active,clinical
+307,PL,Poland,deep_vein_thrombosis,Lovenox,active,clinical
+308,POLAND,Poland,deep_vein_thrombosis,Levemir,active,research
+309,USA,United States,deep_vein_thrombosis,Levemir,active,clinical
+310,POL,Poland,arthritis,Celebrex,active,clinical
+311,CANADA,Canada,deep_vein_thrombosis,Lovenox,active,clinical
+312,POL,Poland,asthma,Advair,active,clinical
+313,UK,United Kingdom,arthritis,Celebrex,active,research
+314,US,United States,deep_vein_thrombosis,Lovenox,active,clinical
+315,USA,United States,anxiety,Lexapro,active,clinical
+316,UK,United Kingdom,anxiety,Lexapro,active,clinical
+317,UK,United Kingdom,phobias,Loxitane,active,clinical
+318,GB,United Kingdom,anxiety,Loxitane,active,research
+319,US,United States,arthritis,Celexa,active,clinical
+320,GB,United Kingdom,anxiety,Loxitane,active,clinical
+321,CANADA,Canada,asthma,Advair,complete,research
+322,CANADA,Canada,asthma,Advair,active,clinical
+323,GER,Germany,asthma,Advair,active,clinical
+324,DE,Germany,asthma,Advicor,active,clinical
+325,GERMANY,Germany,asthma,Advair,active,clinical
+326,GER,Germany,arthritis,Celebrex,active,clinical
+327,CANADA,Canada,arthritis,Celexa,active,clinical
+328,CANADA,Canada,arthritis,Celebrex,active,research
+329,USA,United States,arthritis,Celexa,active,clinical
+330,SWEDEN,Sweden,arthritis,Celebrex,active,clinical
+331,SW,Sweden,anxiety,Lexapro,complete,clinical
+332,SW,Sweden,anxiety,Lexapro,active,clinical
+333,SE,Sweden,high_cholesterol,CoZaar,active,research
+334,US,United States,phobias,Lexapro,active,clinical
+335,USA,United States,high_cholesterol,CoZaar,active,clinical
+336,ES,Spain,anxiety,Lexapro,active,clinical
+337,ES,Spain,anxiety,Lexapro,active,clinical
+338,SP,Spain,hyperlipidemia,Zocor,complete,research
+339,US,United States,anxiety,Loxitane,active,clinical
+340,ES,Spain,phobias,Loxitane,active,clinical
+341,CANADA,Canada,high_cholesterol,CoZaar,active,research
+342,CANADA,Canada,high_cholesterol,CoZaar,active,clinical
+343,DK,Denmark,high_cholesterol,CoZaar,active,clinical
+344,DK,Denmark,hyperlipidemia,Zocor,active,clinical
+345,DN,Denmark,high_cholesterol,Zocor,active,clinical
+346,US,United States,high_cholesterol,Simovil,active,clinical
+347,PL,Poland,deep_vein_thrombosis,Lovenox,active,clinical
+348,PL,Poland,deep_vein_thrombosis,Clexane,active,research
+349,USA,United States,deep_vein_thrombosis,Levemir,active,clinical
+350,POLAND,Poland,arthritis,Celebrex,active,clinical
+351,CAN,Canada,deep_vein_thrombosis,Lovenox,active,clinical
+352,POL,Poland,asthma,Advair,active,clinical
+353,UK,United Kingdom,arthritis,Celebrex,active,research
+354,US,United States,deep_vein_thrombosis,Lovenox,active,clinical
+355,USA,United States,anxiety,Lexapro,active,clinical
+356,UK,United Kingdom,anxiety,Lexapro,active,clinical
+357,UK,United Kingdom,anxiety,Loxitane,active,clinical
+358,GB,United Kingdom,phobias,Loxitane,active,research
+359,US,United States,arthritis,Celexa,active,clinical
+360,GB,United Kingdom,phobias,Loxitane,active,clinical
+361,CA,Canada,asthma_attacks,Advair,complete,research
+362,CAN,Canada,asthma,Advair,active,clinical
+363,GER,Germany,asthma,Advair,active,clinical
+364,DE,Germany,asthma,Advicor,active,clinical
+365,DE,Germany,asthma,Advair,active,clinical
+366,GER,Germany,arthritis,Celebrex,active,clinical
+367,CAD,Canada,arthritis,Celexa,active,clinical
+368,CAD,Canada,Osteoarthritis,Celebrex,active,research
+369,USA,United States,arthritis,Celexa,active,clinical
+370,SE,Sweden,arthritis,Celebrex,active,clinical
+371,SW,Sweden,depression,Lexapro,complete,clinical
+372,SW,Sweden,anxiety,Lexapro,active,clinical
+373,SE,Sweden,high_cholesterol,CoZaar,active,research
+374,US,United States,phobias,Lexapro,active,clinical
+375,USA,United States,high_cholesterol,CoZaar,active,clinical
+376,ES,Spain,OCD,Lexapro,active,clinical
+377,ES,Spain,anxiety,Lexapro,active,clinical
+378,SP,Spain,high_cholesterol,Simovil,complete,research
+379,US,United States,anxiety,Loxitane,active,clinical
+380,ES,Spain,anxiety,Loxitane,active,clinical
+381,CA,Canada,high_cholesterol,CoZaar,active,research
+382,CAN,Canada,high_cholesterol,CoZaar,active,clinical
+383,DK,Denmark,high_cholesterol,Simovil,active,clinical
+384,DK,Denmark,high_cholesterol,Zocor,active,clinical
+385,DN,Denmark,high_cholesterol,Zocor,active,clinical
+386,US,United States,high_cholesterol,Zocor,active,clinical
+387,PL,Poland,deep_vein_thrombosis,Lovenox,active,clinical
+388,PL,Poland,deep_vein_thrombosis,Clexane,active,research
+389,USA,United States,deep_vein_thrombosis,Levemir,active,clinical
+390,POL,Poland,arthritis,Celebrex,active,clinical
+391,CANADA,Canada,deep_vein_thrombosis,Lovenox,active,clinical
+392,POLAND,Poland,asthma,Advair,active,clinical
+393,UK,United Kingdom,arthritis,Celebra,active,research
+394,US,United States,deep_vein_thrombosis,Lovenox,active,clinical
+395,USA,United States,phobias,Lexapro,active,clinical
+396,UK,United Kingdom,anxiety,Lexapro,active,clinical
+397,UK,United Kingdom,anxiety,Loxitane,active,clinical
+398,GB,United Kingdom,anxiety,Loxitane,active,research
+399,US,United States,Osteoarthritis,Celebra,active,clinical
+400,GB,United Kingdom,anxiety,Loxitane,active,clinical
+401,CANADA,Canada,asthma,Advair,complete,research
+402,CANADA,Canada,asthma,Advair,active,clinical
+403,GER,Germany,asthma,Advair,active,clinical
+404,DE,Germany,asthma,Advicor,active,clinical
+405,DE,Germany,asthma,Advair,active,clinical
+406,GER,Germany,arthritis,Celebra,active,clinical
+407,CANADA,Canada,arthritis,Celebra,active,clinical
+408,CANADA,Canada,arthritis,Celebra,active,research
+409,USA,United States,Osteoarthritis,Celebra,active,clinical
+410,SWEDEN,Sweden,arthritis,Celebra,active,clinical
+411,SWEDEN,Sweden,anxiety,Lexapro,complete,clinical
+412,SWEDEN,Sweden,anxiety,Lexapro,active,clinical
+413,SWEDEN,Sweden,high_cholesterol,CoZaar,active,research
+414,US,United States,depression,Lexapro,active,clinical
+415,USA,United States,high_cholesterol,CoZaar,active,clinical
+416,ES,Spain,anxiety,Lexapro,active,clinical
+417,ES,Spain,anxiety,Lexapro,active,clinical
+418,SP,Spain,high_cholesterol,Zocor,complete,research
+419,US,United States,anxiety,Loxitane,active,clinical
+420,ES,Spain,anxiety,Loxitane,active,clinical
+421,CANADA,Canada,high_cholesterol,CoZaar,active,research
+422,CANADA,Canada,high_cholesterol,CoZaar,active,clinical
+423,DK,Denmark,high_cholesterol,CoZaar,active,clinical
+424,DK,Denmark,high_cholesterol,Zocor,active,clinical
+425,DN,Denmark,high_cholesterol,Simovil,active,clinical
+426,US,United States,high_cholesterol,Zocor,active,clinical
+427,PL,Poland,deep_vein_thrombosis,Lovenox,active,clinical
+428,PL,Poland,deep_vein_thrombosis,Clexane,active,research
+429,USA,United States,deep_vein_thrombosis,Levemir,active,clinical
+430,POL,Poland,arthritis,Celebra,active,clinical
+431,CANADA,Canada,deep_vein_thrombosis,Lovenox,active,clinical
+432,POL,Poland,asthma,Advair,active,clinical
+433,UK,United Kingdom,arthritis,Celebra,active,research
+434,US,United States,deep_vein_thrombosis,Lovenox,active,clinical
+435,USA,United States,phobias,Lexapro,active,clinical
+436,UK,United Kingdom,phobias,Lexapro,active,clinical
+437,UK,United Kingdom,anxiety,Loxitane,active,clinical
+438,GB,United Kingdom,anxiety,Loxitane,active,research
+439,US,United States,arthritis,Celebra,active,clinical
+440,GB,United Kingdom,anxiety,Loxitane,active,clinical
+441,CANADA,Canada,asthma,Advair,complete,research
+442,CANADA,Canada,asthma,Advair,active,clinical
+443,GER,Germany,asthma,Advair,active,clinical
+444,DE,Germany,asthma,Advicor,active,clinical
+445,DE,Germany,asthma,Advair,active,clinical
+446,GER,Germany,arthritis,Celebra,active,clinical
+447,CAD,Canada,arthritis,Celebra,active,clinical
+448,CAD,Canada,arthritis,Celebra,active,research
+449,USA,United States,Osteoarthritis,Celebra,active,clinical
+450,SWEDEN,Sweden,arthritis,Celebra,active,clinical
+451,SWEDEN,Sweden,anxiety,Lexapro,complete,clinical
+452,SWEDEN,Sweden,anxiety,Lexapro,active,clinical
+453,SWEDEN,Sweden,high_cholesterol,CoZaar,active,research
+454,US,United States,depression,Lexapro,active,clinical
+455,USA,United States,high_cholesterol,CoZaar,active,clinical
+456,ES,Spain,anxiety,Lexapro,active,clinical
+457,ES,Spain,anxiety,Lexapro,active,clinical
+458,SP,Spain,high_cholesterol,Zocor,complete,research
+459,US,United States,anxiety,Loxitane,active,clinical
+460,ES,Spain,anxiety,Loxitane,active,clinical
+461,CA,Canada,high_cholesterol,CoZaar,active,research
+462,CAN,Canada,high_cholesterol,Simovil,active,clinical
+463,DK,Denmark,high_cholesterol,CoZaar,active,clinical
+464,DK,Denmark,high_cholesterol,Zocor,active,clinical
+465,DN,Denmark,high_cholesterol,Zocor,active,clinical
+466,US,United States,high_cholesterol,Zocor,active,clinical
+467,POLAND,Poland,deep_vein_thrombosis,Clexane,active,clinical
+468,PL,Poland,deep_vein_thrombosis,Levemir,active,research
+469,USA,United States,deep_vein_thrombosis,Levemir,active,clinical
+470,POL,Poland,arthritis,Celebra,active,clinical
+471,CAN,Canada,deep_vein_thrombosis,Lovenox,active,clinical
+472,POL,Poland,asthma,Advair,active,clinical
+473,UK,United Kingdom,arthritis,Celebra,active,research
+474,US,United States,deep_vein_thrombosis,Clexane,active,clinical
+475,USA,United States,anxiety,Lexapro,active,clinical
+476,UK,United Kingdom,anxiety,Lexapro,active,clinical
+477,UK,United Kingdom,anxiety,Loxitane,active,clinical
+478,GB,United Kingdom,anxiety,Loxitane,active,research
+479,US,United States,arthritis,Celebra,active,clinical
+480,GB,United Kingdom,anxiety,Loxitane,active,clinical
+481,CA,Canada,asthma,Advair,complete,research
+482,CAN,Canada,asthma,Advair,active,clinical
+483,GER,Germany,asthma,Advair,active,clinical
+484,DE,Germany,asthma,Advicor,active,clinical
+485,DE,Germany,asthma,Advair,active,clinical
+486,GER,Germany,arthritis,Celebra,active,clinical
+487,CAD,Canada,arthritis,Celebra,active,clinical
+488,CAD,Canada,arthritis,Celebra,active,research
+489,USA,United States,arthritis,Celebra,active,clinical
+490,SWEDEN,Sweden,arthritis,Celebra,active,clinical
+491,SW,Sweden,anxiety,Lexapro,complete,clinical
+492,SW,Sweden,anxiety,Lexapro,active,clinical
+493,SE,Sweden,high_cholesterol,CoZaar,active,research
+494,US,United States,depression,Lexapro,active,clinical
+495,USA,United States,high_cholesterol,CoZaar,active,clinical
+496,ES,Spain,anxiety,Lexapro,active,clinical
+497,ES,Spain,anxiety,Lexapro,active,clinical
+498,SP,Spain,high_cholesterol,Zocor,complete,research
+499,US,United States,anxiety,Loxitane,active,clinical
+500,ES,Spain,anxiety,Loxitane,active,clinical
+501,CA,Canada,high_cholesterol,CoZaar,active,research
+502,CAN,Canada,high_cholesterol,CoZaar,active,clinical
+503,DK,Denmark,high_cholesterol,CoZaar,active,clinical
+504,DK,Denmark,high_cholesterol,Zocor,active,clinical
+505,DN,Denmark,high_cholesterol,Simovil,active,clinical
+506,US,United States,high_cholesterol,Zocor,active,clinical
+507,PL,Poland,deep_vein_thrombosis,Lovenox,active,clinical
+508,PL,Poland,deep_vein_thrombosis,Levemir,active,research
+509,USA,United States,deep_vein_thrombosis,Levemir,active,clinical
+510,POLAND,Poland,arthritis,Celebra,active,clinical
+511,CANADA,Canada,deep_vein_thrombosis,Lovenox,active,clinical
+512,POL,Poland,asthma,Advair,active,clinical
+513,UK,United Kingdom,arthritis,Celebra,active,research
+514,US,United States,deep_vein_thrombosis,Clexane,active,clinical
+515,USA,United States,anxiety,Lexapro,active,clinical
+516,UK,United Kingdom,anxiety,Lexapro,active,clinical
+517,UK,United Kingdom,anxiety,Loxitane,active,clinical
+518,GB,United Kingdom,anxiety,Loxitane,active,research
+519,US,United States,arthritis,Celebra,active,clinical
+520,GB,United Kingdom,OCD,Loxitane,active,clinical
+521,CANADA,Canada,asthma,Advair,complete,research
+522,CANADA,Canada,asthma,Advair,active,clinical
+523,GER,Germany,asthma,Advair,active,clinical
+524,DE,Germany,asthma,Advicor,active,clinical
+525,DE,Germany,asthma,Advair,active,clinical
+526,GER,Germany,arthritis,Celebra,active,clinical
+527,CANADA,Canada,arthritis,Celebra,active,clinical
+528,CANADA,Canada,arthritis,Celebra,active,research
+529,USA,United States,arthritis,Celebra,active,clinical
+530,SE,Sweden,arthritis,Celebra,active,clinical
+531,SW,Sweden,depression,Lexapro,complete,clinical
+532,SW,Sweden,anxiety,Lexapro,active,clinical
+533,SWEDEN,Sweden,high_cholesterol,CoZaar,active,research
+534,US,United States,anxiety,Lexapro,active,clinical
+535,USA,United States,high_cholesterol,CoZaar,active,clinical
+536,ES,Spain,anxiety,Lexapro,active,clinical
+537,ES,Spain,anxiety,Lexapro,active,clinical
+538,SP,Spain,high_cholesterol,Zocor,complete,research
+539,US,United States,anxiety,Loxitane,active,clinical
+540,ES,Spain,anxiety,Loxitane,active,clinical
+541,CANADA,Canada,high_cholesterol,CoZaar,active,research
+542,CANADA,Canada,high_cholesterol,CoZaar,active,clinical
+543,DK,Denmark,high_cholesterol,CoZaar,active,clinical
+544,DK,Denmark,high_cholesterol,Zocor,active,clinical
+545,DN,Denmark,high_cholesterol,Zocor,active,clinical
+546,US,United States,high_cholesterol,Zocor,active,clinical
+547,PL,Poland,deep_vein_thrombosis,Lovenox,active,clinical
+548,PL,Poland,deep_vein_thrombosis,Levemir,active,research
+549,USA,United States,deep_vein_thrombosis,Levemir,active,clinical
+550,POL,Poland,arthritis,Celebra,active,clinical
+551,CANADA,Canada,deep_vein_thrombosis,Lovenox,active,clinical
+552,POL,Poland,asthma,Advair,active,clinical
+553,UK,United Kingdom,arthritis,Celebra,active,research
+554,US,United States,deep_vein_thrombosis,Clexane,active,clinical
+555,USA,United States,anxiety,Lexapro,active,clinical
+556,UK,United Kingdom,anxiety,Lexapro,active,clinical
+557,UK,United Kingdom,anxiety,Loxitane,active,clinical
+558,GB,United Kingdom,phobias,Loxitane,active,research
+559,US,United States,arthritis,Celebra,active,clinical
+560,GB,United Kingdom,anxiety,Loxitane,active,clinical
+561,CANADA,Canada,asthma,Advair,complete,research
+562,CANADA,Canada,asthma,Advair,active,clinical
+563,GER,Germany,asthma,Advair,active,clinical
+564,DE,Germany,asthma,Advicor,active,clinical
+565,DE,Germany,asthma,Advair,active,clinical
+566,GER,Germany,arthritis,Celebra,active,clinical
+567,CANADA,Canada,arthritis,Celebra,active,clinical
+568,CANADA,Canada,arthritis,Celebra,active,research
+569,USA,United States,arthritis,Celebra,active,clinical
+570,SWEDEN,Sweden,arthritis,Celebra,active,clinical
+571,SWEDEN,Sweden,depression,Lexapro,complete,clinical
+572,SWEDEN,Sweden,anxiety,Lexapro,active,clinical
+573,SWEDEN,Sweden,high_cholesterol,CoZaar,active,research
+574,US,United States,phobias,Lexapro,active,clinical
+575,USA,United States,high_cholesterol,CoZaar,active,clinical
+576,ES,Spain,anxiety,Lexapro,active,clinical
+577,ES,Spain,anxiety,Cipralex,active,clinical
+578,SP,Spain,high_cholesterol,Zocor,complete,research
+579,US,United States,anxiety,Loxitane,active,clinical
+580,ES,Spain,anxiety,Loxitane,active,clinical
+581,CA,Canada,high_cholesterol,CoZaar,active,research
+582,CAN,Canada,high_cholesterol,CoZaar,active,clinical
+583,DK,Denmark,high_cholesterol,CoZaar,active,clinical
+584,DK,Denmark,high_cholesterol,Zocor,active,clinical
+585,DN,Denmark,high_cholesterol,Zocor,active,clinical
+586,US,United States,high_cholesterol,Zocor,active,clinical
+587,PL,Poland,deep_vein_thrombosis,Lovenox,active,clinical
+588,PL,Poland,deep_vein_thrombosis,Levemir,active,research
+589,USA,United States,deep_vein_thrombosis,Levemir,active,clinical
+590,POL,Poland,arthritis,Celebra,active,clinical
+591,CAN,Canada,deep_vein_thrombosis,Clexane,active,clinical
+592,POL,Poland,asthma,Advair,active,clinical
+593,UK,United Kingdom,arthritis,Celebra,active,research
+594,US,United States,deep_vein_thrombosis,Lovenox,active,clinical
+595,USA,United States,anxiety,Lexapro,active,clinical
+596,UK,United Kingdom,anxiety,Lexapro,active,clinical
+597,UK,United Kingdom,anxiety,Loxitane,active,clinical
+598,GB,United Kingdom,anxiety,Loxitane,active,research
+599,US,United States,arthritis,Celebra,active,clinical
+600,GB,United Kingdom,anxiety,Loxitane,active,clinical
+601,CA,Canada,asthma,Advair,complete,research
+602,CAN,Canada,asthma,Advair,active,clinical
+603,GER,Germany,asthma,Advair,active,clinical
+604,DE,Germany,asthma,Advicor,active,clinical
+605,DE,Germany,asthma,Advair,active,clinical
+606,GER,Germany,arthritis,Celebra,active,clinical
+607,CAD,Canada,arthritis,Celebra,active,clinical
+608,CAD,Canada,Osteoarthritis,Celebra,active,research
+609,USA,United States,arthritis,Celebra,active,clinical
+610,SWEDEN,Sweden,arthritis,Celebra,active,clinical
+611,SWEDEN,Sweden,depression,Lexapro,complete,clinical
+612,SWEDEN,Sweden,anxiety,Lexapro,active,clinical
+613,SWEDEN,Sweden,high_cholesterol,CoZaar,active,research
+614,US,United States,anxiety,Lexapro,active,clinical
+615,USA,United States,high_cholesterol,CoZaar,active,clinical
+616,ES,Spain,anxiety,Lexapro,active,clinical
+617,ES,Spain,anxiety,Lexapro,active,clinical
+618,SP,Spain,high_cholesterol,Zocor,complete,research
+619,US,United States,anxiety,Loxitane,active,clinical
+620,ES,Spain,phobias,Loxitane,active,clinical
+621,CA,Canada,high_cholesterol,CoZaar,active,research
+622,CAN,Canada,high_cholesterol,CoZaar,active,clinical
+623,DK,Denmark,high_cholesterol,CoZaar,active,clinical
+624,DK,Denmark,high_cholesterol,Zocor,active,clinical
+625,DN,Denmark,high_cholesterol,Zocor,active,clinical
+626,US,United States,high_cholesterol,Zocor,active,clinical
+627,PL,Poland,deep_vein_thrombosis,Lovenox,active,clinical
+628,PL,Poland,deep_vein_thrombosis,Levemir,active,research
+629,USA,United States,deep_vein_thrombosis,Levemir,active,clinical
+630,POL,Poland,arthritis,Celebra,active,clinical
+631,CAN,Canada,deep_vein_thrombosis,Lovenox,active,clinical
+632,POL,Poland,asthma_attacks,Advair,active,clinical
+633,UK,United Kingdom,arthritis,Celebrex,active,research
+634,US,United States,deep_vein_thrombosis,Lovenox,active,clinical
+635,USA,United States,anxiety,Lexapro,active,clinical
+636,UK,United Kingdom,anxiety,Lexapro,active,clinical
+637,UK,United Kingdom,anxiety,Loxitane,active,clinical
+638,GB,United Kingdom,phobias,Loxitane,active,research
+639,US,United States,arthritis,Celexa,active,clinical
+640,GB,United Kingdom,anxiety,Loxitane,active,clinical
+641,CA,Canada,asthma,Advair,complete,research
+642,CAN,Canada,asthma,Advair,active,clinical
+643,Deutschland,Germany,asthma,Advair,active,clinical
+644,DE,Germany,asthma,Advicor,active,clinical
+645,DE,Germany,asthma,Advair,active,clinical
+646,GER,Germany,arthritis,Celebrex,active,clinical
+647,CAD,Canada,arthritis,Celexa,active,clinical
+648,CAD,Canada,arthritis,Celebrex,active,research
+649,USA,United States,arthritis,Celexa,active,clinical
+650,SWEDEN,Sweden,arthritis,Celebrex,active,clinical
+651,SWEDEN,Sweden,depression,Lexapro,complete,clinical
+652,SWEDEN,Sweden,anxiety,Lexapro,active,clinical
+653,SWEDEN,Sweden,high_cholesterol,CoZaar,active,research
+654,US,United States,phobias,Lexapro,active,clinical
+655,USA,United States,high_cholesterol,CoZaar,active,clinical
+656,ES,Spain,anxiety,Lexapro,active,clinical
+657,ES,Spain,anxiety,Lexapro,active,clinical
+658,SP,Spain,high_cholesterol,Zocor,complete,research
+659,US,United States,anxiety,Loxitane,active,clinical
+660,ES,Spain,anxiety,Loxitane,active,clinical
+661,CANADA,Canada,high_cholesterol,CoZaar,active,research
+662,CAN,Canada,high_cholesterol,CoZaar,active,clinical
+663,DK,Denmark,high_cholesterol,CoZaar,active,clinical
+664,DK,Denmark,high_cholesterol,Zocor,active,clinical
+665,DN,Denmark,high_cholesterol,Zocor,active,clinical
+666,US,United States,high_cholesterol,Zocor,active,clinical
+667,PL,Poland,deep_vein_thrombosis,Clexane,active,clinical
+668,POLAND,Poland,deep_vein_thrombosis,Levemir,active,research
+669,USA,United States,deep_vein_thrombosis,Levemir,active,clinical
+670,POL,Poland,Osteoarthritis,Celebrex,active,clinical
+671,CAN,Canada,deep_vein_thrombosis,Lovenox,active,clinical
+672,POL,Poland,asthma,Advair,active,clinical
+673,UK,United Kingdom,Osteoarthritis,Celebrex,active,research
+674,US,United States,deep_vein_thrombosis,Lovenox,active,clinical
+675,USA,United States,phobias,Lexapro,active,clinical
+676,UK,United Kingdom,OCD,Lexapro,active,clinical
+677,UK,United Kingdom,phobias,Loxitane,active,clinical
+678,GB,United Kingdom,anxiety,Loxitane,active,research
+679,US,United States,arthritis,Celebra,active,clinical
+680,GB,United Kingdom,anxiety,Loxitane,active,clinical
+681,CA,Canada,asthma,Advair,complete,research
+682,CAN,Canada,asthma,Advair,active,clinical
+683,GER,Germany,asthma,Advair,active,clinical
+684,DE,Germany,asthma,Advicor,active,clinical
+685,DE,Germany,asthma,Advair,active,clinical
+686,GER,Germany,arthritis,Celebra,active,clinical
+687,CAD,Canada,arthritis,Celebra,active,clinical
+688,CANADA,Canada,arthritis,Celebra,active,research
+689,USA,United States,arthritis,Celebra,active,clinical
+690,SWEDEN,Sweden,arthritis,Celebra,active,clinical
+691,SWEDEN,Sweden,anxiety,Lexapro,complete,clinical
+692,SWEDEN,Sweden,anxiety,Lexapro,active,clinical
+693,SE,Sweden,high_cholesterol,CoZaar,active,research
+694,US,United States,phobias,Lexapro,active,clinical
+695,USA,United States,high_cholesterol,CoZaar,active,clinical
+696,ES,Spain,depression,Lexapro,active,clinical
+697,ES,Spain,anxiety,Lexapro,active,clinical
+698,SP,Spain,high_cholesterol,Zocor,complete,research
+699,US,United States,anxiety,Loxitane,active,clinical
+700,ES,Spain,anxiety,Loxitane,active,clinical
+701,CANADA,Canada,high_cholesterol,CoZaar,active,research
+702,CANADA,Canada,high_cholesterol,CoZaar,active,clinical
+703,DK,Denmark,high_cholesterol,CoZaar,active,clinical
+704,DK,Denmark,high_cholesterol,Zocor,active,clinical
+705,DN,Denmark,high_cholesterol,Zocor,active,clinical
+706,US,United States,high_cholesterol,Zocor,active,clinical
+707,PL,Poland,deep_vein_thrombosis,Lovenox,active,clinical
+708,PL,Poland,deep_vein_thrombosis,Levemir,active,research
+709,USA,United States,deep_vein_thrombosis,Clexane,active,clinical
+710,POL,Poland,arthritis,Celebra,active,clinical
+711,CANADA,Canada,deep_vein_thrombosis,Lovenox,active,clinical
+712,POLAND,Poland,asthma,Advair,active,clinical
+713,UK,United Kingdom,arthritis,Celebra,active,research
+714,US,United States,deep_vein_thrombosis,Lovenox,active,clinical
+715,USA,United States,anxiety,Lexapro,active,clinical
+716,UK,United Kingdom,anxiety,Lexapro,active,clinical
+717,UK,United Kingdom,anxiety,Loxitane,active,clinical
+718,GB,United Kingdom,anxiety,Loxitane,active,research
+719,US,United States,arthritis,Celebra,active,clinical
+720,GB,United Kingdom,anxiety,Loxitane,active,clinical
+721,CANADA,Canada,asthma,Advair,complete,research
+722,CANADA,Canada,asthma,Advair,active,clinical
+723,GER,Germany,asthma,Advair,active,clinical
+724,DE,Germany,asthma,Advicor,active,clinical
+725,DE,Germany,asthma,Advair,active,clinical
+726,GER,Germany,arthritis,Celebra,active,clinical
+727,CANADA,Canada,arthritis,Celebra,active,clinical
+728,CANADA,Canada,arthritis,Celebra,active,research
+729,USA,United States,arthritis,Celebra,active,clinical
+730,SE,Sweden,arthritis,Celebra,active,clinical
+731,SW,Sweden,anxiety,Lexapro,complete,clinical
+732,SW,Sweden,anxiety,Lexapro,active,clinical
+733,SE,Sweden,high_cholesterol,CoZaar,active,research
+734,US,United States,anxiety,Lexapro,active,clinical
+735,USA,United States,high_cholesterol,CoZaar,active,clinical
+736,ES,Spain,depression,Lexapro,active,clinical
+737,ES,Spain,anxiety,Lexapro,active,clinical
+738,SP,Spain,high_cholesterol,Zocor,complete,research
+739,US,United States,anxiety,Loxitane,active,clinical
+740,ES,Spain,anxiety,Loxitane,active,clinical
+741,CANADA,Canada,high_cholesterol,CoZaar,active,research
+742,CANADA,Canada,high_cholesterol,CoZaar,active,clinical
+743,DK,Denmark,high_cholesterol,CoZaar,active,clinical
+744,DK,Denmark,high_cholesterol,Zocor,active,clinical
+745,DN,Denmark,high_cholesterol,Zocor,active,clinical
+746,US,United States,high_cholesterol,Zocor,active,clinical
+747,PL,Poland,deep_vein_thrombosis,Lovenox,active,clinical
+748,PL,Poland,deep_vein_thrombosis,Levemir,active,research
+749,USA,United States,deep_vein_thrombosis,Levemir,active,clinical
+750,POL,Poland,arthritis,Celebra,active,clinical
+751,CANADA,Canada,deep_vein_thrombosis,Lovenox,active,clinical
+752,POL,Poland,asthma,Advair,active,clinical
+753,UK,United Kingdom,arthritis,Celebra,active,research
+754,US,United States,deep_vein_thrombosis,Clexane,active,clinical
+755,USA,United States,anxiety,Lexapro,active,clinical
+756,UK,United Kingdom,anxiety,Lexapro,active,clinical
+757,UK,United Kingdom,anxiety,Loxitane,active,clinical
+758,GB,United Kingdom,anxiety,Loxitane,active,research
+759,US,United States,arthritis,Celebra,active,clinical
+760,GB,United Kingdom,phobias,Loxitane,active,clinical
+761,CANADA,Canada,asthma,Advair,complete,research
+762,CANADA,Canada,asthma,Advair,active,clinical
+763,GER,Germany,asthma,Advair,active,clinical
+764,DE,Germany,asthma,Advicor,active,clinical
+765,DE,Germany,asthma,Advair,active,clinical
+766,GER,Germany,arthritis,Celebra,active,clinical
+767,CANADA,Canada,arthritis,Celebra,active,clinical
+768,CANADA,Canada,arthritis,Celebra,active,research
+769,USA,United States,arthritis,Celebra,active,clinical
+770,SE,Sweden,arthritis,Celebra,active,clinical
+771,SW,Sweden,anxiety,Lexapro,complete,clinical
+772,SW,Sweden,anxiety,Lexapro,active,clinical
+773,SE,Sweden,high_cholesterol,CoZaar,active,research
+774,US,United States,anxiety,Cipralex,active,clinical
+775,USA,United States,high_cholesterol,CoZaar,active,clinical
+776,ES,Spain,phobias,Lexapro,active,clinical
+777,ES,Spain,depression,Cipralex,active,clinical
+778,SP,Spain,high_cholesterol,Zocor,complete,research
+779,US,United States,anxiety,Loxitane,active,clinical
+780,ES,Spain,anxiety,Loxitane,active,clinical
+781,CANADA,Canada,high_cholesterol,CoZaar,active,research
+782,CANADA,Canada,high_cholesterol,CoZaar,active,clinical
+783,DK,Denmark,high_cholesterol,CoZaar,active,clinical
+784,DK,Denmark,high_cholesterol,Zocor,active,clinical
+785,DN,Denmark,high_cholesterol,Zocor,active,clinical
+786,US,United States,high_cholesterol,Zocor,active,clinical
+787,PL,Poland,deep_vein_thrombosis,Lovenox,active,clinical
+788,PL,Poland,deep_vein_thrombosis,Levemir,active,research
+789,USA,United States,deep_vein_thrombosis,Levemir,active,clinical
+790,POL,Poland,arthritis,Celebra,active,clinical
+791,CAN,Canada,deep_vein_thrombosis,Lovenox,active,clinical
+792,POL,Poland,asthma,Advair,active,clinical
+793,UK,United Kingdom,arthritis,Celebrex,active,research
+794,US,United States,deep_vein_thrombosis,Lovenox,active,clinical
+795,USA,United States,phobias,Cipralex,active,clinical
+796,UK,United Kingdom,anxiety,Lexapro,active,clinical
+797,UK,United Kingdom,anxiety,Loxitane,active,clinical
+798,GB,United Kingdom,anxiety,Loxitane,active,research
+799,US,United States,arthritis,Celexa,active,clinical
+800,GB,United Kingdom,phobias,Loxitane,active,clinical
+801,CA,Canada,asthma,Advair,complete,research
+802,CAN,Canada,asthma,Advair,active,clinical
+803,GER,Germany,asthma,Advair,active,clinical
+804,DE,Germany,asthma,Advicor,active,clinical
+805,DE,Germany,asthma,Advair,active,clinical
+806,GER,Germany,arthritis,Celebrex,active,clinical
+807,CAD,Canada,arthritis,Celexa,active,clinical
+808,CAD,Canada,arthritis,Celebrex,active,research
+809,USA,United States,arthritis,Celexa,active,clinical
+810,SE,Sweden,arthritis,Celebrex,active,clinical
+811,SW,Sweden,anxiety,Lexapro,complete,clinical
+812,SW,Sweden,phobias,Lexapro,active,clinical
+813,SE,Sweden,high_cholesterol,CoZaar,active,research
+814,US,United States,phobias,Cipralex,active,clinical
+815,USA,United States,high_cholesterol,CoZaar,active,clinical
+816,ES,Spain,phobias,Lexapro,active,clinical
+817,ES,Spain,phobias,Lexapro,active,clinical
+818,SP,Spain,high_cholesterol,Simovil,complete,research
+819,US,United States,depression,Loxitane,active,clinical
+820,ES,Spain,anxiety,Loxitane,active,clinical
+821,CA,Canada,high_cholesterol,CoZaar,active,research
+822,CANADA,Canada,high_cholesterol,CoZaar,active,clinical
+823,DK,Denmark,high_cholesterol,CoZaar,active,clinical
+824,DK,Denmark,high_cholesterol,Zocor,active,clinical
+825,DN,Denmark,high_cholesterol,Zocor,active,clinical
+826,US,United States,high_cholesterol,Zocor,active,clinical
+827,PL,Poland,deep_vein_thrombosis,Lovenox,active,clinical
+828,PL,Poland,deep_vein_thrombosis,Levemir,active,research
+829,USA,United States,deep_vein_thrombosis,Levemir,active,clinical
+830,POL,Poland,Osteoarthritis,Celebrex,active,clinical
+831,CANADA,Canada,deep_vein_thrombosis,Lovenox,active,clinical
+832,POL,Poland,asthma,Advair,active,clinical
+833,UK,United Kingdom,Osteoarthritis,Celebrex,active,research
+834,US,United States,deep_vein_thrombosis,Lovenox,active,clinical
+835,USA,United States,anxiety,Lexapro,active,clinical
+836,UK,United Kingdom,anxiety,Cipralex,active,clinical
+837,UK,United Kingdom,phobias,Loxitane,active,clinical
+838,GB,United Kingdom,anxiety,Loxitane,active,research
+839,US,United States,arthritis,Celexa,active,clinical
+840,GB,United Kingdom,anxiety,Loxitane,active,clinical
+841,CANADA,Canada,asthma,Advair,complete,research
+842,CANADA,Canada,asthma,Advair,active,clinical
+843,GER,Germany,asthma,Advair,active,clinical
+844,DE,Germany,asthma,Advicor,active,clinical
+845,DE,Germany,asthma,Advair,active,clinical
+846,GER,Germany,arthritis,Celebrex,active,clinical
+847,CANADA,Canada,Osteoarthritis,Celexa,active,clinical
+848,CANADA,Canada,arthritis,Celebrex,active,research
+849,USA,United States,arthritis,Celexa,active,clinical
+850,SWEDEN,Sweden,arthritis,Celebrex,active,clinical
+851,SWEDEN,Sweden,anxiety,Cipralex,complete,clinical
+852,SWEDEN,Sweden,anxiety,Lexapro,active,clinical
+853,SWEDEN,Sweden,high_cholesterol,CoZaar,active,research
+854,US,United States,anxiety,Lexapro,active,clinical
+855,USA,United States,high_cholesterol,CoZaar,active,clinical
+856,ES,Spain,phobias,Lexapro,active,clinical
+857,ES,Spain,OCD,Cipralex,active,clinical
+858,SP,Spain,high_cholesterol,Zocor,complete,research
+859,US,United States,anxiety,Loxitane,active,clinical
+860,ES,Spain,anxiety,Loxitane,active,clinical
+861,CANADA,Canada,high_cholesterol,CoZaar,active,research
+862,CANADA,Canada,high_cholesterol,CoZaar,active,clinical
+863,DK,Denmark,high_cholesterol,CoZaar,active,clinical
+864,DK,Denmark,high_cholesterol,Zocor,active,clinical
+865,DN,Denmark,high_cholesterol,Zocor,active,clinical
+866,US,United States,high_cholesterol,Zocor,active,clinical
+867,PL,Poland,deep_vein_thrombosis,Lovenox,active,clinical
+868,PL,Poland,deep_vein_thrombosis,Levemir,active,research
+869,USA,United States,deep_vein_thrombosis,Levemir,active,clinical
+870,POL,Poland,Osteoarthritis,Celebrex,active,clinical
+871,CANADA,Canada,deep_vein_thrombosis,Lovenox,active,clinical
+872,POL,Poland,asthma,Advair,active,clinical
+873,UK,United Kingdom,Osteoarthritis,Celebrex,active,research
+874,US,United States,deep_vein_thrombosis,Lovenox,active,clinical
+875,USA,United States,OCD,Lexapro,active,clinical
+876,UK,United Kingdom,phobias,Lexapro,active,clinical
+877,UK,United Kingdom,depression,Cipralex,active,clinical
+878,GB,United Kingdom,anxiety,Loxitane,active,research
+879,US,United States,arthritis,Celexa,active,clinical
+880,GB,United Kingdom,anxiety,Loxitane,active,clinical
+881,CANADA,Canada,asthma_attacks,Advair,complete,research
+882,CANADA,Canada,asthma,Advair,active,clinical
+883,GER,Germany,asthma,Advair,active,clinical
+884,DE,Germany,asthma,Advicor,active,clinical
+885,DE,Germany,asthma,Advair,active,clinical
+886,GER,Germany,Osteoarthritis,Celebrex,active,clinical
+887,CANADA,Canada,arthritis,Celexa,active,clinical
+888,CANADA,Canada,arthritis,Celebrex,active,research
+889,USA,United States,Osteoarthritis,Celexa,active,clinical
+890,SWEDEN,Sweden,arthritis,Celebrex,active,clinical
+891,SWEDEN,Sweden,anxiety,Lexapro,complete,clinical
+892,SWEDEN,Sweden,anxiety,Cipralex,active,clinical
+893,SWEDEN,Sweden,high_cholesterol,CoZaar,active,research
+894,US,United States,anxiety,Lexapro,active,clinical
+895,USA,United States,high_cholesterol,CoZaar,active,clinical
+896,ES,Spain,anxiety,Lexapro,active,clinical
+897,ES,Spain,anxiety,Lexapro,active,clinical
+898,SP,Spain,high_cholesterol,Zocor,complete,research
+899,US,United States,anxiety,Cipralex,active,clinical
+900,ES,Spain,anxiety,Loxitane,active,clinical
+901,CANADA,Canada,high_cholesterol,CoZaar,active,research
+902,CANADA,Canada,high_cholesterol,CoZaar,active,clinical
+903,DK,Denmark,high_cholesterol,CoZaar,active,clinical
+904,DK,Denmark,high_cholesterol,Zocor,active,clinical
+905,DN,Denmark,high_cholesterol,Zocor,active,clinical
+906,US,United States,high_cholesterol,Zocor,active,clinical
+907,PL,Poland,deep_vein_thrombosis,Lovenox,active,clinical
+908,PL,Poland,deep_vein_thrombosis,Levemir,active,research
+909,USA,United States,deep_vein_thrombosis,Levemir,active,clinical
+910,POL,Poland,arthritis,Celebrex,active,clinical
+911,CANADA,Canada,deep_vein_thrombosis,Lovenox,active,clinical
+912,POL,Poland,asthma,Advair,active,clinical
+913,UK,United Kingdom,arthritis,Celebrex,active,research
+914,US,United States,deep_vein_thrombosis,Lovenox,active,clinical
+915,USA,United States,anxiety,Lexapro,active,clinical
+916,UK,United Kingdom,anxiety,Lexapro,active,clinical
+917,UK,United Kingdom,anxiety,Cipralex,active,clinical
+918,GB,United Kingdom,anxiety,Loxitane,active,research
+919,US,United States,arthritis,Celexa,active,clinical
+920,GB,United Kingdom,anxiety,Loxitane,active,clinical
+921,CANADA,Canada,asthma,Advair,complete,research
+922,CANADA,Canada,asthma,Advair,active,clinical
+923,Deutschland,Germany,asthma,Advair,active,clinical
+924,DE,Germany,asthma,Advicor,active,clinical
+925,DE,Germany,asthma,Advair,active,clinical
+926,Deutschland,Germany,Osteoarthritis,Celebrex,active,clinical
+927,CANADA,Canada,arthritis,Celexa,active,clinical
+928,CANADA,Canada,arthritis,Celebrex,active,research
+929,USA,United States,arthritis,Celexa,active,clinical
+930,SWEDEN,Sweden,arthritis,Celebrex,active,clinical
+931,SWEDEN,Sweden,depression,Lexapro,complete,clinical
+932,SWEDEN,Sweden,anxiety,Cipralex,active,clinical
+933,SWEDEN,Sweden,high_cholesterol,CoZaar,active,research
+934,US,United States,anxiety,Lexapro,active,clinical
+935,USA,United States,high_cholesterol,CoZaar,active,clinical
+936,ES,Spain,anxiety,Lexapro,active,clinical
+937,ES,Spain,anxiety,Lexapro,active,clinical
+938,POL,Poland,high_cholesterol,Zocor,complete,research
+939,US,United States,anxiety,Cipralex,active,clinical
+940,ES,Spain,anxiety,Loxitane,active,clinical
+941,CANADA,Canada,high_cholesterol,CoZaar,active,research
+942,CANADA,Canada,high_cholesterol,CoZaar,active,clinical
+943,DK,Denmark,high_cholesterol,CoZaar,active,clinical
+944,DK,Denmark,high_cholesterol,Zocor,active,clinical
+945,DN,Denmark,high_cholesterol,Zocor,active,clinical
+946,US,United States,high_cholesterol,Zocor,active,clinical
+947,PL,Poland,deep_vein_thrombosis,Lovenox,active,clinical
+948,PL,Poland,deep_vein_thrombosis,Levemir,active,research
+949,USA,United States,deep_vein_thrombosis,Levemir,active,clinical
+950,POL,Poland,Osteoarthritis,Celebrex,active,clinical
+951,CANADA,Canada,deep_vein_thrombosis,Lovenox,active,clinical
+952,POL,Poland,asthma,Advair,active,clinical
+953,UK,United Kingdom,arthritis,Celebrex,active,research
+954,US,United States,deep_vein_thrombosis,Lovenox,active,clinical
+955,USA,United States,phobias,Lexapro,active,clinical
+956,UK,United Kingdom,anxiety,Lexapro,active,clinical
+957,UK,United Kingdom,anxiety,Cipralex,active,clinical
+958,GB,United Kingdom,anxiety,Loxitane,active,research
+959,US,United States,arthritis,Celexa,active,clinical
+960,GB,United Kingdom,anxiety,Loxitane,active,clinical
+961,CANADA,Canada,asthma,Advair,complete,research
+962,CANADA,Canada,asthma,Advair,active,clinical
+963,GER,Germany,asthma,Advair,active,clinical
+964,DE,Germany,asthma,Advicor,active,clinical
+965,DE,Germany,asthma,Advair,active,clinical
+966,GER,Germany,arthritis,Celebrex,active,clinical
+967,CAD,Canada,arthritis,Celexa,active,clinical
+968,CAD,Canada,arthritis,Celebrex,active,research
+969,USA,United States,Osteoarthritis,Celexa,active,clinical
+970,SWEDEN,Sweden,arthritis,Celebrex,active,clinical
+971,SWEDEN,Sweden,depression,Lexapro,complete,clinical
+972,SWEDEN,Sweden,anxiety,Cipralex,active,clinical
+973,SWEDEN,Sweden,high_cholesterol,CoZaar,active,research
+974,US,United States,anxiety,Lexapro,active,clinical
+975,USA,United States,high_cholesterol,CoZaar,active,clinical
+976,ES,Spain,anxiety,Lexapro,active,clinical
+977,ES,Spain,anxiety,Lexapro,active,clinical
+978,SP,Spain,high_cholesterol,Zocor,complete,research
+979,US,United States,anxiety,Cipralex,active,clinical
+980,ES,Spain,anxiety,Loxitane,active,clinical
+981,CA,Canada,high_cholesterol,CoZaar,active,research
+982,CAN,Canada,high_cholesterol,CoZaar,active,clinical
+983,DK,Denmark,high_cholesterol,CoZaar,active,clinical
+984,DK,Denmark,high_cholesterol,Zocor,active,clinical
+985,DN,Denmark,high_cholesterol,Zocor,active,clinical
+986,US,United States,high_cholesterol,Zocor,active,clinical
+987,PL,Poland,deep_vein_thrombosis,Lovenox,active,clinical
+988,PL,Poland,deep_vein_thrombosis,Levemir,active,research
+989,USA,United States,deep_vein_thrombosis,Levemir,active,clinical
+990,POL,Poland,arthritis,Celebrex,active,clinical
+991,CAN,Canada,deep_vein_thrombosis,Lovenox,active,clinical
+992,POL,Poland,asthma,Advair,active,clinical
+993,UK,United Kingdom,arthritis,Celebrex,active,research
+994,US,United States,deep_vein_thrombosis,Lovenox,active,clinical
+995,USA,United States,anxiety,Lexapro,active,clinical
+996,UK,United Kingdom,anxiety,Lexapro,active,clinical
+997,UK,United Kingdom,anxiety,Cipralex,active,clinical
+998,GB,United Kingdom,anxiety,Loxitane,active,research
+999,US,United States,arthritis,Celexa,active,clinical
+1000,GB,United Kingdom,OCD,Loxitane,active,clinical
+1001,CA,Canada,asthma,Advair,complete,research
+1002,CAN,Canada,asthma,Advair,active,clinical
+1003,GERMANY,Germany,asthma,Advair,active,clinical
+1004,DE,Germany,asthma,Advicor,active,clinical
+1005,DE,Germany,asthma,Advair,active,clinical
+1006,GER,Germany,Osteoarthritis,Celebrex,active,clinical
+1007,CAD,Canada,arthritis,Celexa,active,clinical
+1008,CAD,Canada,arthritis,Celebrex,active,research
+1009,USA,United States,arthritis,Celexa,active,clinical
+1010,SE,Sweden,arthritis,Celebrex,active,clinical
+1011,SW,Sweden,depression,Cipralex,complete,clinical
+1012,SW,Sweden,anxiety,Lexapro,active,clinical
+1013,SE,Sweden,high_cholesterol,CoZaar,active,research
+1014,US,United States,anxiety,Lexapro,active,clinical
+1015,USA,United States,high_cholesterol,CoZaar,active,clinical
+1016,ES,Spain,OCD,Cipralex,active,clinical
+1017,ES,Spain,anxiety,Lexapro,active,clinical
+1018,SP,Spain,high_cholesterol,Zocor,complete,research
+1019,US,United States,anxiety,Loxitane,active,clinical
+1020,ES,Spain,anxiety,Cipralex,active,clinical
+1021,CA,Canada,high_cholesterol,CoZaar,active,research
+1022,CAN,Canada,high_cholesterol,CoZaar,active,clinical
+1023,DK,Denmark,high_cholesterol,CoZaar,active,clinical
+1024,DK,Denmark,high_cholesterol,Zocor,active,clinical
+1025,DN,Denmark,high_cholesterol,Zocor,active,clinical
+1026,US,United States,high_cholesterol,Zocor,active,clinical
+1027,PL,Poland,deep_vein_thrombosis,Lovenox,active,clinical
+1028,PL,Poland,deep_vein_thrombosis,Levemir,active,research
+1029,USA,United States,deep_vein_thrombosis,Levemir,active,clinical
+1030,POL,Poland,arthritis,Celebrex,active,clinical
+1031,CAN,Canada,deep_vein_thrombosis,Lovenox,active,clinical
+1032,POL,Poland,asthma,Advair,active,clinical
+1033,UK,United Kingdom,arthritis,Celebrex,active,research
+1034,US,United States,deep_vein_thrombosis,Lovenox,active,clinical
+1035,USA,United States,depression,Lexapro,active,clinical
+1036,UK,United Kingdom,anxiety,Lexapro,active,clinical
+1037,UK,United Kingdom,anxiety,Cipralex,active,clinical
+1038,GB,United Kingdom,anxiety,Loxitane,active,research
+1039,US,United States,arthritis,Celexa,active,clinical
+1040,GB,United Kingdom,anxiety,Loxitane,active,clinical
+1041,CA,Canada,asthma,Advair,complete,research
+1042,CAN,Canada,asthma,Advair,active,clinical
+1043,GER,Germany,asthma,Advair,active,clinical
+1044,DE,Germany,asthma,Advicor,active,clinical
+1045,DE,Germany,asthma,Advair,active,clinical
+1046,GER,Germany,arthritis,Celebrex,active,clinical
+1047,CAD,Canada,arthritis,Celexa,active,clinical
+1048,CAD,Canada,arthritis,Celebrex,active,research
+1049,USA,United States,arthritis,Celexa,active,clinical
+1050,SE,Sweden,arthritis,Celebrex,active,clinical
+1051,SW,Sweden,anxiety,Cipralex,complete,clinical
+1052,SW,Sweden,anxiety,Lexapro,active,clinical
+1053,SE,Sweden,high_cholesterol,CoZaar,active,research
+1054,US,United States,phobias,Lexapro,active,clinical
+1055,USA,United States,high_cholesterol,CoZaar,active,clinical
+1056,ES,Spain,anxiety,Cipralex,active,clinical
+1057,ES,Spain,anxiety,Lexapro,active,clinical
+1058,SP,Spain,high_cholesterol,Zocor,complete,research
+1059,US,United States,anxiety,Loxitane,active,clinical
+1060,ES,Spain,anxiety,Cipralex,active,clinical
+1061,CA,Canada,high_cholesterol,CoZaar,active,research
+1062,CAN,Canada,high_cholesterol,CoZaar,active,clinical
+1063,DK,Denmark,high_cholesterol,CoZaar,active,clinical
+1064,DK,Denmark,high_cholesterol,Zocor,active,clinical
+1065,DN,Denmark,high_cholesterol,Zocor,active,clinical
+1066,US,United States,high_cholesterol,Zocor,active,clinical
+1067,PL,Poland,deep_vein_thrombosis,Lovenox,active,clinical
+1068,PL,Poland,deep_vein_thrombosis,Levemir,active,research
+1069,USA,United States,deep_vein_thrombosis,Levemir,active,clinical
+1070,POL,Poland,Osteoarthritis,Celebrex,active,clinical
+1071,CAN,Canada,deep_vein_thrombosis,Lovenox,active,clinical
+1072,POL,Poland,asthma,Advair,active,clinical
+1073,UK,United Kingdom,arthritis,Celebrex,active,research
+1074,US,United States,deep_vein_thrombosis,Lovenox,active,clinical
+1075,USA,United States,depression,Lexapro,active,clinical
+1076,UK,United Kingdom,anxiety,Lexapro,active,clinical
+1077,UK,United Kingdom,anxiety,Cipralex,active,clinical
+1078,GB,United Kingdom,anxiety,Loxitane,active,research
+1079,US,United States,arthritis,Celexa,active,clinical
+1080,GB,United Kingdom,anxiety,Loxitane,active,clinical
+1081,CA,Canada,asthma,Advair,complete,research
+1082,CAN,Canada,asthma,Advair,active,clinical
+1083,Deutschland,Germany,asthma,Advair,active,clinical
+1084,DE,Germany,asthma,Advicor,active,clinical
+1085,DE,Germany,asthma,Advair,active,clinical
+1086,GER,Germany,arthritis,Celebrex,active,clinical
+1087,CAD,Canada,arthritis,Celexa,active,clinical
+1088,CAD,Canada,arthritis,Celebrex,active,research
+1089,USA,United States,arthritis,Celexa,active,clinical
+1090,SE,Sweden,arthritis,Celebrex,active,clinical
+1091,SW,Sweden,phobias,Cipralex,complete,clinical
+1092,SW,Sweden,anxiety,Lexapro,active,clinical
+1093,SE,Sweden,high_cholesterol,CoZaar,active,research
+1094,US,United States,phobias,Lexapro,active,clinical
+1095,USA,United States,high_cholesterol,CoZaar,active,clinical
+1096,ES,Spain,anxiety,Lexapro,active,clinical
+1097,ES,Spain,anxiety,Lexapro,active,clinical
+1098,SP,Spain,high_cholesterol,Zocor,complete,research
+1099,US,United States,anxiety,Loxitane,active,clinical
+1100,ES,Spain,anxiety,Loxitane,active,clinical
+1101,CA,Canada,high_cholesterol,CoZaar,active,research
+1102,CAN,Canada,high_cholesterol,CoZaar,active,clinical
+1103,DK,Denmark,high_cholesterol,CoZaar,active,clinical
+1104,DK,Denmark,high_cholesterol,Zocor,active,clinical
+1105,DN,Denmark,high_cholesterol,Zocor,active,clinical
+1106,US,United States,high_cholesterol,Zocor,active,clinical
+1107,PL,Poland,deep_vein_thrombosis,Lovenox,active,clinical
+1108,PL,Poland,deep_vein_thrombosis,Levemir,active,research
+1109,USA,United States,deep_vein_thrombosis,Levemir,active,clinical
+1110,POL,Poland,Osteoarthritis,Celebrex,active,clinical
+1111,CAN,Canada,deep_vein_thrombosis,Lovenox,active,clinical
+1112,POL,Poland,asthma,Advair,active,clinical
+1113,UK,United Kingdom,arthritis,Celebrex,active,research
+1114,US,United States,deep_vein_thrombosis,Lovenox,active,clinical
+1115,USA,United States,depression,Lexapro,active,clinical
+1116,UK,United Kingdom,phobias,Lexapro,active,clinical
+1117,UK,United Kingdom,anxiety,Loxitane,active,clinical
+1118,GB,United Kingdom,anxiety,Loxitane,active,research
+1119,US,United States,arthritis,Celexa,active,clinical
+1120,GB,United Kingdom,anxiety,Loxitane,active,clinical
+1121,CANADA,Canada,asthma,Advair,complete,research
+1122,CAN,Canada,asthma,Advair,active,clinical
+1123,GER,Germany,asthma,Advair,active,clinical
+1124,DE,Germany,asthma,Advicor,active,clinical
+1125,DE,Germany,asthma,Advair,active,clinical
+1126,GER,Germany,Osteoarthritis,Celebrex,active,clinical
+1127,CAD,Canada,arthritis,Celexa,active,clinical
+1128,CAD,Canada,arthritis,Celebrex,active,research
+1129,USA,United States,arthritis,Celexa,active,clinical
+1130,SE,Sweden,arthritis,Celebrex,active,clinical
+1131,SWEDEN,Sweden,anxiety,Lexapro,complete,clinical
+1132,SWEDEN,Sweden,anxiety,Lexapro,active,clinical
+1133,SWEDEN,Sweden,high_cholesterol,CoZaar,active,research
+1134,US,United States,phobias,Lexapro,active,clinical
+1135,USA,United States,high_cholesterol,CoZaar,active,clinical
+1136,ES,Spain,anxiety,Lexapro,active,clinical
+1137,ES,Spain,anxiety,Lexapro,active,clinical
+1138,SP,Spain,high_cholesterol,Zocor,complete,research
+1139,US,United States,anxiety,Loxitane,active,clinical
+1140,ES,Spain,anxiety,Loxitane,active,clinical
+1141,CA,Canada,high_cholesterol,CoZaar,active,research
+1142,CAN,Canada,high_cholesterol,CoZaar,active,clinical
+1143,DK,Denmark,high_cholesterol,CoZaar,active,clinical
+1144,DK,Denmark,high_cholesterol,Zocor,active,clinical
+1145,DN,Denmark,high_cholesterol,Zocor,active,clinical
+1146,CA,Canada,high_cholesterol,Zocor,active,clinical
+1147,DE,Germany,deep_vein_thrombosis,Clexane,active,clinical
+1148,PL,Poland,deep_vein_thrombosis,Levemir,active,research
+1149,USA,United States,deep_vein_thrombosis,Levemir,active,clinical
+1150,POL,Poland,arthritis,Celebrex,active,clinical
+1151,CAN,Canada,deep_vein_thrombosis,Lovenox,active,clinical
+1152,POL,Poland,asthma,Advair,active,clinical
+1153,UK,United Kingdom,arthritis,Celebrex,active,research
+1154,US,United States,deep_vein_thrombosis,Lovenox,active,clinical
+1155,USA,United States,OCD,Lexapro,active,clinical
+1156,UK,United Kingdom,depression,Lexapro,active,clinical
+1157,UK,United Kingdom,anxiety,Loxitane,active,clinical
+1158,GB,United Kingdom,OCD,Loxitane,active,research
+1159,US,United States,arthritis,Celexa,active,clinical
+1160,GB,United Kingdom,anxiety,Loxitane,active,clinical
+1161,CA,Canada,asthma_attacks,Advair,complete,research
+1162,CAN,Canada,asthma,Advair,active,clinical
+1163,GER,Germany,asthma,Advair,active,clinical
+1164,DE,Germany,asthma,Advicor,active,clinical
+1165,DE,Germany,asthma,Advair,active,clinical
+1166,GER,Germany,arthritis,Celebrex,active,clinical
+1167,CAD,Canada,arthritis,Celexa,active,clinical
+1168,CAD,Canada,arthritis,Celebrex,active,research
+1169,USA,United States,arthritis,Celexa,active,clinical
+1170,SWEDEN,Sweden,arthritis,Celebrex,active,clinical
+1171,SWEDEN,Sweden,anxiety,Lexapro,complete,clinical
+1172,SWEDEN,Sweden,anxiety,Lexapro,active,clinical
+1173,SWEDEN,Sweden,high_cholesterol,CoZaar,active,research
+1174,US,United States,anxiety,Lexapro,active,clinical
+1175,USA,United States,high_cholesterol,CoZaar,active,clinical
+1176,ES,Spain,anxiety,Lexapro,active,clinical
+1177,ES,Spain,anxiety,Lexapro,active,clinical
+1178,SP,Spain,high_cholesterol,Zocor,complete,research
+1179,US,United States,anxiety,Loxitane,active,clinical
+1180,ES,Spain,anxiety,Loxitane,active,clinical
+1181,CA,Canada,high_cholesterol,CoZaar,active,research
+1182,CAN,Canada,high_cholesterol,CoZaar,active,clinical
+1183,DK,Denmark,high_cholesterol,CoZaar,active,clinical
+1184,DK,Denmark,high_cholesterol,Zocor,active,clinical
+1185,DN,Denmark,high_cholesterol,Zocor,active,clinical
+1186,US,United States,high_cholesterol,Zocor,active,clinical
+1187,PL,Poland,deep_vein_thrombosis,Lovenox,active,clinical
+1188,PL,Poland,deep_vein_thrombosis,Levemir,active,research
+1189,USA,United States,deep_vein_thrombosis,Levemir,active,clinical
+1190,POL,Poland,arthritis,Celebrex,active,clinical
+1191,CAN,Canada,deep_vein_thrombosis,Lovenox,active,clinical
+1192,POL,Poland,asthma,Advair,active,clinical
+1193,UK,United Kingdom,arthritis,Celebrex,active,research
+1194,US,United States,deep_vein_thrombosis,Lovenox,active,clinical
+1195,USA,United States,phobias,Lexapro,active,clinical
+1196,UK,United Kingdom,depression,Lexapro,active,clinical
+1197,UK,United Kingdom,anxiety,Loxitane,active,clinical
+1198,GB,United Kingdom,anxiety,Loxitane,active,research
+1199,US,United States,arthritis,Celexa,active,clinical
+1200,GB,United Kingdom,phobias,Loxitane,active,clinical
+1201,CA,Canada,asthma,Advair,complete,research
+1202,CAN,Canada,asthma,Advair,active,clinical
+1203,GER,Germany,asthma,Advair,active,clinical
+1204,DE,Germany,asthma,Advicor,active,clinical
+1205,DE,Germany,asthma,Advair,active,clinical
+1206,GER,Germany,arthritis,Celebrex,active,clinical
+1207,CAD,Canada,arthritis,Celexa,active,clinical
+1208,CAD,Canada,arthritis,Celebrex,active,research
+1209,USA,United States,arthritis,Celexa,active,clinical
+1210,SWEDEN,Sweden,arthritis,Celebrex,active,clinical
+1211,SWEDEN,Sweden,anxiety,Lexapro,complete,clinical
+1212,SWEDEN,Sweden,anxiety,Lexapro,active,clinical
+1213,SWEDEN,Sweden,high_cholesterol,CoZaar,active,research
+1214,US,United States,anxiety,Lexapro,active,clinical
+1215,USA,United States,high_cholesterol,CoZaar,active,clinical
+1216,ES,Spain,anxiety,Lexapro,active,clinical
+1217,ES,Spain,phobias,Lexapro,active,clinical
+1218,SP,Spain,high_cholesterol,Zocor,complete,research
+1219,US,United States,phobias,Loxitane,active,clinical
+1220,ES,Spain,anxiety,Loxitane,active,clinical
+1221,CA,Canada,high_cholesterol,CoZaar,active,research
+1222,CAN,Canada,high_cholesterol,CoZaar,active,clinical
+1223,DK,Denmark,high_cholesterol,CoZaar,active,clinical
+1224,DK,Denmark,high_cholesterol,Zocor,active,clinical
+1225,DN,Denmark,high_cholesterol,Zocor,active,clinical
+1226,US,United States,high_cholesterol,Zocor,active,clinical
+1227,PL,Poland,deep_vein_thrombosis,Lovenox,active,clinical
+1228,PL,Poland,deep_vein_thrombosis,Levemir,active,research
+1229,USA,United States,deep_vein_thrombosis,Levemir,active,clinical
+1230,POL,Poland,Osteoarthritis,Celebrex,active,clinical
+1231,CAN,Canada,deep_vein_thrombosis,Lovenox,active,clinical
+1232,POL,Poland,asthma,Advair,active,clinical
+1233,UK,United Kingdom,arthritis,Celebrex,active,research
+1234,US,United States,deep_vein_thrombosis,Lovenox,active,clinical
+1235,USA,United States,phobias,Lexapro,active,clinical
+1236,UK,United Kingdom,phobias,Lexapro,active,clinical
+1237,UK,United Kingdom,anxiety,Loxitane,active,clinical
+1238,GB,United Kingdom,anxiety,Loxitane,active,research
+1239,US,United States,arthritis,Celexa,active,clinical
+1240,GB,United Kingdom,anxiety,Loxitane,active,clinical
+1241,CA,Canada,asthma,Advair,complete,research
+1242,CAN,Canada,asthma,Advair,active,clinical
+1243,GER,Germany,asthma,Advair,active,clinical
+1244,DE,Germany,asthma,Advicor,active,clinical
+1245,DE,Germany,asthma,Advair,active,clinical
+1246,GER,Germany,arthritis,Celebrex,active,clinical
+1247,CAD,Canada,Osteoarthritis,Celexa,active,clinical
+1248,CAD,Canada,arthritis,Celebrex,active,research
+1249,USA,United States,arthritis,Celexa,active,clinical
+1250,SWEDEN,Sweden,arthritis,Celebrex,active,clinical
+1251,SWEDEN,Sweden,depression,Lexapro,complete,clinical
+1252,SWEDEN,Sweden,anxiety,Lexapro,active,clinical
+1253,SWEDEN,Sweden,high_cholesterol,CoZaar,active,research
+1254,US,United States,phobias,Lexapro,active,clinical
+1255,USA,United States,high_cholesterol,CoZaar,active,clinical
+1256,ES,Spain,anxiety,Lexapro,active,clinical
+1257,ES,Spain,anxiety,Lexapro,active,clinical
+1258,SP,Spain,high_cholesterol,Zocor,complete,research
+1259,US,United States,anxiety,Loxitane,active,clinical
+1260,ES,Spain,anxiety,Loxitane,active,clinical
+1261,CA,Canada,high_cholesterol,CoZaar,active,research
+1262,CAN,Canada,high_cholesterol,CoZaar,active,clinical
+1263,DK,Denmark,high_cholesterol,CoZaar,active,clinical
+1264,DK,Denmark,high_cholesterol,Zocor,active,clinical
+1265,DN,Denmark,high_cholesterol,Zocor,active,clinical
+1266,US,United States,high_cholesterol,Zocor,active,clinical
+1267,PL,Poland,deep_vein_thrombosis,Lovenox,active,clinical
+1268,PL,Poland,deep_vein_thrombosis,Levemir,active,research
+1269,USA,United States,deep_vein_thrombosis,Levemir,active,clinical
+1270,POL,Poland,arthritis,Celebrex,active,clinical
+1271,CAN,Canada,deep_vein_thrombosis,Lovenox,active,clinical
+1272,POL,Poland,asthma,Advair,active,clinical
+1273,UK,United Kingdom,Osteoarthritis,Celebrex,active,research
+1274,US,United States,deep_vein_thrombosis,Lovenox,active,clinical
+1275,USA,United States,phobias,Lexapro,active,clinical
+1276,UK,United Kingdom,anxiety,Lexapro,active,clinical
+1277,UK,United Kingdom,anxiety,Loxitane,active,clinical
+1278,GB,United Kingdom,anxiety,Loxitane,active,research
+1279,US,United States,arthritis,Celexa,active,clinical
+1280,GB,United Kingdom,anxiety,Loxitane,active,clinical
+1281,CA,Canada,asthma,Advair,complete,research
+1282,CAN,Canada,asthma,Advair,active,clinical
+1283,GER,Germany,asthma,Advair,active,clinical
+1284,DE,Germany,asthma,Advicor,active,clinical
+1285,DE,Germany,asthma,Advair,active,clinical
+1286,GER,Germany,Osteoarthritis,Celebrex,active,clinical
+1287,CAD,Canada,arthritis,Celexa,active,clinical
+1288,CAD,Canada,arthritis,Celebrex,active,research
+1289,USA,United States,arthritis,Celexa,active,clinical
+1290,SWEDEN,Sweden,Osteoarthritis,Celebrex,active,clinical
+1291,SW,Sweden,phobias,Lexapro,complete,clinical
+1292,SW,Sweden,depression,Lexapro,active,clinical
+1293,SE,Sweden,high_cholesterol,CoZaar,active,research
+1294,US,United States,anxiety,Lexapro,active,clinical
+1295,USA,United States,high_cholesterol,CoZaar,active,clinical
+1296,ES,Spain,OCD,Lexapro,active,clinical
+1297,ES,Spain,anxiety,Lexapro,active,clinical
+1298,SP,Spain,high_cholesterol,Zocor,complete,research
+1299,US,United States,anxiety,Loxitane,active,clinical
+1300,ES,Spain,anxiety,Loxitane,active,clinical
+1301,CA,Canada,high_cholesterol,CoZaar,active,research
+1302,CAN,Canada,high_cholesterol,CoZaar,active,clinical
+1303,DK,Denmark,high_cholesterol,CoZaar,active,clinical
+1304,DK,Denmark,high_cholesterol,Zocor,active,clinical
+1305,DN,Denmark,high_cholesterol,Zocor,active,clinical
+1306,US,United States,high_cholesterol,Zocor,active,clinical
+1307,PL,Poland,deep_vein_thrombosis,Lovenox,active,clinical
+1308,PL,Poland,deep_vein_thrombosis,Levemir,active,research
+1309,USA,United States,deep_vein_thrombosis,Levemir,active,clinical
+1310,POL,Poland,arthritis,Celebrex,active,clinical
+1311,CAN,Canada,deep_vein_thrombosis,Lovenox,active,clinical
+1312,POL,Poland,asthma,Advair,active,clinical
+1313,UK,United Kingdom,arthritis,Celebrex,active,research
+1314,US,United States,deep_vein_thrombosis,Lovenox,active,clinical
+1315,USA,United States,anxiety,Lexapro,active,clinical
+1316,UK,United Kingdom,anxiety,Lexapro,active,clinical
+1317,UK,United Kingdom,anxiety,Loxitane,active,clinical
+1318,GB,United Kingdom,phobias,Loxitane,active,research
+1319,US,United States,arthritis,Celexa,active,clinical
+1320,GB,United Kingdom,anxiety,Loxitane,active,clinical
+1321,CA,Canada,asthma,Advair,complete,research
+1322,CAN,Canada,asthma,Advair,active,clinical
+1323,GER,Germany,asthma,Advair,active,clinical
+1324,DE,Germany,asthma,Advicor,active,clinical
+1325,DE,Germany,asthma,Advair,active,clinical
+1326,GER,Germany,arthritis,Celebrex,active,clinical
+1327,CAD,Canada,arthritis,Celexa,active,clinical
+1328,CAD,Canada,Osteoarthritis,Celebrex,active,research
+1329,USA,United States,arthritis,Celebra,active,clinical
+1330,SE,Sweden,arthritis,Celebrex,active,clinical
+1331,SW,Sweden,depression,Lexapro,complete,clinical
+1332,SW,Sweden,anxiety,Lexapro,active,clinical
+1333,SE,Sweden,high_cholesterol,CoZaar,active,research
+1334,US,United States,anxiety,Lexapro,active,clinical
+1335,USA,United States,high_cholesterol,CoZaar,active,clinical
+1336,ES,Spain,phobias,Lexapro,active,clinical
+1337,ES,Spain,OCD,Lexapro,active,clinical
+1338,SP,Spain,high_cholesterol,Zocor,complete,research
+1339,US,United States,anxiety,Loxitane,active,clinical
+1340,ES,Spain,anxiety,Loxitane,active,clinical
+1341,CA,Canada,high_cholesterol,CoZaar,active,research
+1342,CAN,Canada,high_cholesterol,CoZaar,active,clinical
+1343,DK,Denmark,high_cholesterol,CoZaar,active,clinical
+1344,DK,Denmark,high_cholesterol,Zocor,active,clinical
+1345,DN,Denmark,high_cholesterol,Zocor,active,clinical
+1346,US,United States,high_cholesterol,Zocor,active,clinical
+1347,PL,Poland,deep_vein_thrombosis,Lovenox,active,clinical
+1348,PL,Poland,deep_vein_thrombosis,Levemir,active,research
+1349,USA,United States,deep_vein_thrombosis,Levemir,active,clinical
+1350,POL,Poland,Osteoarthritis,Celebrex,active,clinical
+1351,CAN,Canada,deep_vein_thrombosis,Lovenox,active,clinical
+1352,POL,Poland,asthma,Advair,active,clinical
+1353,UK,United Kingdom,Osteoarthritis,Celebrex,active,research
+1354,US,United States,deep_vein_thrombosis,Lovenox,active,clinical
+1355,USA,United States,anxiety,Lexapro,active,clinical
+1356,UK,United Kingdom,anxiety,Lexapro,active,clinical
+1357,UK,United Kingdom,phobias,Loxitane,active,clinical
+1358,GB,United Kingdom,phobias,Loxitane,active,research
+1359,US,United States,Osteoarthritis,Celebra,active,clinical
+1360,GB,United Kingdom,anxiety,Loxitane,active,clinical
+1361,CANADA,Canada,asthma,Advair,complete,research
+1362,CAN,Canada,asthma,Advair,active,clinical
+1363,GER,Germany,asthma,Advair,active,clinical
+1364,DE,Germany,asthma,Advicor,active,clinical
+1365,DE,Germany,asthma,Advair,active,clinical
+1366,GER,Germany,arthritis,Celebrex,active,clinical
+1367,CAD,Canada,arthritis,Celexa,active,clinical
+1368,CAD,Canada,Osteoarthritis,Celebrex,active,research
+1369,USA,United States,arthritis,Celexa,active,clinical
+1370,SE,Sweden,arthritis,Celebrex,active,clinical
+1371,SW,Sweden,depression,Lexapro,complete,clinical
+1372,SW,Sweden,anxiety,Lexapro,active,clinical
+1373,SE,Sweden,high_cholesterol,CoZaar,active,research
+1374,US,United States,phobias,Lexapro,active,clinical
+1375,USA,United States,high_cholesterol,CoZaar,active,clinical
+1376,ES,Spain,phobias,Lexapro,active,clinical
+1377,ES,Spain,anxiety,Lexapro,active,clinical
+1378,SP,Spain,high_cholesterol,Zocor,complete,research
+1379,US,United States,anxiety,Loxitane,active,clinical
+1380,ES,Spain,anxiety,Loxitane,active,clinical
+1381,CA,Canada,high_cholesterol,CoZaar,active,research
+1382,CAN,Canada,high_cholesterol,CoZaar,active,clinical
+1383,DK,Denmark,high_cholesterol,CoZaar,active,clinical
+1384,DK,Denmark,high_cholesterol,Zocor,active,clinical
+1385,DN,Denmark,high_cholesterol,Zocor,active,clinical
+1386,US,United States,hypercholesterolemia,Zocor,active,clinical
+1387,PL,Poland,deep_vein_thrombosis,Lovenox,active,clinical
+1388,PL,Poland,deep_vein_thrombosis,Levemir,active,research
+1389,USA,United States,deep_vein_thrombosis,Levemir,active,clinical
+1390,POL,Poland,arthritis,Celebra,active,clinical
+1391,CAN,Canada,deep_vein_thrombosis,Lovenox,active,clinical
+1392,POL,Poland,asthma,Advair,active,clinical
+1393,UK,United Kingdom,Osteoarthritis,Celebrex,active,research
+1394,US,United States,deep_vein_thrombosis,Lovenox,active,clinical
+1395,USA,United States,anxiety,Lexapro,active,clinical
+1396,UK,United Kingdom,anxiety,Lexapro,active,clinical
+1397,UK,United Kingdom,phobias,Loxitane,active,clinical
+1398,GB,United Kingdom,anxiety,Loxitane,active,research
+1399,US,United States,arthritis,Celexa,active,clinical
+1400,GB,United Kingdom,anxiety,Loxitane,active,clinical
+1401,CA,Canada,asthma,Advair,complete,research
+1402,CAN,Canada,asthma,Advair,active,clinical
+1403,GERMANY,Germany,asthma,Advair,active,clinical
+1404,DE,Germany,asthma,Advicor,active,clinical
+1405,DE,Germany,asthma,Advair,active,clinical
+1406,GER,Germany,arthritis,Celebrex,active,clinical
+1407,CAD,Canada,arthritis,Celexa,active,clinical
+1408,CAD,Canada,arthritis,Celebra,active,research
+1409,USA,United States,arthritis,Celexa,active,clinical
+1410,SWEDEN,Sweden,arthritis,Celebrex,active,clinical
+1411,SWEDEN,Sweden,anxiety,Lexapro,complete,clinical
+1412,SWEDEN,Sweden,anxiety,Lexapro,active,clinical
+1413,SWEDEN,Sweden,high_cholesterol,CoZaar,active,research
+1414,US,United States,anxiety,Lexapro,active,clinical
+1415,USA,United States,high_cholesterol,CoZaar,active,clinical
+1416,ES,Spain,phobias,Lexapro,active,clinical
+1417,ES,Spain,anxiety,Lexapro,active,clinical
+1418,SP,Spain,hypercholesterolemia,Zocor,complete,research
+1419,US,United States,anxiety,Loxitane,active,clinical
+1420,ES,Spain,anxiety,Loxitane,active,clinical
+1421,CA,Canada,high_cholesterol,CoZaar,active,research
+1422,CAN,Canada,high_cholesterol,CoZaar,active,clinical
+1423,DK,Denmark,hypercholesterolemia,CoZaar,active,clinical
+1424,DK,Denmark,high_cholesterol,Zocor,active,clinical
+1425,DN,Denmark,high_cholesterol,Zocor,active,clinical
+1426,US,United States,hypercholesterolemia,Zocor,active,clinical
+1427,POLAND,Poland,deep_vein_thrombosis,Lovenox,active,clinical
+1428,PL,Poland,deep_vein_thrombosis,Levemir,active,research
+1429,USA,United States,deep_vein_thrombosis,Levemir,active,clinical
+1430,POL,Poland,arthritis,Celebrex,active,clinical
+1431,CAN,Canada,deep_vein_thrombosis,Lovenox,active,clinical
+1432,POL,Poland,asthma,Advair,active,clinical
+1433,UK,United Kingdom,arthritis,Celebra,active,research
+1434,US,United States,deep_vein_thrombosis,Lovenox,active,clinical
+1435,USA,United States,OCD,Lexapro,active,clinical
+1436,UK,United Kingdom,depression,Lexapro,active,clinical
+1437,UK,United Kingdom,anxiety,Loxitane,active,clinical
+1438,GB,United Kingdom,anxiety,Loxitane,active,research
+1439,US,United States,arthritis,Celexa,active,clinical
+1440,GB,United Kingdom,anxiety,Loxitane,active,clinical
+1441,CA,Canada,asthma_attacks,Advair,complete,research
+1442,CAN,Canada,asthma,Advair,active,clinical
+1443,GER,Germany,asthma,Advair,active,clinical
+1444,DE,Germany,asthma,Advicor,active,clinical
+1445,DE,Germany,asthma,Advair,active,clinical
+1446,GER,Germany,arthritis,Celebrex,active,clinical
+1447,CAD,Canada,arthritis,Celexa,active,clinical
+1448,CAD,Canada,arthritis,Celebra,active,research
+1449,USA,United States,arthritis,Celexa,active,clinical
+1450,SWEDEN,Sweden,arthritis,Celebrex,active,clinical
+1451,SWEDEN,Sweden,anxiety,Lexapro,complete,clinical
+1452,SWEDEN,Sweden,anxiety,Lexapro,active,clinical
+1453,SWEDEN,Sweden,high_cholesterol,CoZaar,active,research
+1454,US,United States,anxiety,Lexapro,active,clinical
+1455,USA,United States,high_cholesterol,CoZaar,active,clinical
+1456,ES,Spain,phobias,Lexapro,active,clinical
+1457,ES,Spain,anxiety,Lexapro,active,clinical
+1458,SP,Spain,hypercholesterolemia,Zocor,complete,research
+1459,US,United States,anxiety,Loxitane,active,clinical
+1460,ES,Spain,phobias,Loxitane,active,clinical
+1461,CA,Canada,high_cholesterol,CoZaar,active,research
+1462,CAN,Canada,high_cholesterol,CoZaar,active,clinical
+1463,DK,Denmark,hypercholesterolemia,CoZaar,active,clinical
+1464,DK,Denmark,high_cholesterol,Zocor,active,clinical
+1465,DN,Denmark,high_cholesterol,Zocor,active,clinical
+1466,US,United States,high_cholesterol,Zocor,active,clinical
+1467,PL,Poland,deep_vein_thrombosis,Lovenox,active,clinical
+1468,PL,Poland,deep_vein_thrombosis,Levemir,active,research
+1469,USA,United States,deep_vein_thrombosis,Levemir,active,clinical
+1470,POL,Poland,arthritis,Celebrex,active,clinical
+1471,CAN,Canada,deep_vein_thrombosis,Lovenox,active,clinical
+1472,POL,Poland,asthma,Advair,active,clinical
+1473,UK,United Kingdom,arthritis,Celebra,active,research
+1474,US,United States,deep_vein_thrombosis,Lovenox,active,clinical
+1475,USA,United States,depression,Lexapro,active,clinical
+1476,UK,United Kingdom,anxiety,Lexapro,active,clinical
+1477,UK,United Kingdom,anxiety,Loxitane,active,clinical
+1478,GB,United Kingdom,anxiety,Loxitane,active,research
+1479,US,United States,arthritis,Celexa,active,clinical
+1480,GB,United Kingdom,anxiety,Loxitane,active,clinical
+1481,CA,Canada,asthma,Advair,complete,research
+1482,CAN,Canada,asthma,Advair,active,clinical
+1483,Deutschland,Germany,asthma,Advair,active,clinical
+1484,DE,Germany,asthma,Advicor,active,clinical
+1485,DE,Germany,asthma,Advair,active,clinical
+1486,GER,Germany,arthritis,Celebrex,active,clinical
+1487,CAD,Canada,arthritis,Celexa,active,clinical
+1488,CAD,Canada,arthritis,Celebrex,active,research
+1489,USA,United States,arthritis,Celexa,active,clinical
+1490,SWEDEN,Sweden,arthritis,Celebrex,active,clinical
+1491,SWEDEN,Sweden,anxiety,Lexapro,complete,clinical
+1492,SWEDEN,Sweden,phobias,Lexapro,active,clinical
+1493,SWEDEN,Sweden,high_cholesterol,CoZaar,active,research
+1494,US,United States,anxiety,Lexapro,active,clinical
+1495,USA,United States,hypercholesterolemia,CoZaar,active,clinical
+1496,ES,Spain,phobias,Lexapro,active,clinical
+1497,ES,Spain,anxiety,Lexapro,active,clinical
+1498,SP,Spain,high_cholesterol,Zocor,complete,research
+1499,US,United States,anxiety,Loxitane,active,clinical
+1500,ES,Spain,phobias,Loxitane,active,clinical
+1501,CA,Canada,hypercholesterolemia,CoZaar,active,research
+1502,CAN,Canada,hypercholesterolemia,CoZaar,active,clinical
+1503,DK,Denmark,high_cholesterol,CoZaar,active,clinical
+1504,DK,Denmark,high_cholesterol,Zocor,active,clinical
+1505,DN,Denmark,hypercholesterolemia,Zocor,active,clinical
+1506,US,United States,hypercholesterolemia,Zocor,active,clinical
+1507,PL,Poland,deep_vein_thrombosis,Lovenox,active,clinical
+1508,PL,Poland,deep_vein_thrombosis,Levemir,active,research
+1509,USA,United States,deep_vein_thrombosis,Levemir,active,clinical
+1510,POL,Poland,arthritis,Celebrex,active,clinical
+1511,CAN,Canada,deep_vein_thrombosis,Lovenox,active,clinical
+1512,POL,Poland,asthma,Advair,active,clinical
+1513,UK,United Kingdom,arthritis,Celebrex,active,research
+1514,US,United States,deep_vein_thrombosis,Lovenox,active,clinical
+1515,USA,United States,phobias,Lexapro,active,clinical
+1516,UK,United Kingdom,OCD,Lexapro,active,clinical
+1517,UK,United Kingdom,depression,Loxitane,active,clinical
+1518,GB,United Kingdom,anxiety,Loxitane,active,research
+1519,US,United States,arthritis,Celexa,active,clinical
+1520,GB,United Kingdom,phobias,Loxitane,active,clinical
+1521,CA,Canada,asthma,Advair,complete,research
+1522,CAN,Canada,asthma,Advair,active,clinical
+1523,GER,Germany,asthma,Advair,active,clinical
+1524,DE,Germany,asthma,Advicor,active,clinical
+1525,DE,Germany,asthma,Advair,active,clinical
+1526,GER,Germany,arthritis,Celebrex,active,clinical
+1527,CAD,Canada,arthritis,Celexa,active,clinical
+1528,CAD,Canada,Osteoarthritis,Celebrex,active,research
+1529,USA,United States,arthritis,Celexa,active,clinical
+1530,SWEDEN,Sweden,arthritis,Celebrex,active,clinical
+1531,SWEDEN,Sweden,anxiety,Lexapro,complete,clinical
+1532,SWEDEN,Sweden,anxiety,Lexapro,active,clinical
+1533,SWEDEN,Sweden,hypercholesterolemia,CoZaar,active,research
+1534,US,United States,anxiety,Lexapro,active,clinical
+1535,USA,United States,high_cholesterol,CoZaar,active,clinical
+1536,ES,Spain,anxiety,Lexapro,active,clinical
+1537,ES,Spain,phobias,Lexapro,active,clinical
+1538,SP,Spain,high_cholesterol,Zocor,complete,research
+1539,US,United States,anxiety,Loxitane,active,clinical
+1540,ES,Spain,anxiety,Loxitane,active,clinical
+1541,CA,Canada,hypercholesterolemia,CoZaar,active,research
+1542,CAN,Canada,high_cholesterol,CoZaar,active,clinical
+1543,DK,Denmark,high_cholesterol,CoZaar,active,clinical
+1544,DK,Denmark,hypercholesterolemia,Zocor,active,clinical
+1545,DN,Denmark,cholesterol,Zocor,active,clinical
+1546,US,United States,high_cholesterol,Zocor,active,clinical
+1547,PL,Poland,deep_vein_thrombosis,Lovenox,active,clinical
+1548,PL,Poland,deep_vein_thrombosis,Levemir,active,research
+1549,USA,United States,deep_vein_thrombosis,Levemir,active,clinical
+1550,POL,Poland,arthritis,Celebrex,active,clinical
+1551,CAN,Canada,deep_vein_thrombosis,Lovenox,active,clinical
+1552,POL,Poland,asthma,Advair,active,clinical
+1553,UK,United Kingdom,arthritis,Celebrex,active,research
+1554,US,United States,deep_vein_thrombosis,Lovenox,active,clinical
+1555,USA,United States,depression,Lexapro,active,clinical
+1556,UK,United Kingdom,phobias,Lexapro,active,clinical
+1557,UK,United Kingdom,anxiety,Loxitane,active,clinical
+1558,GB,United Kingdom,anxiety,Loxitane,active,research
+1559,US,United States,Osteoarthritis,Celexa,active,clinical
+1560,GB,United Kingdom,anxiety,Loxitane,active,clinical
+1561,CA,Canada,asthma,Advair,complete,research
+1562,CAN,Canada,asthma_attacks,Advair,active,clinical
+1563,GER,Germany,asthma,Advair,active,clinical
+1564,DE,Germany,asthma,Advicor,active,clinical
+1565,DE,Germany,asthma,Advair,active,clinical
+1566,GER,Germany,arthritis,Celebrex,active,clinical
+1567,CAD,Canada,arthritis,Celexa,active,clinical
+1568,CAD,Canada,arthritis,Celebrex,active,research
+1569,USA,United States,arthritis,Celexa,active,clinical
+1570,SWEDEN,Sweden,Osteoarthritis,Celebrex,active,clinical
+1571,SWEDEN,Sweden,phobias,Lexapro,complete,clinical
+1572,SWEDEN,Sweden,anxiety,Lexapro,active,clinical
+1573,SWEDEN,Sweden,high_cholesterol,CoZaar,active,research
+1574,US,United States,anxiety,Lexapro,active,clinical
+1575,USA,United States,hypercholesterolemia,CoZaar,active,clinical
+1576,ES,Spain,OCD,Lexapro,active,clinical
+1577,ES,Spain,anxiety,Lexapro,active,clinical
+1578,SP,Spain,high_cholesterol,Zocor,complete,research
+1579,US,United States,anxiety,Loxitane,active,clinical
+1580,ES,Spain,anxiety,Loxitane,active,clinical
+1581,CA,Canada,high_cholesterol,CoZaar,active,research
+1582,CANADA,Canada,high_cholesterol,CoZaar,active,clinical
+1583,DK,Denmark,hypercholesterolemia,CoZaar,active,clinical
+1584,DK,Denmark,high_cholesterol,Zocor,active,clinical
+1585,DN,Denmark,hypercholesterolemia,Zocor,active,clinical
+1586,US,United States,hypercholesterolemia,Zocor,active,clinical
+1587,PL,Poland,deep_vein_thrombosis,Lovenox,active,clinical
+1588,PL,Poland,deep_vein_thrombosis,Levemir,active,research
+1589,USA,United States,deep_vein_thrombosis,Levemir,active,clinical
+1590,POL,Poland,Osteoarthritis,Celebrex,active,clinical
+1591,CAN,Canada,deep_vein_thrombosis,Lovenox,active,clinical
+1592,POL,Poland,asthma_attacks,Advair,active,clinical
+1593,UK,United Kingdom,Osteoarthritis,Celebrex,active,research
+1594,US,United States,deep_vein_thrombosis,Lovenox,active,clinical
+1595,USA,United States,anxiety,Lexapro,active,clinical
+1596,UK,United Kingdom,anxiety,Lexapro,active,clinical
+1597,UK,United Kingdom,anxiety,Loxitane,active,clinical
+1598,GB,United Kingdom,anxiety,Loxitane,active,research
+1599,US,United States,arthritis,Celexa,active,clinical
+1600,GB,United Kingdom,anxiety,Loxitane,active,clinical
+1601,CA,Canada,asthma,Advair,complete,research
+1602,CAN,Canada,asthma_attacks,Advair,active,clinical
+1603,GER,Germany,asthma_attacks,Advair,active,clinical
+1604,DE,Germany,asthma,Advicor,active,clinical
+1605,DE,Germany,asthma,Advair,active,clinical
+1606,GER,Germany,arthritis,Celebrex,active,clinical
+1607,CAD,Canada,arthritis,Celexa,active,clinical
+1608,CAD,Canada,Osteoarthritis,Celebrex,active,research
+1609,USA,United States,arthritis,Celexa,active,clinical
+1610,SWEDEN,Sweden,arthritis,Celebrex,active,clinical
+1611,SWEDEN,Sweden,anxiety,Lexapro,complete,clinical
+1612,SWEDEN,Sweden,anxiety,Lexapro,active,clinical
+1613,SWEDEN,Sweden,high_cholesterol,CoZaar,active,research
+1614,US,United States,anxiety,Lexapro,active,clinical
+1615,USA,United States,hypercholesterolemia,CoZaar,active,clinical
+1616,ES,Spain,depression,Lexapro,active,clinical
+1617,ES,Spain,anxiety,Lexapro,active,clinical
+1618,SP,Spain,high_cholesterol,Zocor,complete,research
+1619,US,United States,anxiety,Loxitane,active,clinical
+1620,ES,Spain,anxiety,Loxitane,active,clinical
+1621,CA,Canada,high_cholesterol,CoZaar,active,research
+1622,CAN,Canada,hypercholesterolemia,CoZaar,active,clinical
+1623,DK,Denmark,hypercholesterolemia,CoZaar,active,clinical
+1624,DK,Denmark,hypercholesterolemia,Zocor,active,clinical
+1625,DN,Denmark,high_cholesterol,Zocor,active,clinical
+1626,US,United States,high_cholesterol,Zocor,active,clinical
+1627,PL,Poland,deep_vein_thrombosis,Lovenox,active,clinical
+1628,PL,Poland,deep_vein_thrombosis,Levemir,active,research
+1629,USA,United States,deep_vein_thrombosis,Levemir,active,clinical
+1630,POL,Poland,arthritis,Celebrex,active,clinical
+1631,CAN,Canada,deep_vein_thrombosis,Lovenox,active,clinical
+1632,POL,Poland,asthma_attacks,Advair,active,clinical
+1633,UK,United Kingdom,arthritis,Celebrex,active,research
+1634,US,United States,deep_vein_thrombosis,Lovenox,active,clinical
+1635,USA,United States,anxiety,Lexapro,active,clinical
+1636,UK,United Kingdom,phobias,Lexapro,active,clinical
+1637,UK,United Kingdom,anxiety,Loxitane,active,clinical
+1638,GB,United Kingdom,anxiety,Loxitane,active,research
+1639,US,United States,Osteoarthritis,Celexa,active,clinical
+1640,GB,United Kingdom,anxiety,Loxitane,active,clinical
+1641,CA,Canada,asthma,Advair,complete,research
+1642,CAN,Canada,asthma,Advair,active,clinical
+1643,GER,Germany,asthma_attacks,Advair,active,clinical
+1644,DE,Germany,asthma,Advicor,active,clinical
+1645,DE,Germany,asthma_attacks,Advair,active,clinical
+1646,GER,Germany,arthritis,Celebrex,active,clinical
+1647,CAD,Canada,arthritis,Celexa,active,clinical
+1648,CAD,Canada,arthritis,Celebrex,active,research
+1649,USA,United States,arthritis,Celexa,active,clinical
+1650,SE,Sweden,Osteoarthritis,Celebrex,active,clinical
+1651,SW,Sweden,anxiety,Lexapro,complete,clinical
+1652,SW,Sweden,anxiety,Lexapro,active,clinical
+1653,SE,Sweden,high_cholesterol,CoZaar,active,research
+1654,US,United States,phobias,Lexapro,active,clinical
+1655,USA,United States,high_cholesterol,CoZaar,active,clinical
+1656,ES,Spain,anxiety,Lexapro,active,clinical
+1657,ES,Spain,depression,Lexapro,active,clinical
+1658,SP,Spain,hypercholesterolemia,Zocor,complete,research
+1659,US,United States,anxiety,Loxitane,active,clinical
+1660,ES,Spain,anxiety,Loxitane,active,clinical
+1661,CA,Canada,high_cholesterol,CoZaar,active,research
+1662,CAN,Canada,high_cholesterol,CoZaar,active,clinical
+1663,DK,Denmark,high_cholesterol,CoZaar,active,clinical
+1664,DK,Denmark,high_cholesterol,Zocor,active,clinical
+1665,DN,Denmark,high_cholesterol,Zocor,active,clinical
+1666,US,United States,hypercholesterolemia,Zocor,active,clinical
+1667,PL,Poland,deep_vein_thrombosis,Lovenox,active,clinical
+1668,PL,Poland,deep_vein_thrombosis,Levemir,active,research
+1669,USA,United States,deep_vein_thrombosis,Levemir,active,clinical
+1670,POL,Poland,arthritis,Celebrex,active,clinical
+1671,CAN,Canada,deep_vein_thrombosis,Lovenox,active,clinical
+1672,POL,Poland,asthma,Advair,active,clinical
+1673,UK,United Kingdom,arthritis,Celebrex,active,research
+1674,US,United States,deep_vein_thrombosis,Lovenox,active,clinical
+1675,USA,United States,OCD,Lexapro,active,clinical
+1676,UK,United Kingdom,phobias,Lexapro,active,clinical
+1677,UK,United Kingdom,anxiety,Loxitane,active,clinical
+1678,GB,United Kingdom,OCD,Loxitane,active,research
+1679,US,United States,arthritis,Celexa,active,clinical
+1680,GB,United Kingdom,phobias,Loxitane,active,clinical
+1681,CA,Canada,asthma,Advair,complete,research
+1682,CAN,Canada,asthma,Advair,active,clinical
+1683,GER,Germany,asthma,Advair,active,clinical
+1684,DE,Germany,asthma,Advicor,active,clinical
+1685,DE,Germany,asthma,Advair,active,clinical
+1686,GER,Germany,arthritis,Celebrex,active,clinical
+1687,CAD,Canada,arthritis,Celexa,active,clinical
+1688,CAD,Canada,arthritis,Celebrex,active,research
+1689,USA,United States,arthritis,Celexa,active,clinical
+1690,SE,Sweden,Osteoarthritis,Celebrex,active,clinical
+1691,SW,Sweden,anxiety,Lexapro,complete,clinical
+1692,SW,Sweden,anxiety,Lexapro,active,clinical
+1693,SE,Sweden,high_cholesterol,CoZaar,active,research
+1694,US,United States,anxiety,Lexapro,active,clinical
+1695,USA,United States,high_cholesterol,CoZaar,active,clinical
+1696,ES,Spain,phobias,Lexapro,active,clinical
+1697,ES,Spain,depression,Lexapro,active,clinical
+1698,SP,Spain,high_cholesterol,Zocor,complete,research
+1699,US,United States,anxiety,Loxitane,active,clinical
+1700,ES,Spain,anxiety,Loxitane,active,clinical
+1701,CA,Canada,hypercholesterolemia,CoZaar,active,research
+1702,CAN,Canada,high_cholesterol,CoZaar,active,clinical
+1703,DK,Denmark,high_cholesterol,CoZaar,active,clinical
+1704,DK,Denmark,high_cholesterol,Zocor,active,clinical
+1705,DN,Denmark,high_cholesterol,Zocor,active,clinical
+1706,US,United States,hypercholesterolemia,Zocor,active,clinical
+1707,PL,Poland,deep_vein_thrombosis,Lovenox,active,clinical
+1708,PL,Poland,deep_vein_thrombosis,Levemir,active,research
+1709,USA,United States,deep_vein_thrombosis,Levemir,active,clinical
+1710,POL,Poland,arthritis,Celebrex,active,clinical
+1711,CAN,Canada,deep_vein_thrombosis,Lovenox,active,clinical
+1712,POL,Poland,asthma,Advair,active,clinical
+1713,UK,United Kingdom,arthritis,Celebrex,active,research
+1714,US,United States,deep_vein_thrombosis,Lovenox,active,clinical
+1715,USA,United States,OCD,Lexapro,active,clinical
+1716,UK,United Kingdom,anxiety,Lexapro,active,clinical
+1717,UK,United Kingdom,anxiety,Loxitane,active,clinical
+1718,GB,United Kingdom,OCD,Loxitane,active,research
+1719,US,United States,arthritis,Celexa,active,clinical
+1720,GB,United Kingdom,anxiety,Loxitane,active,clinical
+1721,CA,Canada,asthma,Advair,complete,research
+1722,CAN,Canada,asthma,Advair,active,clinical
+1723,GER,Germany,asthma,Advair,active,clinical
+1724,DE,Germany,asthma,Advicor,active,clinical
+1725,DE,Germany,asthma,Advair,active,clinical
+1726,GER,Germany,arthritis,Celebrex,active,clinical
+1727,CAD,Canada,arthritis,Celexa,active,clinical
+1728,CAD,Canada,Osteoarthritis,Celebrex,active,research
+1729,USA,United States,arthritis,Celexa,active,clinical
+1730,SE,Sweden,arthritis,Celebrex,active,clinical
+1731,SW,Sweden,depression,Lexapro,complete,clinical
+1732,SW,Sweden,anxiety,Lexapro,active,clinical
+1733,SE,Sweden,high_cholesterol,CoZaar,active,research
+1734,US,United States,anxiety,Lexapro,active,clinical
+1735,USA,United States,hypercholesterolemia,CoZaar,active,clinical
+1736,ES,Spain,anxiety,Lexapro,active,clinical
+1737,ES,Spain,anxiety,Lexapro,active,clinical
+1738,SP,Spain,high_cholesterol,Zocor,complete,research
+1739,US,United States,anxiety,Loxitane,active,clinical
+1740,ES,Spain,anxiety,Loxitane,active,clinical
+1741,CA,Canada,high_cholesterol,CoZaar,active,research
+1742,CAN,Canada,high_cholesterol,CoZaar,active,clinical
+1743,DK,Denmark,high_cholesterol,CoZaar,active,clinical
+1744,DK,Denmark,high_cholesterol,Zocor,active,clinical
+1745,DN,Denmark,high_cholesterol,Zocor,active,clinical
+1746,US,United States,high_cholesterol,Zocor,active,clinical
+1747,PL,Poland,deep_vein_thrombosis,Lovenox,active,clinical
+1748,PL,Poland,deep_vein_thrombosis,Levemir,active,research
+1749,USA,United States,deep_vein_thrombosis,Levemir,active,clinical
+1750,POL,Poland,arthritis,Celebrex,active,clinical
+1751,CAN,Canada,deep_vein_thrombosis,Lovenox,active,clinical
+1752,POL,Poland,asthma,Advair,active,clinical
+1753,UK,United Kingdom,arthritis,Celebrex,active,research
+1754,US,United States,deep_vein_thrombosis,Lovenox,active,clinical
+1755,USA,United States,anxiety,Lexapro,active,clinical
+1756,UK,United Kingdom,anxiety,Lexapro,active,clinical
+1757,UK,United Kingdom,anxiety,Loxitane,active,clinical
+1758,GB,United Kingdom,anxiety,Loxitane,active,research
+1759,US,United States,arthritis,Celexa,active,clinical
+1760,GB,United Kingdom,anxiety,Loxitane,active,clinical
+1761,CA,Canada,asthma_attacks,Advair,complete,research
+1762,CAN,Canada,asthma,Advair,active,clinical
+1763,GER,Germany,asthma,Advair,active,clinical
+1764,DE,Germany,asthma,Advicor,active,clinical
+1765,DE,Germany,asthma,Advair,active,clinical
+1766,GER,Germany,arthritis,Celebrex,active,clinical
+1767,CAD,Canada,Osteoarthritis,Celexa,active,clinical
+1768,CAD,Canada,Osteoarthritis,Celebrex,active,research
+1769,USA,United States,arthritis,Celexa,active,clinical
+1770,SE,Sweden,arthritis,Celebrex,active,clinical
+1771,SW,Sweden,anxiety,Lexapro,complete,clinical
+1772,SW,Sweden,phobias,Lexapro,active,clinical
+1773,SE,Sweden,high_cholesterol,CoZaar,active,research
+1774,US,United States,anxiety,Lexapro,active,clinical
+1775,USA,United States,high_cholesterol,CoZaar,active,clinical
+1776,ES,Spain,anxiety,Lexapro,active,clinical
+1777,ES,Spain,anxiety,Lexapro,active,clinical
+1778,SP,Spain,high_cholesterol,Zocor,complete,research
+1779,US,United States,anxiety,Loxitane,active,clinical
+1780,ES,Spain,anxiety,Loxitane,active,clinical
+1781,CA,Canada,high_cholesterol,CoZaar,active,research
+1782,CAN,Canada,high_cholesterol,CoZaar,active,clinical
+1783,DK,Denmark,high_cholesterol,CoZaar,active,clinical
+1784,DK,Denmark,high_cholesterol,Zocor,active,clinical
+1785,DN,Denmark,high_cholesterol,Zocor,active,clinical
+1786,US,United States,high_cholesterol,Zocor,active,clinical
+1787,PL,Poland,deep_vein_thrombosis,Lovenox,active,clinical
+1788,PL,Poland,deep_vein_thrombosis,Levemir,active,research
+1789,USA,United States,deep_vein_thrombosis,Levemir,active,clinical
+1790,POL,Poland,arthritis,Celebrex,active,clinical
+1791,CAN,Canada,deep_vein_thrombosis,Lovenox,active,clinical
+1792,POL,Poland,asthma,Advair,active,clinical
+1793,UK,United Kingdom,Osteoarthritis,Celebrex,active,research
+1794,US,United States,deep_vein_thrombosis,Lovenox,active,clinical
+1795,USA,United States,phobias,Lexapro,active,clinical
+1796,UK,United Kingdom,depression,Lexapro,active,clinical
+1797,UK,United Kingdom,anxiety,Loxitane,active,clinical
+1798,GB,United Kingdom,anxiety,Loxitane,active,research
+1799,US,United States,arthritis,Celexa,active,clinical
+1800,GB,United Kingdom,anxiety,Loxitane,active,clinical
+1801,CA,Canada,asthma,Advair,complete,research
+1802,CAN,Canada,asthma,Advair,active,clinical
+1803,GERMANY,Germany,asthma,Advair,active,clinical
+1804,DE,Germany,asthma_attacks,Advicor,active,clinical
+1805,DE,Germany,asthma_attacks,Advair,active,clinical
+1806,GER,Germany,arthritis,Celebrex,active,clinical
+1807,CAD,Canada,Osteoarthritis,Celexa,active,clinical
+1808,CAD,Canada,arthritis,Celebrex,active,research
+1809,USA,United States,Osteoarthritis,Celexa,active,clinical
+1810,SE,Sweden,arthritis,Celebrex,active,clinical
+1811,SW,Sweden,anxiety,Lexapro,complete,clinical
+1812,SWEDEN,Sweden,anxiety,Lexapro,active,clinical
+1813,SWEDEN,Sweden,hypercholesterolemia,CoZaar,active,research
+1814,US,United States,anxiety,Lexapro,active,clinical
+1815,USA,United States,high_cholesterol,CoZaar,active,clinical
+1816,ES,Spain,anxiety,Lexapro,active,clinical
+1817,ES,Spain,anxiety,Lexapro,active,clinical
+1818,SP,Spain,high_cholesterol,Zocor,complete,research
+1819,US,United States,anxiety,Loxitane,active,clinical
+1820,ES,Spain,anxiety,Loxitane,active,clinical
+1821,CANADA,Canada,high_cholesterol,CoZaar,active,research
+1822,CAN,Canada,hypercholesterolemia,CoZaar,active,clinical
+1823,DK,Denmark,high_cholesterol,CoZaar,active,clinical
+1824,DK,Denmark,high_cholesterol,Zocor,active,clinical
+1825,DN,Denmark,hypercholesterolemia,Zocor,active,clinical
+1826,US,United States,high_cholesterol,Zocor,active,clinical
+1827,PL,Poland,deep_vein_thrombosis,Lovenox,active,clinical
+1828,PL,Poland,deep_vein_thrombosis,Levemir,active,research
+1829,USA,United States,deep_vein_thrombosis,Levemir,active,clinical
+1830,POLAND,Poland,Osteoarthritis,Celebrex,active,clinical
+1831,CAN,Canada,deep_vein_thrombosis,Lovenox,active,clinical
+1832,POL,Poland,asthma_attacks,Advair,active,clinical
+1833,UK,United Kingdom,Osteoarthritis,Celebrex,active,research
+1834,US,United States,deep_vein_thrombosis,Lovenox,active,clinical
+1835,USA,United States,OCD,Lexapro,active,clinical
+1836,UK,United Kingdom,OCD,Lexapro,active,clinical
+1837,UK,United Kingdom,depression,Loxitane,active,clinical
+1838,GB,United Kingdom,anxiety,Loxitane,active,research
+1839,US,United States,arthritis,Celexa,active,clinical
+1840,GB,United Kingdom,anxiety,Loxitane,active,clinical
+1841,CA,Canada,asthma,Advair,complete,research
+1842,CAN,Canada,asthma_attacks,Advair,active,clinical
+1843,GER,Germany,asthma_attacks,Advair,active,clinical
+1844,DE,Germany,asthma_attacks,Advicor,active,clinical
+1845,DE,Germany,asthma_attacks,Advair,active,clinical
+1846,GER,Germany,Osteoarthritis,Celebrex,active,clinical
+1847,CAD,Canada,arthritis,Celexa,active,clinical
+1848,CAD,Canada,arthritis,Celebrex,active,research
+1849,USA,United States,arthritis,Celexa,active,clinical
+1850,SWEDEN,Sweden,arthritis,Celebrex,active,clinical
+1851,SWEDEN,Sweden,anxiety,Lexapro,complete,clinical
+1852,SWEDEN,Sweden,anxiety,Lexapro,active,clinical
+1853,SWEDEN,Sweden,high_cholesterol,CoZaar,active,research
+1854,US,United States,OCD,Lexapro,active,clinical
+1855,USA,United States,high_cholesterol,CoZaar,active,clinical
+1856,ES,Spain,OCD,Lexapro,active,clinical
+1857,ES,Spain,anxiety,Lexapro,active,clinical
+1858,SP,Spain,hypercholesterolemia,Zocor,complete,research
+1859,US,United States,anxiety,Loxitane,active,clinical
+1860,ES,Spain,anxiety,Loxitane,active,clinical
+1861,CA,Canada,high_cholesterol,CoZaar,active,research
+1862,CAN,Canada,high_cholesterol,CoZaar,active,clinical
+1863,DK,Denmark,hypercholesterolemia,CoZaar,active,clinical
+1864,DK,Denmark,cholesterol,Zocor,active,clinical
+1865,DN,Denmark,high_cholesterol,Zocor,active,clinical
+1866,US,United States,high_cholesterol,Zocor,active,clinical
+1867,PL,Poland,deep_vein_thrombosis,Lovenox,active,clinical
+1868,PL,Poland,deep_vein_thrombosis,Levemir,active,research
+1869,USA,United States,deep_vein_thrombosis,Levemir,active,clinical
+1870,POL,Poland,Osteoarthritis,Celebrex,active,clinical
+1871,CAN,Canada,deep_vein_thrombosis,Lovenox,active,clinical
+1872,POL,Poland,asthma_attacks,Advair,active,clinical
+1873,UK,United Kingdom,arthritis,Celebrex,active,research
+1874,US,United States,deep_vein_thrombosis,Lovenox,active,clinical
+1875,USA,United States,depression,Lexapro,active,clinical
+1876,UK,United Kingdom,OCD,Lexapro,active,clinical
+1877,UK,United Kingdom,anxiety,Loxitane,active,clinical
+1878,GB,United Kingdom,anxiety,Loxitane,active,research
+1879,US,United States,arthritis,Celexa,active,clinical
+1880,GB,United Kingdom,anxiety,Loxitane,active,clinical
+1881,CA,Canada,asthma_attacks,Advair,complete,research
+1882,CAN,Canada,asthma_attacks,Advair,active,clinical
+1883,Deutschland,Germany,asthma_attacks,Advair,active,clinical
+1884,DE,Germany,asthma_attacks,Advicor,active,clinical
+1885,DE,Germany,asthma_attacks,Advair,active,clinical
+1886,GER,Germany,arthritis,Celebrex,active,clinical
+1887,CAD,Canada,arthritis,Celexa,active,clinical
+1888,CAD,Canada,arthritis,Celebrex,active,research
+1889,USA,United States,arthritis,Celexa,active,clinical
+1890,SWEDEN,Sweden,arthritis,Celebrex,active,clinical
+1891,SWEDEN,Sweden,anxiety,Lexapro,complete,clinical
+1892,SWEDEN,Sweden,depression,Lexapro,active,clinical
+1893,SWEDEN,Sweden,hypercholesterolemia,CoZaar,active,research
+1894,US,United States,anxiety,Lexapro,active,clinical
+1895,USA,United States,high_cholesterol,CoZaar,active,clinical
+1896,ES,Spain,anxiety,Lexapro,active,clinical
+1897,ES,Spain,anxiety,Lexapro,active,clinical
+1898,SP,Spain,hypercholesterolemia,Zocor,complete,research
+1899,US,United States,anxiety,Loxitane,active,clinical
+1900,ES,Spain,phobias,Loxitane,active,clinical
+1901,CA,Canada,high_cholesterol,CoZaar,active,research
+1902,CAN,Canada,high_cholesterol,CoZaar,active,clinical
+1903,DK,Denmark,hypercholesterolemia,CoZaar,active,clinical
+1904,DK,Denmark,hypercholesterolemia,Zocor,active,clinical
+1905,DN,Denmark,high_cholesterol,Zocor,active,clinical
+1906,US,United States,hypercholesterolemia,Zocor,active,clinical
+1907,POLAND,Poland,deep_vein_thrombosis,Lovenox,active,clinical
+1908,PL,Poland,deep_vein_thrombosis,Levemir,active,research
+1909,USA,United States,deep_vein_thrombosis,Levemir,active,clinical
+1910,POL,Poland,arthritis,Celebrex,active,clinical
+1911,CAN,Canada,deep_vein_thrombosis,Lovenox,active,clinical
+1912,POL,Poland,asthma_attacks,Advair,active,clinical
+1913,UK,United Kingdom,arthritis,Celebrex,active,research
+1914,US,United States,deep_vein_thrombosis,Lovenox,active,clinical
+1915,USA,United States,anxiety,Lexapro,active,clinical
+1916,UK,United Kingdom,OCD,Lexapro,active,clinical
+1917,UK,United Kingdom,anxiety,Loxitane,active,clinical
+1918,GB,United Kingdom,anxiety,Loxitane,active,research
+1919,US,United States,arthritis,Celexa,active,clinical
+1920,GB,United Kingdom,anxiety,Loxitane,active,clinical
+1921,CA,Canada,asthma_attacks,Advair,complete,research
+1922,CAN,Canada,asthma_attacks,Advair,active,clinical
+1923,GER,Germany,asthma_attacks,Advair,active,clinical
+1924,DE,Germany,asthma,Advicor,active,clinical
+1925,DE,Germany,asthma,Advair,active,clinical
+1926,GER,Germany,arthritis,Celebrex,active,clinical
+1927,CAD,Canada,arthritis,Celexa,active,clinical
+1928,CAD,Canada,arthritis,Celebrex,active,research
+1929,USA,United States,arthritis,Celexa,active,clinical
+1930,SWEDEN,Sweden,arthritis,Celebrex,active,clinical
+1931,SWEDEN,Sweden,anxiety,Lexapro,complete,clinical
+1932,SWEDEN,Sweden,anxiety,Lexapro,active,clinical
+1933,SWEDEN,Sweden,high_cholesterol,CoZaar,active,research
+1934,US,United States,phobias,Lexapro,active,clinical
+1935,USA,United States,high_cholesterol,CoZaar,active,clinical
+1936,ES,Spain,OCD,Lexapro,active,clinical
+1937,ES,Spain,anxiety,Lexapro,active,clinical
+1938,SP,Spain,hypercholesterolemia,Zocor,complete,research
+1939,US,United States,anxiety,Loxitane,active,clinical
+1940,ES,Spain,anxiety,Loxitane,active,clinical
+1941,CA,Canada,high_cholesterol,CoZaar,active,research
+1942,CAN,Canada,hypercholesterolemia,CoZaar,active,clinical
+1943,DK,Denmark,high_cholesterol,CoZaar,active,clinical
+1944,DK,Denmark,hypercholesterolemia,Zocor,active,clinical
+1945,DN,Denmark,high_cholesterol,Zocor,active,clinical
+1946,US,United States,hypercholesterolemia,Zocor,active,clinical
+1947,PL,Poland,deep_vein_thrombosis,Lovenox,active,clinical
+1948,PL,Poland,deep_vein_thrombosis,Levemir,active,research
+1949,USA,United States,deep_vein_thrombosis,Levemir,active,clinical
+1950,POL,Poland,arthritis,Celebrex,active,clinical
+1951,CAN,Canada,deep_vein_thrombosis,Lovenox,active,clinical
+1952,POL,Poland,asthma,Advair,active,clinical
+1953,UK,United Kingdom,arthritis,Celebrex,active,research
+1954,US,United States,deep_vein_thrombosis,Lovenox,active,clinical
+1955,USA,United States,anxiety,Lexapro,active,clinical
+1956,UK,United Kingdom,anxiety,Lexapro,active,clinical
+1957,UK,United Kingdom,anxiety,Loxitane,active,clinical
+1958,GB,United Kingdom,anxiety,Loxitane,active,research
+1959,US,United States,arthritis,Celexa,active,clinical
+1960,GB,United Kingdom,anxiety,Loxitane,active,clinical
+1961,CA,Canada,asthma,Advair,complete,research
+1962,CAN,Canada,asthma,Advair,active,clinical
+1963,GER,Germany,asthma,Advair,active,clinical
+1964,DE,Germany,asthma,Advicor,active,clinical
+1965,DE,Germany,asthma,Advair,active,clinical
+1966,GER,Germany,arthritis,Celebrex,active,clinical
+1967,CAD,Canada,arthritis,Celexa,active,clinical
+1968,CAD,Canada,arthritis,Celebrex,active,research
+1969,USA,United States,arthritis,Celexa,active,clinical
+1970,SWEDEN,Sweden,arthritis,Celebrex,active,clinical
+1971,SWEDEN,Sweden,depression,Lexapro,complete,clinical
+1972,SWEDEN,Sweden,anxiety,Lexapro,active,clinical
+1973,SWEDEN,Sweden,high_cholesterol,CoZaar,active,research
+1974,US,United States,anxiety,Lexapro,active,clinical
+1975,USA,United States,high_cholesterol,CoZaar,active,clinical
+1976,ES,Spain,phobias,Lexapro,active,clinical
+1977,ES,Spain,OCD,Lexapro,active,clinical
+1978,SP,Spain,hypercholesterolemia,Zocor,complete,research
+1979,US,United States,anxiety,Loxitane,active,clinical
+1980,ES,Spain,anxiety,Loxitane,active,clinical
+1981,CA,Canada,high_cholesterol,CoZaar,active,research
+1982,CAN,Canada,hypercholesterolemia,CoZaar,active,clinical
+1983,DK,Denmark,high_cholesterol,CoZaar,active,clinical
+1984,DK,Denmark,high_cholesterol,Zocor,active,clinical
+1985,DN,Denmark,hypercholesterolemia,Zocor,active,clinical
+1986,US,United States,high_cholesterol,Zocor,active,clinical
+1987,PL,Poland,deep_vein_thrombosis,Lovenox,active,clinical
+1988,PL,Poland,deep_vein_thrombosis,Levemir,active,research
+1989,USA,United States,deep_vein_thrombosis,Levemir,active,clinical
+1990,POL,Poland,arthritis,Celebrex,active,clinical
+1991,CAN,Canada,deep_vein_thrombosis,Lovenox,active,clinical
+1992,POL,Poland,asthma,Advair,active,clinical
+1993,UK,United Kingdom,arthritis,Celebrex,active,research
+1994,US,United States,deep_vein_thrombosis,Lovenox,active,clinical
+1995,USA,United States,OCD,Lexapro,active,clinical
+1996,UK,United Kingdom,OCD,Lexapro,active,clinical
+1997,UK,United Kingdom,phobias,Loxitane,active,clinical
+1998,GB,United Kingdom,anxiety,Loxitane,active,research
+1999,US,United States,arthritis,Celexa,active,clinical
+2000,GB,United Kingdom,anxiety,Loxitane,active,clinical
+2001,CA,Canada,asthma_attacks,Advair,complete,research
+2002,CAN,Canada,asthma_attacks,Advair,active,clinical
+2003,GER,Germany,asthma,Advair,active,clinical
+2004,DE,Germany,asthma_attacks,Advicor,active,clinical
+2005,DE,Germany,asthma_attacks,Advair,active,clinical
+2006,GER,Germany,arthritis,Celebrex,active,clinical
+2007,CAD,Canada,arthritis,Celexa,active,clinical
+2008,CAD,Canada,arthritis,Celebrex,active,research
+2009,USA,United States,arthritis,Celexa,active,clinical
+2010,SWEDEN,Sweden,arthritis,Celebrex,active,clinical
+2011,SWEDEN,Sweden,depression,Lexapro,complete,clinical
+2012,SWEDEN,Sweden,anxiety,Lexapro,active,clinical
+2013,SWEDEN,Sweden,high_cholesterol,CoZaar,active,research
+2014,US,United States,anxiety,Lexapro,active,clinical
+2015,USA,United States,high_cholesterol,CoZaar,active,clinical
+2016,ES,Spain,phobias,Lexapro,active,clinical
+2017,ES,Spain,anxiety,Lexapro,active,clinical
+2018,SP,Spain,high_cholesterol,Zocor,complete,research
+2019,US,United States,anxiety,Loxitane,active,clinical
+2020,ES,Spain,anxiety,Loxitane,active,clinical
+2021,CA,Canada,hypercholesterolemia,CoZaar,active,research
+2022,CAN,Canada,high_cholesterol,CoZaar,active,clinical
+2023,DK,Denmark,cholesterol,CoZaar,active,clinical
+2024,DK,Denmark,high_cholesterol,Zocor,active,clinical
+2025,DN,Denmark,cholesterol,Zocor,active,clinical
+2026,US,United States,high_cholesterol,Zocor,active,clinical
+2027,PL,Poland,deep_vein_thrombosis,Lovenox,active,clinical
+2028,PL,Poland,deep_vein_thrombosis,Levemir,active,research
+2029,USA,United States,deep_vein_thrombosis,Levemir,active,clinical
+2030,POL,Poland,Osteoarthritis,Celebrex,active,clinical
+2031,CAN,Canada,deep_vein_thrombosis,Lovenox,active,clinical
+2032,POL,Poland,asthma_attacks,Advair,active,clinical
+2033,UK,United Kingdom,arthritis,Celebrex,active,research
+2034,US,United States,deep_vein_thrombosis,Lovenox,active,clinical
+2035,USA,United States,phobias,Lexapro,active,clinical
+2036,UK,United Kingdom,OCD,Lexapro,active,clinical
+2037,UK,United Kingdom,anxiety,Loxitane,active,clinical
+2038,GB,United Kingdom,anxiety,Loxitane,active,research
+2039,US,United States,arthritis,Celexa,active,clinical
+2040,GB,United Kingdom,phobias,Loxitane,active,clinical
+2041,CA,Canada,asthma_attacks,Advair,complete,research
+2042,CAN,Canada,asthma_attacks,Advair,active,clinical
+2043,GER,Germany,asthma_attacks,Advair,active,clinical
+2044,DE,Germany,asthma_attacks,Advicor,active,clinical
+2045,DE,Germany,asthma_attacks,Advair,active,clinical
+2046,GER,Germany,arthritis,Celebrex,active,clinical
+2047,CAD,Canada,arthritis,Celexa,active,clinical
+2048,CAD,Canada,arthritis,Celebrex,active,research
+2049,USA,United States,arthritis,Celexa,active,clinical
+2050,SWEDEN,Sweden,arthritis,Celebrex,active,clinical
+2051,SWEDEN,Sweden,depression,Lexapro,complete,clinical
+2052,SWEDEN,Sweden,anxiety,Lexapro,active,clinical
+2053,SE,Sweden,high_cholesterol,CoZaar,active,research
+2054,US,United States,anxiety,Lexapro,active,clinical
+2055,USA,United States,high_cholesterol,CoZaar,active,clinical
+2056,ES,Spain,OCD,Lexapro,active,clinical
+2057,ES,Spain,anxiety,Lexapro,active,clinical
+2058,SP,Spain,high_cholesterol,Zocor,complete,research
+2059,US,United States,anxiety,Loxitane,active,clinical
+2060,ES,Spain,anxiety,Loxitane,active,clinical
+2061,CANADA,Canada,hypercholesterolemia,CoZaar,active,research
+2062,CAN,Canada,high_cholesterol,CoZaar,active,clinical
+2063,DK,Denmark,high_cholesterol,CoZaar,active,clinical
+2064,DK,Denmark,hypercholesterolemia,Zocor,active,clinical
+2065,DN,Denmark,high_cholesterol,Zocor,active,clinical
+2066,US,United States,high_cholesterol,Zocor,active,clinical
+2067,PL,Poland,deep_vein_thrombosis,Lovenox,active,clinical
+2068,PL,Poland,deep_vein_thrombosis,Levemir,active,research
+2069,USA,United States,deep_vein_thrombosis,Levemir,active,clinical
+2070,POL,Poland,Osteoarthritis,Celebrex,active,clinical
+2071,CAN,Canada,deep_vein_thrombosis,Lovenox,active,clinical
+2072,POL,Poland,asthma_attacks,Advair,active,clinical
+2073,UK,United Kingdom,Osteoarthritis,Celebrex,active,research
+2074,US,United States,deep_vein_thrombosis,Lovenox,active,clinical
+2075,USA,United States,phobias,Lexapro,active,clinical
+2076,UK,United Kingdom,depression,Lexapro,active,clinical
+2077,UK,United Kingdom,anxiety,Loxitane,active,clinical
+2078,GB,United Kingdom,anxiety,Loxitane,active,research
+2079,US,United States,arthritis,Celexa,active,clinical
+2080,GB,United Kingdom,anxiety,Loxitane,active,clinical
+2081,CA,Canada,asthma_attacks,Advair,complete,research
+2082,CAN,Canada,asthma_attacks,Advair,active,clinical
+2083,GER,Germany,asthma,Advair,active,clinical
+2084,DE,Germany,asthma,Advicor,active,clinical
+2085,DE,Germany,asthma_attacks,Advair,active,clinical
+2086,GER,Germany,arthritis,Celebrex,active,clinical
+2087,CAD,Canada,arthritis,Celexa,active,clinical
+2088,CAD,Canada,arthritis,Celebrex,active,research
+2089,USA,United States,arthritis,Celexa,active,clinical
+2090,SE,Sweden,arthritis,Celebrex,active,clinical
+2091,SW,Sweden,OCD,Lexapro,complete,clinical
+2092,SW,Sweden,anxiety,Lexapro,active,clinical
+2093,SE,Sweden,high_cholesterol,CoZaar,active,research
+2094,US,United States,anxiety,Lexapro,active,clinical
+2095,USA,United States,high_cholesterol,CoZaar,active,clinical
+2096,ES,Spain,anxiety,Lexapro,active,clinical
+2097,ES,Spain,anxiety,Lexapro,active,clinical
+2098,SP,Spain,high_cholesterol,Zocor,complete,research
+2099,US,United States,OCD,Loxitane,active,clinical
+2100,ES,Spain,anxiety,Loxitane,active,clinical
+2101,CA,Canada,high_cholesterol,CoZaar,active,research
+2102,CAN,Canada,hypercholesterolemia,CoZaar,active,clinical
+2103,DK,Denmark,high_cholesterol,CoZaar,active,clinical
+2104,DK,Denmark,cholesterol,Zocor,active,clinical
+2105,DN,Denmark,high_cholesterol,Zocor,active,clinical
+2106,US,United States,high_cholesterol,Zocor,active,clinical
+2107,PL,Poland,deep_vein_thrombosis,Lovenox,active,clinical
+2108,PL,Poland,deep_vein_thrombosis,Levemir,active,research
+2109,USA,United States,deep_vein_thrombosis,Levemir,active,clinical
+2110,POL,Poland,arthritis,Celebrex,active,clinical
+2111,CAN,Canada,deep_vein_thrombosis,Lovenox,active,clinical
+2112,POL,Poland,asthma_attacks,Advair,active,clinical
+2113,UK,United Kingdom,arthritis,Celebrex,active,research
+2114,US,United States,deep_vein_thrombosis,Lovenox,active,clinical
+2115,USA,United States,anxiety,Lexapro,active,clinical
+2116,UK,United Kingdom,anxiety,Lexapro,active,clinical
+2117,UK,United Kingdom,anxiety,Loxitane,active,clinical
+2118,GB,United Kingdom,anxiety,Loxitane,active,research
+2119,US,United States,arthritis,Celexa,active,clinical
+2120,GB,United Kingdom,anxiety,Loxitane,active,clinical
+2121,CA,Canada,asthma_attacks,Advair,complete,research
+2122,CAN,Canada,asthma_attacks,Advair,active,clinical
+2123,GER,Germany,asthma_attacks,Advair,active,clinical
+2124,DE,Germany,asthma_attacks,Advicor,active,clinical
+2125,DE,Germany,asthma_attacks,Advair,active,clinical
+2126,GER,Germany,arthritis,Celebrex,active,clinical
+2127,CAD,Canada,arthritis,Celexa,active,clinical
+2128,CAD,Canada,arthritis,Celebrex,active,research
+2129,USA,United States,arthritis,Celexa,active,clinical
+2130,SE,Sweden,arthritis,Celebrex,active,clinical
+2131,SW,Sweden,anxiety,Lexapro,complete,clinical
+2132,SW,Sweden,anxiety,Lexapro,active,clinical
+2133,SE,Sweden,hypercholesterolemia,CoZaar,active,research
+2134,US,United States,anxiety,Lexapro,active,clinical
+2135,USA,United States,high_cholesterol,CoZaar,active,clinical
+2136,ES,Spain,OCD,Lexapro,active,clinical
+2137,ES,Spain,OCD,Lexapro,active,clinical
+2138,SP,Spain,high_cholesterol,Zocor,complete,research
+2139,US,United States,anxiety,Loxitane,active,clinical
+2140,ES,Spain,anxiety,Loxitane,active,clinical
+2141,CA,Canada,high_cholesterol,CoZaar,active,research
+2142,CAN,Canada,high_cholesterol,CoZaar,active,clinical
+2143,DK,Denmark,high_cholesterol,CoZaar,active,clinical
+2144,DK,Denmark,high_cholesterol,Zocor,active,clinical
+2145,DN,Denmark,high_cholesterol,Zocor,active,clinical
+2146,US,United States,cholesterol,Zocor,active,clinical
+2147,PL,Poland,deep_vein_thrombosis,Lovenox,active,clinical
+2148,PL,Poland,deep_vein_thrombosis,Levemir,active,research
+2149,USA,United States,deep_vein_thrombosis,Levemir,active,clinical
+2150,POL,Poland,arthritis,Celebrex,active,clinical
+2151,CAN,Canada,deep_vein_thrombosis,Lovenox,active,clinical
+2152,POL,Poland,asthma_attacks,Advair,active,clinical
+2153,UK,United Kingdom,arthritis,Celebrex,active,research
+2154,US,United States,deep_vein_thrombosis,Lovenox,active,clinical
+2155,USA,United States,phobias,Lexapro,active,clinical
+2156,UK,United Kingdom,OCD,Lexapro,active,clinical
+2157,UK,United Kingdom,depression,Loxitane,active,clinical
+2158,GB,United Kingdom,anxiety,Loxitane,active,research
+2159,US,United States,arthritis,Celexa,active,clinical
+2160,GB,United Kingdom,anxiety,Loxitane,active,clinical
+2161,CA,Canada,asthma_attacks,Advair,complete,research
+2162,CANADA,Canada,asthma_attacks,Advair,active,clinical
+2163,GER,Germany,asthma_attacks,Advair,active,clinical
+2164,DE,Germany,asthma_attacks,Advicor,active,clinical
+2165,DE,Germany,asthma_attacks,Advair,active,clinical
+2166,GER,Germany,arthritis,Celebrex,active,clinical
+2167,CAD,Canada,arthritis,Celexa,active,clinical
+2168,CAD,Canada,arthritis,Celebrex,active,research
+2169,USA,United States,arthritis,Celexa,active,clinical
+2170,SE,Sweden,arthritis,Celebrex,active,clinical
+2171,SW,Sweden,phobias,Lexapro,complete,clinical
+2172,SW,Sweden,anxiety,Lexapro,active,clinical
+2173,SE,Sweden,high_cholesterol,CoZaar,active,research
+2174,US,United States,anxiety,Lexapro,active,clinical
+2175,USA,United States,high_cholesterol,CoZaar,active,clinical
+2176,ES,Spain,anxiety,Lexapro,active,clinical
+2177,ES,Spain,phobias,Lexapro,active,clinical
+2178,SP,Spain,high_cholesterol,Zocor,complete,research
+2179,US,United States,anxiety,Loxitane,active,clinical
+2180,ES,Spain,anxiety,Loxitane,active,clinical
+2181,CA,Canada,high_cholesterol,CoZaar,active,research
+2182,CANADA,Canada,high_cholesterol,CoZaar,active,clinical
+2183,DK,Denmark,high_cholesterol,CoZaar,active,clinical
+2184,DK,Denmark,high_cholesterol,Zocor,active,clinical
+2185,DN,Denmark,high_cholesterol,Zocor,active,clinical
+2186,US,United States,high_cholesterol,Zocor,active,clinical
+2187,PL,Poland,deep_vein_thrombosis,Lovenox,active,clinical
+2188,PL,Poland,deep_vein_thrombosis,Levemir,active,research
+2189,USA,United States,deep_vein_thrombosis,Levemir,active,clinical
+2190,POL,Poland,arthritis,Celebrex,active,clinical
+2191,CAN,Canada,deep_vein_thrombosis,Lovenox,active,clinical
+2192,POL,Poland,asthma_attacks,Advair,active,clinical
+2193,UK,United Kingdom,arthritis,Celebrex,active,research
+2194,US,United States,deep_vein_thrombosis,Lovenox,active,clinical
+2195,USA,United States,depression,Lexapro,active,clinical
+2196,UK,United Kingdom,anxiety,Lexapro,active,clinical
+2197,UK,United Kingdom,anxiety,Loxitane,active,clinical
+2198,GB,United Kingdom,anxiety,Loxitane,active,research
+2199,US,United States,arthritis,Celexa,active,clinical
+2200,GB,United Kingdom,OCD,Loxitane,active,clinical
+2201,CA,Canada,asthma_attacks,Advair,complete,research
+2202,CAN,Canada,asthma_attacks,Advair,active,clinical
+2203,GERMANY,Germany,asthma_attacks,Advair,active,clinical
+2204,DE,Germany,asthma,Advicor,active,clinical
+2205,DE,Germany,asthma,Advair,active,clinical
+2206,GER,Germany,arthritis,Celebrex,active,clinical
+2207,CAD,Canada,arthritis,Celexa,active,clinical
+2208,CANADA,Canada,arthritis,Celebrex,active,research
+2209,USA,United States,arthritis,Celexa,active,clinical
+2210,SE,Sweden,arthritis,Celebrex,active,clinical
+2211,SW,Sweden,anxiety,Lexapro,complete,clinical
+2212,SW,Sweden,anxiety,Lexapro,active,clinical
+2213,SE,Sweden,cholesterol,CoZaar,active,research
+2214,US,United States,phobias,Lexapro,active,clinical
+2215,USA,United States,high_cholesterol,CoZaar,active,clinical
+2216,ES,Spain,anxiety,Lexapro,active,clinical
+2217,ES,Spain,anxiety,Lexapro,active,clinical
+2218,SP,Spain,high_cholesterol,Zocor,complete,research
+2219,US,United States,OCD,Loxitane,active,clinical
+2220,ES,Spain,anxiety,Loxitane,active,clinical
+2221,CA,Canada,high_cholesterol,CoZaar,active,research
+2222,CAN,Canada,high_cholesterol,CoZaar,active,clinical
+2223,DK,Denmark,high_cholesterol,CoZaar,active,clinical
+2224,DK,Denmark,high_cholesterol,Zocor,active,clinical
+2225,DN,Denmark,high_cholesterol,Zocor,active,clinical
+2226,US,United States,high_cholesterol,Zocor,active,clinical
+2227,PL,Poland,deep_vein_thrombosis,Lovenox,active,clinical
+2228,PL,Poland,deep_vein_thrombosis,Levemir,active,research
+2229,USA,United States,deep_vein_thrombosis,Levemir,active,clinical
+2230,POL,Poland,Osteoarthritis,Celebrex,active,clinical
+2231,CAN,Canada,deep_vein_thrombosis,Lovenox,active,clinical
+2232,POL,Poland,asthma,Advair,active,clinical
+2233,UK,United Kingdom,arthritis,Celebrex,active,research
+2234,US,United States,deep_vein_thrombosis,Lovenox,active,clinical
+2235,USA,United States,depression,Lexapro,active,clinical
+2236,UK,United Kingdom,anxiety,Lexapro,active,clinical
+2237,UK,United Kingdom,anxiety,Loxitane,active,clinical
+2238,GB,United Kingdom,anxiety,Loxitane,active,research
+2239,US,United States,arthritis,Celexa,active,clinical
+2240,GB,United Kingdom,anxiety,Loxitane,active,clinical
+2241,CA,Canada,asthma,Advair,complete,research
+2242,CAN,Canada,asthma,Advair,active,clinical
+2243,GER,Germany,asthma,Advair,active,clinical
+2244,DE,Germany,asthma_attacks,Advicor,active,clinical
+2245,DE,Germany,asthma_attacks,Advair,active,clinical
+2246,GER,Germany,arthritis,Celebrex,active,clinical
+2247,CAD,Canada,arthritis,Celexa,active,clinical
+2248,CAD,Canada,arthritis,Celebrex,active,research
+2249,USA,United States,arthritis,Celexa,active,clinical
+2250,SE,Sweden,arthritis,Celebrex,active,clinical
+2251,SW,Sweden,anxiety,Lexapro,complete,clinical
+2252,SW,Sweden,OCD,Lexapro,active,clinical
+2253,SE,Sweden,high_cholesterol,CoZaar,active,research
+2254,US,United States,depression,Lexapro,active,clinical
+2255,USA,United States,high_cholesterol,CoZaar,active,clinical
+2256,ES,Spain,anxiety,Lexapro,active,clinical
+2257,ES,Spain,anxiety,Lexapro,active,clinical
+2258,SP,Spain,high_cholesterol,Zocor,complete,research
+2259,US,United States,anxiety,Loxitane,active,clinical
+2260,ES,Spain,anxiety,Loxitane,active,clinical
+2261,CA,Canada,high_cholesterol,CoZaar,active,research
+2262,CAN,Canada,hypercholesterolemia,CoZaar,active,clinical
+2263,DK,Denmark,high_cholesterol,CoZaar,active,clinical
+2264,DK,Denmark,high_cholesterol,Zocor,active,clinical
+2265,DN,Denmark,high_cholesterol,Zocor,active,clinical
+2266,US,United States,high_cholesterol,Zocor,active,clinical
+2267,PL,Poland,deep_vein_thrombosis,Lovenox,active,clinical
+2268,PL,Poland,deep_vein_thrombosis,Levemir,active,research
+2269,USA,United States,deep_vein_thrombosis,Levemir,active,clinical
+2270,POL,Poland,Osteoarthritis,Celebrex,active,clinical
+2271,CAN,Canada,deep_vein_thrombosis,Lovenox,active,clinical
+2272,POL,Poland,asthma_attacks,Advair,active,clinical
+2273,UK,United Kingdom,Osteoarthritis,Celebrex,active,research
+2274,US,United States,deep_vein_thrombosis,Lovenox,active,clinical
+2275,USA,United States,OCD,Lexapro,active,clinical
+2276,UK,United Kingdom,OCD,Lexapro,active,clinical
+2277,UK,United Kingdom,anxiety,Loxitane,active,clinical
+2278,GB,United Kingdom,anxiety,Loxitane,active,research
+2279,US,United States,arthritis,Celexa,active,clinical
+2280,GB,United Kingdom,anxiety,Loxitane,active,clinical
+2281,CANADA,Canada,asthma_attacks,Advair,complete,research
+2282,CAN,Canada,asthma_attacks,Advair,active,clinical
+2283,GER,Germany,asthma_attacks,Advair,active,clinical
+2284,DE,Germany,asthma_attacks,Advicor,active,clinical
+2285,DE,Germany,asthma_attacks,Advair,active,clinical
+2286,Deutschland,Germany,arthritis,Celebrex,active,clinical
+2287,CAD,Canada,arthritis,Celexa,active,clinical
+2288,CAD,Canada,arthritis,Celebrex,active,research
+2289,USA,United States,arthritis,Celexa,active,clinical
+2290,SE,Sweden,arthritis,Celebrex,active,clinical
+2291,SW,Sweden,anxiety,Lexapro,complete,clinical
+2292,SW,Sweden,anxiety,Lexapro,active,clinical
+2293,SE,Sweden,hypercholesterolemia,CoZaar,active,research
+2294,US,United States,anxiety,Lexapro,active,clinical
+2295,USA,United States,high_cholesterol,CoZaar,active,clinical
+2296,ES,Spain,anxiety,Lexapro,active,clinical
+2297,ES,Spain,OCD,Lexapro,active,clinical
+2298,SP,Spain,high_cholesterol,Zocor,complete,research
+2299,US,United States,OCD,Loxitane,active,clinical
+2300,ES,Spain,anxiety,Loxitane,active,clinical
+2301,CA,Canada,high_cholesterol,CoZaar,active,research
+2302,CAN,Canada,high_cholesterol,CoZaar,active,clinical
+2303,DK,Denmark,hypercholesterolemia,CoZaar,active,clinical
+2304,DK,Denmark,high_cholesterol,Zocor,active,clinical
+2305,DN,Denmark,high_cholesterol,Zocor,active,clinical
+2306,US,United States,high_cholesterol,Zocor,active,clinical
+2307,PL,Poland,deep_vein_thrombosis,Lovenox,active,clinical
+2308,PL,Poland,deep_vein_thrombosis,Levemir,active,research
+2309,USA,United States,deep_vein_thrombosis,Levemir,active,clinical
+2310,POL,Poland,arthritis,Celebrex,active,clinical
+2311,CAN,Canada,deep_vein_thrombosis,Lovenox,active,clinical
+2312,POL,Poland,asthma_attacks,Advair,active,clinical
+2313,UK,United Kingdom,arthritis,Celebrex,active,research
+2314,US,United States,deep_vein_thrombosis,Lovenox,active,clinical
+2315,USA,United States,phobias,Lexapro,active,clinical
+2316,UK,United Kingdom,anxiety,Lexapro,active,clinical
+2317,UK,United Kingdom,phobias,Loxitane,active,clinical
+2318,GB,United Kingdom,anxiety,Loxitane,active,research
+2319,US,United States,arthritis,Celexa,active,clinical
+2320,GB,United Kingdom,anxiety,Loxitane,active,clinical
+2321,CA,Canada,asthma_attacks,Advair,complete,research
+2322,CAN,Canada,asthma_attacks,Advair,active,clinical
+2323,GER,Germany,asthma_attacks,Advair,active,clinical
+2324,DE,Germany,asthma_attacks,Advicor,active,clinical
+2325,DE,Germany,asthma_attacks,Advair,active,clinical
+2326,GER,Germany,arthritis,Celebrex,active,clinical
+2327,CANADA,Canada,arthritis,Celexa,active,clinical
+2328,CAD,Canada,arthritis,Celebrex,active,research
+2329,USA,United States,arthritis,Celexa,active,clinical
+2330,SE,Sweden,arthritis,Celebrex,active,clinical
+2331,SW,Sweden,anxiety,Lexapro,complete,clinical
+2332,SW,Sweden,depression,Lexapro,active,clinical
+2333,SE,Sweden,cholesterol,CoZaar,active,research
+2334,US,United States,anxiety,Lexapro,active,clinical
+2335,USA,United States,high_cholesterol,CoZaar,active,clinical
+2336,ES,Spain,anxiety,Lexapro,active,clinical
+2337,ES,Spain,OCD,Lexapro,active,clinical
+2338,SP,Spain,high_cholesterol,Zocor,complete,research
+2339,US,United States,anxiety,Loxitane,active,clinical
+2340,ES,Spain,anxiety,Loxitane,active,clinical
+2341,CA,Canada,high_cholesterol,CoZaar,active,research
+2342,CAN,Canada,hyperlipidemia,CoZaar,active,clinical
+2343,DK,Denmark,high_cholesterol,CoZaar,active,clinical
+2344,DK,Denmark,cholesterol,Zocor,active,clinical
+2345,DN,Denmark,high_cholesterol,Zocor,active,clinical
+2346,US,United States,hyperlipidemia,Zocor,active,clinical
+2347,POLAND,Poland,deep_vein_thrombosis,Lovenox,active,clinical
+2348,PL,Poland,deep_vein_thrombosis,Levemir,active,research
+2349,USA,United States,deep_vein_thrombosis,Levemir,active,clinical
+2350,POL,Poland,arthritis,Celebrex,active,clinical
+2351,CANADA,Canada,deep_vein_thrombosis,Lovenox,active,clinical
+2352,POL,Poland,asthma_attacks,Advair,active,clinical
+2353,UK,United Kingdom,arthritis,Celebrex,active,research
+2354,US,United States,deep_vein_thrombosis,Lovenox,active,clinical
+2355,USA,United States,phobias,Lexapro,active,clinical
+2356,UK,United Kingdom,anxiety,Lexapro,active,clinical
+2357,UK,United Kingdom,anxiety,Loxitane,active,clinical
+2358,GB,United Kingdom,OCD,Loxitane,active,research
+2359,US,United States,arthritis,Celexa,active,clinical
+2360,GB,United Kingdom,anxiety,Loxitane,active,clinical
+2361,CA,Canada,asthma_attacks,Advair,complete,research
+2362,CAN,Canada,asthma_attacks,Advair,active,clinical
+2363,Deutschland,Germany,asthma_attacks,Advair,active,clinical
+2364,DE,Germany,asthma,Advicor,active,clinical
+2365,DE,Germany,asthma,Advair,active,clinical
+2366,GER,Germany,arthritis,Celebrex,active,clinical
+2367,CAD,Canada,arthritis,Celexa,active,clinical
+2368,CAD,Canada,arthritis,Celebrex,active,research
+2369,USA,United States,arthritis,Celexa,active,clinical
+2370,SE,Sweden,arthritis,Celebrex,active,clinical
+2371,SW,Sweden,anxiety,Lexapro,complete,clinical
+2372,SW,Sweden,anxiety,Lexapro,active,clinical
+2373,SE,Sweden,high_cholesterol,CoZaar,active,research
+2374,US,United States,depression,Lexapro,active,clinical
+2375,USA,United States,high_cholesterol,CoZaar,active,clinical
+2376,ES,Spain,OCD,Lexapro,active,clinical
+2377,ES,Spain,anxiety,Lexapro,active,clinical
+2378,SP,Spain,high_cholesterol,Zocor,complete,research
+2379,US,United States,anxiety,Loxitane,active,clinical
+2380,ES,Spain,anxiety,Loxitane,active,clinical
+2381,CA,Canada,high_cholesterol,CoZaar,active,research
+2382,CANADA,Canada,high_cholesterol,CoZaar,active,clinical
+2383,DK,Denmark,high_cholesterol,CoZaar,active,clinical
+2384,DK,Denmark,hyperlipidemia,Zocor,active,clinical
+2385,DN,Denmark,high_cholesterol,Zocor,active,clinical
+2386,US,United States,high_cholesterol,Zocor,active,clinical
+2387,PL,Poland,deep_vein_thrombosis,Lovenox,active,clinical
+2388,PL,Poland,deep_vein_thrombosis,Levemir,active,research
+2389,USA,United States,deep_vein_thrombosis,Levemir,active,clinical
+2390,POL,Poland,arthritis,Celebrex,active,clinical
+2391,CAN,Canada,deep_vein_thrombosis,Lovenox,active,clinical
+2392,POL,Poland,asthma,Advair,active,clinical
+2393,UK,United Kingdom,arthritis,Celebrex,active,research
+2394,US,United States,deep_vein_thrombosis,Lovenox,active,clinical
+2395,USA,United States,anxiety,Lexapro,active,clinical
+2396,UK,United Kingdom,anxiety,Lexapro,active,clinical
+2397,UK,United Kingdom,OCD,Loxitane,active,clinical
+2398,GB,United Kingdom,anxiety,Loxitane,active,research
+2399,US,United States,arthritis,Celexa,active,clinical
+2400,GB,United Kingdom,anxiety,Loxitane,active,clinical
+2401,CA,Canada,asthma_attacks,Advair,complete,research
+2402,CAN,Canada,asthma,Advair,active,clinical
+2403,GER,Germany,asthma,Advair,active,clinical
+2404,Deutschland,Germany,asthma,Advicor,active,clinical
+2405,DE,Germany,asthma,Advair,active,clinical
+2406,GER,Germany,arthritis,Celebrex,active,clinical
+2407,CAD,Canada,arthritis,Celexa,active,clinical
+2408,CAD,Canada,arthritis,Celebrex,active,research
+2409,USA,United States,arthritis,Celexa,active,clinical
+2410,SE,Sweden,arthritis,Celebrex,active,clinical
+2411,SW,Sweden,anxiety,Lexapro,complete,clinical
+2412,SW,Sweden,depression,Lexapro,active,clinical
+2413,SE,Sweden,high_cholesterol,CoZaar,active,research
+2414,US,United States,OCD,Lexapro,active,clinical
+2415,USA,United States,high_cholesterol,CoZaar,active,clinical
+2416,ES,Spain,OCD,Lexapro,active,clinical
+2417,ES,Spain,anxiety,Lexapro,active,clinical
+2418,SP,Spain,high_cholesterol,Zocor,complete,research
+2419,US,United States,anxiety,Loxitane,active,clinical
+2420,ES,Spain,anxiety,Loxitane,active,clinical
+2421,CA,Canada,high_cholesterol,CoZaar,active,research
+2422,CAN,Canada,high_cholesterol,CoZaar,active,clinical
+2423,DK,Denmark,high_cholesterol,CoZaar,active,clinical
+2424,DK,Denmark,high_cholesterol,Zocor,active,clinical
+2425,DN,Denmark,high_cholesterol,Zocor,active,clinical
+2426,US,United States,high_cholesterol,Zocor,active,clinical
+2427,PL,Poland,deep_vein_thrombosis,Lovenox,active,clinical
+2428,PL,Poland,deep_vein_thrombosis,Levemir,active,research
+2429,USA,United States,deep_vein_thrombosis,Levemir,active,clinical
+2430,POL,Poland,Osteoarthritis,Celebrex,active,clinical
+2431,CANADA,Canada,deep_vein_thrombosis,Lovenox,active,clinical
+2432,POL,Poland,asthma_attacks,Advair,active,clinical
+2433,UK,United Kingdom,arthritis,Celebrex,active,research
+2434,US,United States,deep_vein_thrombosis,Lovenox,active,clinical
+2435,USA,United States,OCD,Lexapro,active,clinical
+2436,UK,United Kingdom,depression,Lexapro,active,clinical
+2437,UK,United Kingdom,depression,Loxitane,active,clinical
+2438,GB,United Kingdom,anxiety,Loxitane,active,research
+2439,US,United States,arthritis,Celexa,active,clinical
+2440,GB,United Kingdom,depression,Loxitane,active,clinical
+2441,CA,Canada,asthma,Advair,complete,research
+2442,CAN,Canada,asthma,Advair,active,clinical
+2443,GER,Germany,asthma,Advair,active,clinical
+2444,DE,Germany,asthma,Advicor,active,clinical
+2445,Deutschland,Germany,asthma,Advair,active,clinical
+2446,GER,Germany,arthritis,Celebrex,active,clinical
+2447,CAD,Canada,arthritis,Celexa,active,clinical
+2448,CAD,Canada,arthritis,Celebrex,active,research
+2449,USA,United States,arthritis,Celexa,active,clinical
+2450,SE,Sweden,arthritis,Celebrex,active,clinical
+2451,SW,Sweden,phobias,Lexapro,complete,clinical
+2452,SW,Sweden,anxiety,Lexapro,active,clinical
+2453,SE,Sweden,high_cholesterol,CoZaar,active,research
+2454,US,United States,phobias,Lexapro,active,clinical
+2455,USA,United States,high_cholesterol,CoZaar,active,clinical
+2456,ES,Spain,OCD,Lexapro,active,clinical
+2457,ES,Spain,anxiety,Lexapro,active,clinical
+2458,SP,Spain,high_cholesterol,Zocor,complete,research
+2459,US,United States,depression,Loxitane,active,clinical
+2460,ES,Spain,anxiety,Loxitane,active,clinical
+2461,CANADA,Canada,hyperlipidemia,CoZaar,active,research
+2462,CAN,Canada,hyperlipidemia,CoZaar,active,clinical
+2463,DK,Denmark,hyperlipidemia,CoZaar,active,clinical
+2464,DK,Denmark,hyperlipidemia,Zocor,active,clinical
+2465,DN,Denmark,hyperlipidemia,Zocor,active,clinical
+2466,US,United States,high_cholesterol,Zocor,active,clinical
+2467,POLAND,Poland,deep_vein_thrombosis,Lovenox,active,clinical
+2468,PL,Poland,deep_vein_thrombosis,Levemir,active,research
+2469,USA,United States,deep_vein_thrombosis,Levemir,active,clinical
+2470,POL,Poland,Osteoarthritis,Celebrex,active,clinical
+2471,CAN,Canada,deep_vein_thrombosis,Lovenox,active,clinical
+2472,POL,Poland,asthma,Advair,active,clinical
+2473,UK,United Kingdom,arthritis,Celebrex,active,research
+2474,US,United States,deep_vein_thrombosis,Lovenox,active,clinical
+2475,USA,United States,anxiety,Lexapro,active,clinical
+2476,UK,United Kingdom,anxiety,Lexapro,active,clinical
+2477,UK,United Kingdom,depression,Loxitane,active,clinical
+2478,GB,United Kingdom,OCD,Loxitane,active,research
+2479,US,United States,arthritis,Celexa,active,clinical
+2480,GB,United Kingdom,depression,Loxitane,active,clinical
+2481,CA,Canada,asthma,Advair,complete,research
+2482,CANADA,Canada,asthma,Advair,active,clinical
+2483,GER,Germany,asthma,Advair,active,clinical
+2484,DE,Germany,asthma,Advicor,active,clinical
+2485,DE,Germany,asthma,Advair,active,clinical
+2486,Deutschland,Germany,Osteoarthritis,Celebrex,active,clinical
+2487,CAD,Canada,arthritis,Celexa,active,clinical
+2488,CAD,Canada,arthritis,Celebrex,active,research
+2489,USA,United States,arthritis,Celexa,active,clinical
+2490,SE,Sweden,arthritis,Celebrex,active,clinical
+2491,SW,Sweden,anxiety,Lexapro,complete,clinical
+2492,SW,Sweden,anxiety,Lexapro,active,clinical
+2493,SE,Sweden,high_cholesterol,CoZaar,active,research
+2494,US,United States,phobias,Lexapro,active,clinical
+2495,USA,United States,high_cholesterol,CoZaar,active,clinical
+2496,ES,Spain,OCD,Lexapro,active,clinical
+2497,ES,Spain,anxiety,Lexapro,active,clinical
+2498,SP,Spain,high_cholesterol,Zocor,complete,research
+2499,US,United States,depression,Loxitane,active,clinical
+2500,ES,Spain,OCD,Loxitane,active,clinical
+2501,CA,Canada,high_cholesterol,CoZaar,active,research
+2502,CANADA,Canada,high_cholesterol,CoZaar,active,clinical
+2503,DK,Denmark,high_cholesterol,CoZaar,active,clinical
+2504,DK,Denmark,high_cholesterol,Zocor,active,clinical
+2505,DN,Denmark,high_cholesterol,Simovil,active,clinical
+2506,US,United States,high_cholesterol,Zocor,active,clinical
+2507,PL,Poland,deep_vein_thrombosis,Lovenox,active,clinical
+2508,PL,Poland,deep_vein_thrombosis,Levemir,active,research
+2509,USA,United States,deep_vein_thrombosis,Levemir,active,clinical
+2510,POL,Poland,arthritis,Celebrex,active,clinical
+2511,CAN,Canada,deep_vein_thrombosis,Lovenox,active,clinical
+2512,POL,Poland,asthma,Advair,active,clinical
+2513,UK,United Kingdom,arthritis,Celebrex,active,research
+2514,US,United States,deep_vein_thrombosis,Lovenox,active,clinical
+2515,USA,United States,anxiety,Lexapro,active,clinical
+2516,UK,United Kingdom,anxiety,Lexapro,active,clinical
+2517,UK,United Kingdom,anxiety,Loxitane,active,clinical
+2518,GB,United Kingdom,anxiety,Loxitane,active,research
+2519,US,United States,arthritis,Celexa,active,clinical
+2520,GB,United Kingdom,anxiety,Loxitane,active,clinical
+2521,CANADA,Canada,asthma,Advair,complete,research
+2522,CAN,Canada,asthma,Advair,active,clinical
+2523,GER,Germany,asthma_attacks,Advair,active,clinical
+2524,DE,Germany,asthma,Advicor,active,clinical
+2525,DE,Germany,asthma_attacks,Advair,active,clinical
+2526,GER,Germany,arthritis,Celebrex,active,clinical
+2527,CAD,Canada,arthritis,Celexa,active,clinical
+2528,CAD,Canada,arthritis,Celebrex,active,research
+2529,USA,United States,arthritis,Celexa,active,clinical
+2530,SE,Sweden,arthritis,Celebrex,active,clinical
+2531,SW,Sweden,anxiety,Lexapro,complete,clinical
+2532,SW,Sweden,OCD,Lexapro,active,clinical
+2533,SE,Sweden,high_cholesterol,Simovil,active,research
+2534,US,United States,depression,Lexapro,active,clinical
+2535,USA,United States,hyperlipidemia,CoZaar,active,clinical
+2536,ES,Spain,anxiety,Lexapro,active,clinical
+2537,ES,Spain,anxiety,Lexapro,active,clinical
+2538,SP,Spain,high_cholesterol,Zocor,complete,research
+2539,US,United States,anxiety,Loxitane,active,clinical
+2540,ES,Spain,OCD,Loxitane,active,clinical
+2541,CA,Canada,high_cholesterol,CoZaar,active,research
+2542,CAN,Canada,cholesterol,Simovil,active,clinical
+2543,DK,Denmark,high_cholesterol,CoZaar,active,clinical
+2544,DK,Denmark,high_cholesterol,Zocor,active,clinical
+2545,DN,Denmark,hyperlipidemia,Zocor,active,clinical
+2546,US,United States,high_cholesterol,Simovil,active,clinical
+2547,PL,Poland,deep_vein_thrombosis,Lovenox,active,clinical
+2548,PL,Poland,deep_vein_thrombosis,Levemir,active,research
+2549,USA,United States,deep_vein_thrombosis,Levemir,active,clinical
+2550,POL,Poland,arthritis,Celebrex,active,clinical
+2551,CAN,Canada,deep_vein_thrombosis,Lovenox,active,clinical
+2552,POL,Poland,asthma_attacks,Advair,active,clinical
+2553,UK,United Kingdom,arthritis,Celebrex,active,research
+2554,US,United States,deep_vein_thrombosis,Lovenox,active,clinical
+2555,USA,United States,OCD,Lexapro,active,clinical
+2556,UK,United Kingdom,depression,Lexapro,active,clinical
+2557,UK,United Kingdom,depression,Loxitane,active,clinical
+2558,GB,United Kingdom,anxiety,Loxitane,active,research
+2559,US,United States,arthritis,Celexa,active,clinical
+2560,GB,United Kingdom,OCD,Loxitane,active,clinical
+2561,CA,Canada,asthma,Advair,complete,research
+2562,CAN,Canada,asthma,Advair,active,clinical
+2563,Deutschland,Germany,asthma_attacks,Advair,active,clinical
+2564,DE,Germany,asthma,Advicor,active,clinical
+2565,DE,Germany,asthma,Advair,active,clinical
+2566,GER,Germany,arthritis,Celebrex,active,clinical
+2567,CAD,Canada,Osteoarthritis,Celexa,active,clinical
+2568,CAD,Canada,arthritis,Celebrex,active,research
+2569,USA,United States,arthritis,Celexa,active,clinical
+2570,SE,Sweden,arthritis,Celebrex,active,clinical
+2571,SW,Sweden,anxiety,Lexapro,complete,clinical
+2572,SW,Sweden,anxiety,Lexapro,active,clinical
+2573,SE,Sweden,high_cholesterol,CoZaar,active,research
+2574,US,United States,anxiety,Lexapro,active,clinical
+2575,USA,United States,high_cholesterol,CoZaar,active,clinical
+2576,ES,Spain,phobias,Lexapro,active,clinical
+2577,ES,Spain,anxiety,Lexapro,active,clinical
+2578,SP,Spain,high_cholesterol,Simovil,complete,research
+2579,US,United States,OCD,Loxitane,active,clinical
+2580,ES,Spain,anxiety,Loxitane,active,clinical
+2581,CA,Canada,hyperlipidemia,CoZaar,active,research
+2582,CAN,Canada,high_cholesterol,CoZaar,active,clinical
+2583,DK,Denmark,high_cholesterol,CoZaar,active,clinical
+2584,DK,Denmark,high_cholesterol,Simovil,active,clinical
+2585,DN,Denmark,high_cholesterol,Zocor,active,clinical
+2586,US,United States,cholesterol,Simovil,active,clinical
+2587,PL,Poland,deep_vein_thrombosis,Lovenox,active,clinical
+2588,PL,Poland,deep_vein_thrombosis,Levemir,active,research
+2589,USA,United States,deep_vein_thrombosis,Levemir,active,clinical
+2590,POL,Poland,arthritis,Celebrex,active,clinical
+2591,CAN,Canada,deep_vein_thrombosis,Lovenox,active,clinical
+2592,POL,Poland,asthma_attacks,Advair,active,clinical
+2593,UK,United Kingdom,arthritis,Celebrex,active,research
+2594,US,United States,deep_vein_thrombosis,Lovenox,active,clinical
+2595,USA,United States,phobias,Lexapro,active,clinical
+2596,UK,United Kingdom,depression,Lexapro,active,clinical
+2597,UK,United Kingdom,depression,Loxitane,active,clinical
+2598,GB,United Kingdom,anxiety,Loxitane,active,research
+2599,US,United States,Osteoarthritis,Celexa,active,clinical
+2600,GB,United Kingdom,OCD,Loxitane,active,clinical
+2601,CA,Canada,asthma,Advair,complete,research
+2602,CAN,Canada,asthma_attacks,Advair,active,clinical
+2603,GER,Germany,asthma,Advair,active,clinical
+2604,Deutschland,Germany,asthma,Advicor,active,clinical
+2605,DE,Germany,asthma_attacks,Advair,active,clinical
+2606,GER,Germany,arthritis,Celebrex,active,clinical
+2607,CAD,Canada,arthritis,Celexa,active,clinical
+2608,CAD,Canada,arthritis,Celebrex,active,research
+2609,USA,United States,arthritis,Celexa,active,clinical
+2610,SE,Sweden,arthritis,Celebrex,active,clinical
+2611,SW,Sweden,anxiety,Lexapro,complete,clinical
+2612,SW,Sweden,anxiety,Lexapro,active,clinical
+2613,SE,Sweden,high_cholesterol,CoZaar,active,research
+2614,US,United States,anxiety,Lexapro,active,clinical
+2615,USA,United States,cholesterol,CoZaar,active,clinical
+2616,ES,Spain,depression,Lexapro,active,clinical
+2617,ES,Spain,depression,Lexapro,active,clinical
+2618,SP,Spain,high_cholesterol,Zocor,complete,research
+2619,US,United States,anxiety,Loxitane,active,clinical
+2620,ES,Spain,anxiety,Loxitane,active,clinical
+2621,CA,Canada,high_cholesterol,CoZaar,active,research
+2622,CAN,Canada,hyperlipidemia,CoZaar,active,clinical
+2623,DK,Denmark,high_cholesterol,CoZaar,active,clinical
+2624,DK,Denmark,high_cholesterol,Zocor,active,clinical
+2625,DN,Denmark,cholesterol,Zocor,active,clinical
+2626,US,United States,high_cholesterol,Zocor,active,clinical
+2627,PL,Poland,deep_vein_thrombosis,Lovenox,active,clinical
+2628,PL,Poland,deep_vein_thrombosis,Levemir,active,research
+2629,USA,United States,deep_vein_thrombosis,Levemir,active,clinical
+2630,POL,Poland,arthritis,Celebrex,active,clinical
+2631,CAN,Canada,deep_vein_thrombosis,Lovenox,active,clinical
+2632,POL,Poland,asthma,Advair,active,clinical
+2633,UK,United Kingdom,arthritis,Celebrex,active,research
+2634,US,United States,deep_vein_thrombosis,Lovenox,active,clinical
+2635,USA,United States,phobias,Lexapro,active,clinical
+2636,UK,United Kingdom,depression,Lexapro,active,clinical
+2637,UK,United Kingdom,depression,Loxitane,active,clinical
+2638,GB,United Kingdom,anxiety,Loxitane,active,research
+2639,US,United States,arthritis,Celexa,active,clinical
+2640,GB,United Kingdom,OCD,Loxitane,active,clinical
+2641,CA,Canada,asthma_attacks,Advair,complete,research
+2642,CAN,Canada,asthma,Advair,active,clinical
+2643,GERMANY,Germany,asthma_attacks,Advair,active,clinical
+2644,DE,Germany,asthma,Advicor,active,clinical
+2645,DE,Germany,asthma_attacks,Advair,active,clinical
+2646,GER,Germany,arthritis,Celebrex,active,clinical
+2647,CAD,Canada,arthritis,Celexa,active,clinical
+2648,CAD,Canada,arthritis,Celebrex,active,research
+2649,USA,United States,Osteoarthritis,Celexa,active,clinical
+2650,SE,Sweden,arthritis,Celebrex,active,clinical
+2651,SW,Sweden,depression,Lexapro,complete,clinical
+2652,SW,Sweden,depression,Lexapro,active,clinical
+2653,SE,Sweden,high_cholesterol,CoZaar,active,research
+2654,US,United States,anxiety,Lexapro,active,clinical
+2655,USA,United States,hyperlipidemia,Simovil,active,clinical
+2656,ES,Spain,anxiety,Lexapro,active,clinical
+2657,ES,Spain,anxiety,Lexapro,active,clinical
+2658,SP,Spain,high_cholesterol,Zocor,complete,research
+2659,US,United States,OCD,Loxitane,active,clinical
+2660,ES,Spain,anxiety,Loxitane,active,clinical
+2661,CA,Canada,high_cholesterol,CoZaar,active,research
+2662,CAN,Canada,high_cholesterol,CoZaar,active,clinical
+2663,DK,Denmark,high_cholesterol,CoZaar,active,clinical
+2664,DK,Denmark,cholesterol,Zocor,active,clinical
+2665,DN,Denmark,cholesterol,Zocor,active,clinical
+2666,US,United States,high_cholesterol,Zocor,active,clinical
+2667,PL,Poland,deep_vein_thrombosis,Lovenox,active,clinical
+2668,PL,Poland,deep_vein_thrombosis,Levemir,active,research
+2669,USA,United States,deep_vein_thrombosis,Levemir,active,clinical
+2670,POL,Poland,Osteoarthritis,Celebrex,active,clinical
+2671,CANADA,Canada,deep_vein_thrombosis,Lovenox,active,clinical
+2672,POL,Poland,asthma_attacks,Advair,active,clinical
+2673,UK,United Kingdom,arthritis,Celebrex,active,research
+2674,US,United States,deep_vein_thrombosis,Lovenox,active,clinical
+2675,USA,United States,anxiety,Lexapro,active,clinical
+2676,UK,United Kingdom,anxiety,Lexapro,active,clinical
+2677,UK,United Kingdom,depression,Loxitane,active,clinical
+2678,GB,United Kingdom,anxiety,Loxitane,active,research
+2679,US,United States,Osteoarthritis,Celexa,active,clinical
+2680,GB,United Kingdom,depression,Loxitane,active,clinical
+2681,CA,Canada,asthma_attacks,Advair,complete,research
+2682,CAN,Canada,asthma_attacks,Advair,active,clinical
+2683,Deutschland,Germany,asthma_attacks,Advair,active,clinical
+2684,DE,Germany,asthma_attacks,Advicor,active,clinical
+2685,DE,Germany,asthma_attacks,Advair,active,clinical
+2686,GER,Germany,arthritis,Celebrex,active,clinical
+2687,CANADA,Canada,arthritis,Celexa,active,clinical
+2688,CAD,Canada,arthritis,Celebrex,active,research
+2689,USA,United States,Osteoarthritis,Celexa,active,clinical
+2690,SE,Sweden,Osteoarthritis,Celebrex,active,clinical
+2691,SW,Sweden,anxiety,Lexapro,complete,clinical
+2692,SW,Sweden,anxiety,Lexapro,active,clinical
+2693,SE,Sweden,cholesterol,CoZaar,active,research
+2694,US,United States,anxiety,Lexapro,active,clinical
+2695,USA,United States,cholesterol,CoZaar,active,clinical
+2696,ES,Spain,OCD,Lexapro,active,clinical
+2697,ES,Spain,depression,Lexapro,active,clinical
+2698,SP,Spain,high_cholesterol,Zocor,complete,research
+2699,US,United States,anxiety,Loxitane,active,clinical
+2700,ES,Spain,depression,Loxitane,active,clinical
+2701,CA,Canada,high_cholesterol,CoZaar,active,research
+2702,CAN,Canada,high_cholesterol,CoZaar,active,clinical
+2703,DK,Denmark,high_cholesterol,CoZaar,active,clinical
+2704,DK,Denmark,high_cholesterol,Simovil,active,clinical
+2705,DN,Denmark,high_cholesterol,Zocor,active,clinical
+2706,US,United States,high_cholesterol,Zocor,active,clinical
+2707,PL,Poland,deep_vein_thrombosis,Lovenox,active,clinical
+2708,PL,Poland,deep_vein_thrombosis,Levemir,active,research
+2709,USA,United States,deep_vein_thrombosis,Levemir,active,clinical
+2710,POLAND,Poland,Osteoarthritis,Celebrex,active,clinical
+2711,CANADA,Canada,deep_vein_thrombosis,Lovenox,active,clinical
+2712,POL,Poland,asthma_attacks,Advair,active,clinical
+2713,UK,United Kingdom,Osteoarthritis,Celebrex,active,research
+2714,US,United States,deep_vein_thrombosis,Lovenox,active,clinical
+2715,USA,United States,phobias,Lexapro,active,clinical
+2716,UK,United Kingdom,anxiety,Lexapro,active,clinical
+2717,UK,United Kingdom,anxiety,Loxitane,active,clinical
+2718,GB,United Kingdom,anxiety,Loxitane,active,research
+2719,US,United States,arthritis,Celexa,active,clinical
+2720,GB,United Kingdom,anxiety,Loxitane,active,clinical
+2721,CA,Canada,asthma_attacks,Advair,complete,research
+2722,CAN,Canada,asthma_attacks,Advair,active,clinical
+2723,GER,Germany,asthma_attacks,Advair,active,clinical
+2724,DE,Germany,asthma_attacks,Advicor,active,clinical
+2725,Deutschland,Germany,asthma_attacks,Advair,active,clinical
+2726,GER,Germany,Osteoarthritis,Celebrex,active,clinical
+2727,CAD,Canada,arthritis,Celexa,active,clinical
+2728,CANADA,Canada,arthritis,Celebrex,active,research
+2729,USA,United States,arthritis,Celexa,active,clinical
+2730,SE,Sweden,arthritis,Celebrex,active,clinical
+2731,SW,Sweden,phobias,Lexapro,complete,clinical
+2732,SW,Sweden,depression,Lexapro,active,clinical
+2733,SE,Sweden,high_cholesterol,CoZaar,active,research
+2734,US,United States,anxiety,Lexapro,active,clinical
+2735,USA,United States,high_cholesterol,CoZaar,active,clinical
+2736,ES,Spain,anxiety,Lexapro,active,clinical
+2737,ES,Spain,anxiety,Lexapro,active,clinical
+2738,SP,Spain,high_cholesterol,Zocor,complete,research
+2739,US,United States,anxiety,Loxitane,active,clinical
+2740,ES,Spain,anxiety,Loxitane,active,clinical
+2741,CA,Canada,hyperlipidemia,CoZaar,active,research
+2742,CAN,Canada,high_cholesterol,CoZaar,active,clinical
+2743,DK,Denmark,high_cholesterol,CoZaar,active,clinical
+2744,DK,Denmark,cholesterol,Simovil,active,clinical
+2745,DN,Denmark,high_cholesterol,Zocor,active,clinical
+2746,US,United States,hyperlipidemia,Zocor,active,clinical
+2747,PL,Poland,deep_vein_thrombosis,Lovenox,active,clinical
+2748,PL,Poland,deep_vein_thrombosis,Levemir,active,research
+2749,USA,United States,deep_vein_thrombosis,Levemir,active,clinical
+2750,POL,Poland,arthritis,Celebrex,active,clinical
+2751,CAN,Canada,deep_vein_thrombosis,Lovenox,active,clinical
+2752,POL,Poland,asthma_attacks,Advair,active,clinical
+2753,UK,United Kingdom,arthritis,Celebrex,active,research
+2754,US,United States,deep_vein_thrombosis,Lovenox,active,clinical
+2755,USA,United States,anxiety,Lexapro,active,clinical
+2756,UK,United Kingdom,OCD,Lexapro,active,clinical
+2757,UK,United Kingdom,depression,Loxitane,active,clinical
+2758,GB,United Kingdom,anxiety,Loxitane,active,research
+2759,US,United States,arthritis,Celexa,active,clinical
+2760,GB,United Kingdom,anxiety,Loxitane,active,clinical
+2761,CANADA,Canada,asthma_attacks,Advair,complete,research
+2762,CAN,Canada,asthma_attacks,Advair,active,clinical
+2763,GER,Germany,asthma_attacks,Advair,active,clinical
+2764,DE,Germany,asthma_attacks,Advicor,active,clinical
+2765,Deutschland,Germany,asthma,Advair,active,clinical
+2766,GER,Germany,arthritis,Celebrex,active,clinical
+2767,CAD,Canada,arthritis,Celexa,active,clinical
+2768,CAD,Canada,arthritis,Celebrex,active,research
+2769,USA,United States,arthritis,Celexa,active,clinical
+2770,SE,Sweden,arthritis,Celebrex,active,clinical
+2771,SW,Sweden,phobias,Lexapro,complete,clinical
+2772,SW,Sweden,OCD,Lexapro,active,clinical
+2773,SE,Sweden,high_cholesterol,Simovil,active,research
+2774,US,United States,anxiety,Lexapro,active,clinical
+2775,USA,United States,high_cholesterol,CoZaar,active,clinical
+2776,ES,Spain,depression,Lexapro,active,clinical
+2777,ES,Spain,anxiety,Lexapro,active,clinical
+2778,SP,Spain,high_cholesterol,Zocor,complete,research
+2779,US,United States,anxiety,Loxitane,active,clinical
+2780,ES,Spain,depression,Loxitane,active,clinical
+2781,CA,Canada,high_cholesterol,CoZaar,active,research
+2782,CAN,Canada,cholesterol,Simovil,active,clinical
+2783,DK,Denmark,high_cholesterol,CoZaar,active,clinical
+2784,DK,Denmark,cholesterol,Simovil,active,clinical
+2785,DN,Denmark,high_cholesterol,Zocor,active,clinical
+2786,US,United States,high_cholesterol,Zocor,active,clinical
+2787,PL,Poland,deep_vein_thrombosis,Lovenox,active,clinical
+2788,PL,Poland,deep_vein_thrombosis,Levemir,active,research
+2789,USA,United States,deep_vein_thrombosis,Levemir,active,clinical
+2790,POLAND,Poland,arthritis,Celebrex,active,clinical
+2791,CAN,Canada,deep_vein_thrombosis,Lovenox,active,clinical
+2792,POL,Poland,asthma_attacks,Advair,active,clinical
+2793,UK,United Kingdom,arthritis,Celebrex,active,research
+2794,US,United States,deep_vein_thrombosis,Lovenox,active,clinical
+2795,USA,United States,OCD,Lexapro,active,clinical
+2796,UK,United Kingdom,depression,Lexapro,active,clinical
+2797,UK,United Kingdom,anxiety,Loxitane,active,clinical
+2798,GB,United Kingdom,anxiety,Loxitane,active,research
+2799,US,United States,arthritis,Celexa,active,clinical
+2800,GB,United Kingdom,anxiety,Loxitane,active,clinical
+2801,CA,Canada,asthma_attacks,Advair,complete,research
+2802,CAN,Canada,asthma_attacks,Advair,active,clinical
+2803,GER,Germany,asthma,Advair,active,clinical
+2804,DE,Germany,asthma_attacks,Advicor,active,clinical
+2805,Deutschland,Germany,asthma,Advair,active,clinical
+2806,GER,Germany,arthritis,Celebrex,active,clinical
+2807,CAD,Canada,arthritis,Celexa,active,clinical
+2808,CAD,Canada,arthritis,Celebrex,active,research
+2809,USA,United States,arthritis,Celexa,active,clinical
+2810,SE,Sweden,arthritis,Celebrex,active,clinical
+2811,SW,Sweden,anxiety,Lexapro,complete,clinical
+2812,SW,Sweden,anxiety,Lexapro,active,clinical
+2813,SE,Sweden,hyperlipidemia,CoZaar,active,research
+2814,US,United States,anxiety,Lexapro,active,clinical
+2815,USA,United States,cholesterol,Simovil,active,clinical
+2816,ES,Spain,anxiety,Lexapro,active,clinical
+2817,ES,Spain,depression,Lexapro,active,clinical
+2818,SP,Spain,high_cholesterol,Zocor,complete,research
+2819,US,United States,depression,Loxitane,active,clinical
+2820,ES,Spain,anxiety,Loxitane,active,clinical
+2821,CA,Canada,high_cholesterol,Simovil,active,research
+2822,CAN,Canada,cholesterol,CoZaar,active,clinical
+2823,DK,Denmark,high_cholesterol,CoZaar,active,clinical
+2824,DK,Denmark,hyperlipidemia,Zocor,active,clinical
+2825,DN,Denmark,high_cholesterol,Zocor,active,clinical
+2826,US,United States,high_cholesterol,Simovil,active,clinical
+2827,PL,Poland,deep_vein_thrombosis,Lovenox,active,clinical
+2828,PL,Poland,deep_vein_thrombosis,Levemir,active,research
+2829,USA,United States,deep_vein_thrombosis,Levemir,active,clinical
+2830,POL,Poland,arthritis,Celebrex,active,clinical
+2831,CAN,Canada,deep_vein_thrombosis,Lovenox,active,clinical
+2832,POLAND,Poland,asthma,Advair,active,clinical
+2833,UK,United Kingdom,arthritis,Celebrex,active,research
+2834,US,United States,deep_vein_thrombosis,Lovenox,active,clinical
+2835,USA,United States,OCD,Lexapro,active,clinical
+2836,UK,United Kingdom,anxiety,Lexapro,active,clinical
+2837,UK,United Kingdom,anxiety,Loxitane,active,clinical
+2838,GB,United Kingdom,OCD,Loxitane,active,research
+2839,US,United States,arthritis,Celexa,active,clinical
+2840,GB,United Kingdom,OCD,Loxitane,active,clinical
+2841,CA,Canada,asthma_attacks,Advair,complete,research
+2842,CAN,Canada,asthma,Advair,active,clinical
+2843,GER,Germany,asthma,Advair,active,clinical
+2844,DE,Germany,asthma,Advicor,active,clinical
+2845,DE,Germany,asthma_attacks,Advair,active,clinical
+2846,GER,Germany,arthritis,Celebrex,active,clinical
+2847,CAD,Canada,arthritis,Celexa,active,clinical
+2848,CAD,Canada,arthritis,Celebrex,active,research
+2849,USA,United States,arthritis,Celexa,active,clinical
+2850,SE,Sweden,arthritis,Celebrex,active,clinical
+2851,SW,Sweden,anxiety,Lexapro,complete,clinical
+2852,SW,Sweden,phobias,Lexapro,active,clinical
+2853,SE,Sweden,hyperlipidemia,CoZaar,active,research
+2854,US,United States,anxiety,Lexapro,active,clinical
+2855,USA,United States,high_cholesterol,CoZaar,active,clinical
+2856,ES,Spain,depression,Lexapro,active,clinical
+2857,ES,Spain,depression,Cipralex,active,clinical
+2858,SP,Spain,high_cholesterol,Simovil,complete,research
+2859,US,United States,phobias,Loxitane,active,clinical
+2860,ES,Spain,OCD,Loxitane,active,clinical
+2861,CA,Canada,cholesterol,CoZaar,active,research
+2862,CAN,Canada,high_cholesterol,Simovil,active,clinical
+2863,DK,Denmark,hyperlipidemia,CoZaar,active,clinical
+2864,DK,Denmark,high_cholesterol,Zocor,active,clinical
+2865,DN,Denmark,high_cholesterol,Zocor,active,clinical
+2866,US,United States,cholesterol,Simovil,active,clinical
+2867,PL,Poland,deep_vein_thrombosis,Lovenox,active,clinical
+2868,PL,Poland,deep_vein_thrombosis,Levemir,active,research
+2869,USA,United States,deep_vein_thrombosis,Levemir,active,clinical
+2870,POL,Poland,arthritis,Celebrex,active,clinical
+2871,CAN,Canada,deep_vein_thrombosis,Lovenox,active,clinical
+2872,POL,Poland,asthma_attacks,Advair,active,clinical
+2873,UK,United Kingdom,arthritis,Celebrex,active,research
+2874,US,United States,deep_vein_thrombosis,Lovenox,active,clinical
+2875,USA,United States,anxiety,Lexapro,active,clinical
+2876,UK,United Kingdom,anxiety,Lexapro,active,clinical
+2877,UK,United Kingdom,anxiety,Loxitane,active,clinical
+2878,GB,United Kingdom,anxiety,Loxitane,active,research
+2879,US,United States,arthritis,Celexa,active,clinical
+2880,GB,United Kingdom,anxiety,Loxitane,active,clinical
+2881,CA,Canada,asthma,Advair,complete,research
+2882,CAN,Canada,asthma,Advair,active,clinical
+2883,GER,Germany,asthma_attacks,Advair,active,clinical
+2884,DE,Germany,asthma_attacks,Advicor,active,clinical
+2885,DE,Germany,asthma,Advair,active,clinical
+2886,GER,Germany,arthritis,Celebrex,active,clinical
+2887,CAD,Canada,arthritis,Celexa,active,clinical
+2888,CAD,Canada,Osteoarthritis,Celebrex,active,research
+2889,USA,United States,arthritis,Celexa,active,clinical
+2890,SE,Sweden,arthritis,Celebrex,active,clinical
+2891,SW,Sweden,depression,Cipralex,complete,clinical
+2892,SW,Sweden,anxiety,Lexapro,active,clinical
+2893,SE,Sweden,high_cholesterol,Simovil,active,research
+2894,US,United States,anxiety,Lexapro,active,clinical
+2895,USA,United States,high_cholesterol,CoZaar,active,clinical
+2896,ES,Spain,anxiety,Cipralex,active,clinical
+2897,ES,Spain,anxiety,Lexapro,active,clinical
+2898,SP,Spain,high_cholesterol,Zocor,complete,research
+2899,US,United States,depression,Loxitane,active,clinical
+2900,ES,Spain,anxiety,Loxitane,active,clinical
+2901,CA,Canada,high_cholesterol,CoZaar,active,research
+2902,CAN,Canada,high_cholesterol,CoZaar,active,clinical
+2903,DK,Denmark,hyperlipidemia,Simovil,active,clinical
+2904,DK,Denmark,high_cholesterol,Zocor,active,clinical
+2905,DN,Denmark,cholesterol,Simovil,active,clinical
+2906,US,United States,high_cholesterol,Zocor,active,clinical
+2907,PL,Poland,deep_vein_thrombosis,Lovenox,active,clinical
+2908,PL,Poland,deep_vein_thrombosis,Levemir,active,research
+2909,USA,United States,deep_vein_thrombosis,Levemir,active,clinical
+2910,POLAND,Poland,arthritis,Celebrex,active,clinical
+2911,CAN,Canada,deep_vein_thrombosis,Lovenox,active,clinical
+2912,POL,Poland,asthma,Advair,active,clinical
+2913,UK,United Kingdom,arthritis,Celebra,active,research
+2914,US,United States,deep_vein_thrombosis,Lovenox,active,clinical
+2915,USA,United States,phobias,Lexapro,active,clinical
+2916,UK,United Kingdom,OCD,Lexapro,active,clinical
+2917,UK,United Kingdom,anxiety,Cipralex,active,clinical
+2918,GB,United Kingdom,anxiety,Loxitane,active,research
+2919,US,United States,Osteoarthritis,Celexa,active,clinical
+2920,GB,United Kingdom,depression,Loxitane,active,clinical
+2921,CA,Canada,asthma,Advair,complete,research
+2922,CAN,Canada,asthma_attacks,Advair,active,clinical
+2923,GER,Germany,asthma_attacks,Advair,active,clinical
+2924,DE,Germany,asthma,Advicor,active,clinical
+2925,DE,Germany,asthma,Advair,active,clinical
+2926,GER,Germany,arthritis,Celebrex,active,clinical
+2927,CAD,Canada,arthritis,Celexa,active,clinical
+2928,CAD,Canada,Osteoarthritis,Celebrex,active,research
+2929,USA,United States,Osteoarthritis,Celexa,active,clinical
+2930,SE,Sweden,Osteoarthritis,Celebrex,active,clinical
+2931,SW,Sweden,anxiety,Lexapro,complete,clinical
+2932,SW,Sweden,anxiety,Cipralex,active,clinical
+2933,SE,Sweden,hyperlipidemia,CoZaar,active,research
+2934,US,United States,anxiety,Lexapro,active,clinical
+2935,USA,United States,high_cholesterol,CoZaar,active,clinical
+2936,ES,Spain,anxiety,Lexapro,active,clinical
+2937,ES,Spain,anxiety,Lexapro,active,clinical
+2938,SP,Spain,high_cholesterol,Simovil,complete,research
+2939,US,United States,anxiety,Cipralex,active,clinical
+2940,ES,Spain,anxiety,Loxitane,active,clinical
+2941,CA,Canada,high_cholesterol,CoZaar,active,research
+2942,CAN,Canada,high_cholesterol,CoZaar,active,clinical
+2943,DK,Denmark,cholesterol,Simovil,active,clinical
+2944,DK,Denmark,hyperlipidemia,Zocor,active,clinical
+2945,DN,Denmark,high_cholesterol,Simovil,active,clinical
+2946,US,United States,high_cholesterol,Zocor,active,clinical
+2947,PL,Poland,deep_vein_thrombosis,Lovenox,active,clinical
+2948,PL,Poland,deep_vein_thrombosis,Levemir,active,research
+2949,USA,United States,deep_vein_thrombosis,Levemir,active,clinical
+2950,POLAND,Poland,Osteoarthritis,Celebra,active,clinical
+2951,CAN,Canada,deep_vein_thrombosis,Lovenox,active,clinical
+2952,POL,Poland,asthma,Advair,active,clinical
+2953,UK,United Kingdom,Osteoarthritis,Celebrex,active,research
+2954,US,United States,deep_vein_thrombosis,Lovenox,active,clinical
+2955,USA,United States,depression,Lexapro,active,clinical
+2956,UK,United Kingdom,OCD,Lexapro,active,clinical
+2957,UK,United Kingdom,anxiety,Cipralex,active,clinical
+2958,GB,United Kingdom,anxiety,Loxitane,active,research
+2959,US,United States,Osteoarthritis,Celebra,active,clinical
+2960,GB,United Kingdom,anxiety,Loxitane,active,clinical
+2961,CA,Canada,asthma_attacks,Advair,complete,research
+2962,CAN,Canada,asthma,Advair,active,clinical
+2963,GER,Germany,asthma,Advair,active,clinical
+2964,DE,Germany,asthma,Advicor,active,clinical
+2965,DE,Germany,asthma_attacks,Advair,active,clinical
+2966,GER,Germany,Osteoarthritis,Celebrex,active,clinical
+2967,CAD,Canada,arthritis,Celexa,active,clinical
+2968,CAD,Canada,Osteoarthritis,Celebrex,active,research
+2969,USA,United States,Osteoarthritis,Celexa,active,clinical
+2970,SE,Sweden,arthritis,Celebrex,active,clinical
+2971,SW,Sweden,anxiety,Lexapro,complete,clinical
+2972,SW,Sweden,anxiety,Lexapro,active,clinical
+2973,SE,Sweden,high_cholesterol,CoZaar,active,research
+2974,US,United States,anxiety,Lexapro,active,clinical
+2975,USA,United States,high_cholesterol,CoZaar,active,clinical
+2976,ES,Spain,OCD,Lexapro,active,clinical
+2977,ES,Spain,anxiety,Lexapro,active,clinical
+2978,SP,Spain,high_cholesterol,Zocor,complete,research
+2979,US,United States,depression,Loxitane,active,clinical
+2980,ES,Spain,anxiety,Loxitane,active,clinical
+2981,CA,Canada,hyperlipidemia,CoZaar,active,research
+2982,CANADA,Canada,high_cholesterol,Simovil,active,clinical
+2983,DK,Denmark,high_cholesterol,CoZaar,active,clinical
+2984,DK,Denmark,high_cholesterol,Zocor,active,clinical
+2985,DN,Denmark,hyperlipidemia,Simovil,active,clinical
+2986,US,United States,high_cholesterol,Zocor,active,clinical
+2987,PL,Poland,deep_vein_thrombosis,Lovenox,active,clinical
+2988,PL,Poland,deep_vein_thrombosis,Levemir,active,research
+2989,USA,United States,deep_vein_thrombosis,Levemir,active,clinical
+2990,POL,Poland,Osteoarthritis,Celebra,active,clinical
+2991,CAN,Canada,deep_vein_thrombosis,Lovenox,active,clinical
+2992,POL,Poland,asthma_attacks,Advair,active,clinical
+2993,UK,United Kingdom,arthritis,Celebrex,active,research
+2994,US,United States,deep_vein_thrombosis,Lovenox,active,clinical
+2995,USA,United States,phobias,Lexapro,active,clinical
+2996,UK,United Kingdom,depression,Lexapro,active,clinical
+2997,UK,United Kingdom,anxiety,Loxitane,active,clinical
+2998,GB,United Kingdom,phobias,Loxitane,active,research
+2999,US,United States,Osteoarthritis,Celexa,active,clinical
+3000,GB,United Kingdom,anxiety,Loxitane,active,clinical
+3001,SW,Sweden,Migraine,analgesic,active,clinical
+3002,SW,Sweden,Migraine,ibuprofen,active,clinical
+3003,SW,Sweden,Migraine,addaprin,active,clinical
+3004,SW,Sweden,Migraine,NSAID,active,clinical
+3005,SW,Sweden,Migraine,ibuprofen,active,clinical
+3006,SW,Sweden,Migraine,ibuprofen,active,clinical
+3007,SW,Sweden,Migraine,ibuprofen,active,clinical
+3008,SW,Sweden,Migraine,ibuprofen,active,clinical
+3009,SW,Sweden,Migraine,ibuprofen,active,clinical
+3010,SW,Sweden,Migraine,ibuprofen,active,clinical
+3011,SW,Sweden,Migraine,ibuprofen,active,clinical
+3012,SW,Sweden,Migraine,ibuprofen,active,clinical
+3013,SW,Sweden,Migraine,ibuprofen,active,clinical
+3014,SW,Sweden,Migraine,ibuprofen,active,clinical
+3015,SW,Sweden,Migraine,ibuprofen,active,clinical
+3016,SW,Sweden,Migraine,ibuprofen,active,clinical
+3017,SW,Sweden,Migraine,ibuprofen,active,clinical
+3018,SW,Sweden,Migraine,ibuprofen,active,clinical
+3019,SW,Sweden,Migraine,ibuprofen,active,clinical
+3020,SW,Sweden,Migraine,ibuprofen,active,clinical
+3021,SW,Sweden,Migraine,ibuprofen,active,clinical
+3022,SW,Sweden,Migraine,ibuprofen,active,clinical
+3023,SW,Sweden,Migraine,ibuprofen,active,clinical
+3024,SW,Sweden,Migraine,ibuprofen,active,clinical
+3025,SW,Sweden,Migraine,ibuprofen,active,clinical
+3026,SW,Sweden,Migraine,ibuprofen,active,clinical
+3027,SW,Sweden,Migraine,ibuprofen,active,clinical
+3028,SW,Sweden,Migraine,ibuprofen,active,clinical
+3029,SW,Sweden,Migraine,ibuprofen,active,clinical
+3030,SW,Sweden,Migraine,ibuprofen,active,clinical
+3031,SW,Sweden,Migraine,ibuprofen,active,clinical
+3032,SW,Sweden,Migraine,ibuprofen,active,clinical
+3033,SW,Sweden,Migraine,analgesic,active,clinical
+3034,SW,Sweden,Migraine,analgesic,active,clinical
+3035,SW,Sweden,Migraine,analgesic,active,clinical
+3036,SW,Sweden,Migraine,analgesic,active,clinical
+3037,SW,Sweden,Migraine,analgesic,active,clinical
+3038,SW,Sweden,Migraine,analgesic,active,clinical
+3039,SW,Sweden,Migraine,analgesic,active,clinical
+3040,SW,Sweden,Migraine,analgesic,active,clinical
+3041,SW,Sweden,Migraine,analgesic,active,clinical
+3042,SW,Sweden,Migraine,analgesic,active,clinical
+3043,SW,Sweden,Migraine,analgesic,active,clinical
+3044,SW,Sweden,Migraine,analgesic,active,clinical
+3045,SW,Sweden,Migraine,analgesic,active,clinical
+3046,SW,Sweden,Migraine,analgesic,active,clinical
+3047,SW,Sweden,Migraine,analgesic,active,clinical
+3048,SW,Sweden,Migraine,analgesic,active,clinical
+3049,SW,Sweden,Migraine,analgesic,active,clinical
+3050,SW,Sweden,Migraine,analgesic,active,clinical
+3051,SW,Sweden,Migraine,analgesic,active,clinical
+3052,SW,Sweden,Migraine,analgesic,active,clinical
+3053,SW,Sweden,Migraine,NSAID,active,clinical
+3054,SW,Sweden,Migraine,NSAID,active,clinical
+3055,SW,Sweden,Migraine,NSAID,active,clinical
+3056,SW,Sweden,Migraine,NSAID,active,clinical
+3057,SW,Sweden,Migraine,NSAID,active,clinical
+3058,SW,Sweden,Migraine,NSAID,active,clinical
+3059,SW,Sweden,Migraine,NSAID,active,clinical
+3060,SW,Sweden,Migraine,NSAID,active,clinical
+3061,SW,Sweden,Migraine,NSAID,active,clinical
+3062,SW,Sweden,Migraine,NSAID,active,clinical
+3063,SW,Sweden,Migraine,NSAID,active,clinical
+3064,SW,Sweden,Migraine,NSAID,active,clinical
+3065,SW,Sweden,Migraine,NSAID,active,clinical
+3066,SW,Sweden,Migraine,NSAID,active,clinical
+3067,SW,Sweden,Migraine,NSAID,active,clinical
+3068,SW,Sweden,Migraine,NSAID,active,clinical
+3069,SW,Sweden,Migraine,NSAID,active,clinical
+3070,SW,Sweden,Migraine,NSAID,active,clinical
+3071,SW,Sweden,Migraine,NSAID,active,clinical
+3072,SW,Sweden,Migraine,NSAID,active,clinical
+3073,SW,Sweden,Migraine,NSAID,active,clinical
+3074,SW,Sweden,Migraine,NSAID,active,clinical
+3075,SW,Sweden,Migraine,NSAID,active,clinical
+3076,SW,Sweden,Migraine,NSAID,active,clinical
+3077,SW,Sweden,Migraine,NSAID,active,clinical
+3078,SW,Sweden,Migraine,NSAID,active,clinical
+3079,SW,Sweden,Migraine,NSAID,active,clinical
+3080,SW,Sweden,Migraine,NSAID,active,clinical
+3081,SW,Sweden,Migraine,NSAID,active,clinical
+3082,SW,Sweden,Migraine,NSAID,active,clinical
+3083,SW,Sweden,Migraine,addaprin,active,clinical
+3084,SW,Sweden,Migraine,addaprin,active,clinical
+3085,SW,Sweden,Migraine,addaprin,active,clinical
+3086,SW,Sweden,Migraine,addaprin,active,clinical
+3087,SW,Sweden,Migraine,addaprin,active,clinical
+3088,SW,Sweden,Migraine,addaprin,active,clinical
+3089,SW,Sweden,Migraine,addaprin,active,clinical
+3090,SW,Sweden,Migraine,addaprin,active,clinical
+3091,SW,Sweden,Migraine,addaprin,active,clinical
+3092,SW,Sweden,Migraine,addaprin,active,clinical
+3093,SW,Sweden,Migraine,addaprin,active,clinical
+3094,SW,Sweden,Migraine,addaprin,active,clinical
+3095,SW,Sweden,Migraine,addaprin,active,clinical
+3096,SW,Sweden,Migraine,addaprin,active,clinical
+3097,SW,Sweden,Migraine,addaprin,active,clinical
+3098,SW,Sweden,Migraine,addaprin,active,clinical
+3099,SW,Sweden,Migraine,addaprin,active,clinical
+3100,SW,Sweden,Migraine,addaprin,active,clinical
+3101,SW,Sweden,Migraine,addaprin,active,clinical
+3102,SW,Sweden,Migraine,addaprin,active,clinical
+3103,SW,Sweden,Migraine,addaprin,active,clinical
+3104,SW,Sweden,Migraine,addaprin,active,clinical
+3105,SW,Sweden,Migraine,addaprin,active,clinical
+3106,SW,Sweden,Migraine,addaprin,active,clinical

@@ -1,7 +1,10 @@
-from utils.utils import get_attribute
-from scipy.stats import wasserstein_distance
 from collections import Counter
 import numpy as np
+
+
+# get the num of functional dependencies
+def get_attribute(data, col_name):
+    return data[col_name].unique()
 
 
 # compute outliers w.r.t a given sense and values
@@ -62,9 +65,9 @@ def sense_reassign_cost(vals, sense1, sense2, sense_dict):
 
 class DependencyGraph(object):
 
-    def __init__(self, data, initial_senses1, initial_senses2, attrs1, attrs2, 
-                 sense_dict, right_col_name,
-                 col_name1='A', col_name2='B', threshold=0.2):
+    def __init__(self, eqTupleMap, eqSenseMap, attrs1, attrs2, 
+                 sense_dict, right_col_name, threshold,
+                 col_name1='A', col_name2='B'):
         """
         attr: a list of attribute values of x
         sense: sense assignment map
@@ -151,7 +154,7 @@ class DependencyGraph(object):
         # print('overlap:\n', overlap)
         return overlap
 
-    # Algorithm 2: Local Refinement
+    # locally refine sense assignments
     def local_refine(self, u, v):
         """
         data: dataframe
@@ -210,7 +213,6 @@ class DependencyGraph(object):
         print('dist1:', dist1)
         print('dist2:', dist2)
 
-        # emd = wasserstein_distance(list(dist1.values()), list(dist2.values()))
         emds = []
         emds.append(0)
         dist1, dist2 = list(dist1.values()), list(dist2.values())
@@ -248,17 +250,6 @@ class DependencyGraph(object):
         print('\nedge weight:', self.weight)
         print('\nvertex weight:', self.vertex_emd)
         print('\nsense assignment:\n', self.sense_assignment)
-
-
-# # compute earth mover's distance
-# def EMD(P, Q):
-#     """
-#     P, Q: dict from distribution function
-#     """
-#     # P, Q = list(P.values()), list(Q.values())
-#     emd = wasserstein_distance(P, Q)
-#     print('EMD:', emd)
-#     return emd
 
 
 # # compute distribution
