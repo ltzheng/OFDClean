@@ -10,7 +10,7 @@ from collections import Counter
 
 class OFDClean(object):
 
-    def __init__(self, data, ofds, senses, right_attrs, ssets, threshold=0.2):
+    def __init__(self, data, ofds, senses, right_attrs, ssets, threshold):
         """
         data(DataFrame): data to be cleaned
         ofds(array): OFDs ([[left attributes], right attribute])
@@ -25,9 +25,12 @@ class OFDClean(object):
         self.right_attrs = right_attrs
         self.ssets = ssets
 
-        self.eqTupleList = []  # [{key: left attributes string, value: related tuple nums} for each ofd]
+        self.eqTupleNumList = []  # [{key: left attributes string, value: related tuple nums} for each ofd]
+        self.overlapMap = {}  # reversed hashmap of eqTupleNumList, for building dependency graph
+        self.eqTupleMap = {}  # {key: left attributes string, value: related tuple right values}
         self.getEquivalenceClass()
-        # print('eqTupleMap:\n', eqTupleMap)
+        print('eqTupleNumList:\n', self.eqTupleNumList)
+        print('overlapMap:\n', self.overlapMap)
         
         # self.OntRepair = OntologyRepair()
         # self.DataRepair = DataRepair()
@@ -44,26 +47,40 @@ class OFDClean(object):
             selected_columns = self.data[left_attrs]
             # print('selected_columns:\n', selected_columns)
 
-            eqTupleMap = {}
+            eqTupleNumMap = {}
             for index, row in selected_columns.iterrows():
                 left_vals = row[:-1].tolist()
                 left_vals = ','.join([str(elem) for elem in left_vals])
                 # print('left_vals:', left_vals)
                 # right_val = row[-1]
                 # print('right_val:', right_val)
-                if left_vals in eqTupleMap:
-                    eqTupleMap[left_vals] += [index]
+                if left_vals in eqTupleNumMap:
+                    eqTupleNumMap[left_vals] += [index]
                 else:
-                    eqTupleMap[left_vals] = [index]
-            self.eqTupleList.append(eqTupleMap)
+                    eqTupleNumMap[left_vals] = [index]
+                
+                if index in self.overlapMap:
+                    self.overlapMap[index] += [left_vals]
+                else:
+                    self.overlapMap[index] = [left_vals]
+
+            self.eqTupleNumList.append(eqTupleNumMap)
 
     def run(self):
         self.init_assign()
         print('\n==========Initial Sense Assignment==========')
         print(self.eqSenseList)
 
-        # DependencyGraph = DependencyGraph(eqTupleMap, self.eqSenseMap, self.senses)
-        # self.refined_eqSenseMap = DependencyGraph.local_refine()
+        print('\n==========Dependency Graph==========')
+        DG = DependencyGraph(self.eqTupleNumList, self.eqSenseList, self.senses, self.overlapMap, self.eqTupleMap, self.threshold)
+        DG.display()
+        DG.BFS()
+        print('\n==========Refined Sense Assignment==========')
+        print(DG.refined_eqSenseMap)
+
+        DG.optimal_assign()
+        print('\n==========Optimal Sense Assignment==========')
+        print(DG.optimal_eqSenseMap)
 
         # self.ontCandidate = self.DataRepair.identifyErrors()
 
@@ -74,16 +91,17 @@ class OFDClean(object):
         self.eqSenseList = []
 
         # for each ofd
-        for ofd_right_attr, eqTupleMap in zip(self.right_attrs, self.eqTupleList):
-            eqSenseMap = dict.fromkeys(eqTupleMap.keys())
+        for ofd_right_attr, eqTupleNumMap in zip(self.right_attrs, self.eqTupleNumList):
+            eqSenseMap = dict.fromkeys(eqTupleNumMap.keys())
 
             # for each equivalence class
-            for left_vals, eqTupleNums in eqTupleMap.items():
-                print('left_vals:', left_vals)
+            for left_vals, eqTupleNums in eqTupleNumMap.items():
+                # print('left_vals:', left_vals)
                 right_vals = [self.data.iloc[tuple_num, self.data.columns.get_loc(ofd_right_attr)] for tuple_num in eqTupleNums]
-                print('right values:\n', right_vals)
+                # print('right values:\n', right_vals)
+                self.eqTupleMap[left_vals] = right_vals
                 freq = dict(Counter(right_vals))
-                print('freq:', freq)
+                # print('freq:', freq)
 
                 # k = stats.median_absolute_deviation(list(freq.values()))
                 # print('k:', k)
@@ -93,21 +111,21 @@ class OFDClean(object):
                 median_freq = median(freq.values())
                 deviation = {k: abs(v - median_freq) for k, v in freq.items()}  # key: right values, value: list of senses of right values
                 deviation = dict(sorted(deviation.items(), key=lambda item: item[1], reverse=False))  # sort in ascending order
-                print('deviation:', deviation)
+                # print('deviation:', deviation)
                 k = len(deviation)
-                print('k =', k)
+                # print('k =', k)
 
                 sorted_senses = []
                 sorted_right_vals = list(deviation.keys())
                 for v in sorted_right_vals:
-                    print('value:', v)
-                    print('ssets[ofd_right_attr].keys():', self.ssets[ofd_right_attr].keys())
+                    # print('value:', v)
+                    # print('ssets[ofd_right_attr].keys():', self.ssets[ofd_right_attr].keys())
                     if v in self.ssets[ofd_right_attr].keys():
-                        print('ssets[ofd_right_attr][v]:', self.ssets[ofd_right_attr][v])
+                        # print('ssets[ofd_right_attr][v]:', self.ssets[ofd_right_attr][v])
                         if self.ssets[ofd_right_attr][v] not in sorted_senses:
                             sorted_senses.append(self.ssets[ofd_right_attr][v])
-                print('sorted_right_vals', sorted_right_vals)
-                print('sorted_senses', sorted_senses)
+                # print('sorted_right_vals', sorted_right_vals)
+                # print('sorted_senses', sorted_senses)
                 if len(sorted_senses) == 0:
                     eqSenseMap[left_vals] = None
                     break
@@ -116,7 +134,7 @@ class OFDClean(object):
                 potential_set = set()
                 while not potential_set:
                     topk = sorted_senses[:k]
-                    print('topk:', topk)
+                    # print('topk:', topk)
                     Lambda = set(topk[0]).intersection(*topk)
                     if Lambda:
                         potential_set = potential_set.union(Lambda)
@@ -154,6 +172,7 @@ class OFDClean(object):
         raise NotImplementedError
 
 if __name__ == '__main__':
+    threshold = 100
     config = {
         'data': 'datasets/data/' + 'clinical.csv',
         'ofds': 'datasets/ofds/' + 'clinical.csv',
@@ -166,8 +185,8 @@ if __name__ == '__main__':
     # print('ofds:\n', ofds)
     # print('right_attrs:\n', right_attrs)
     senses, ssets = Loader.read_senses(right_attrs)
-    # print('senses:\n', senses)
+    print('senses:\n', senses)
     # print('ssets:\n', ssets)
 
-    Cleaner = OFDClean(data, ofds, senses, right_attrs, ssets)
+    Cleaner = OFDClean(data, ofds, senses, right_attrs, ssets, threshold)
     Cleaner.run()
