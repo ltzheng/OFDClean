@@ -7,7 +7,7 @@ from utils import find_sense
 
 class DependencyGraph(object):
 
-    def __init__(self, eqTupleNumList, eqSenseList, senseMap, overlapMap, eqTupleMap, eqRightAttrMap, threshold):
+    def __init__(self, eqTupleNumList, eqSenseList, senseMap, overlapMap, eqTupleMap, threshold):
         self.eqSenseMap = dict(ChainMap(*eqSenseList))
         # self.eqSenseMap = {k: v for k, v in self.eqSenseMap.items() if v is not None}
         self.eqTupleNumMap = dict(ChainMap(*eqTupleNumList))
@@ -15,8 +15,11 @@ class DependencyGraph(object):
         self.senseMap = senseMap
         self.overlapMap = overlapMap
         self.eqTupleMap = eqTupleMap
-        self.eqRightAttrMap = eqRightAttrMap
         self.threshold = threshold
+
+        self.refined_eqSenseMap = {k: v for k, v in self.eqSenseMap.items()}
+        self.optimal_eqSenseMap = {k: v for k, v in self.eqSenseMap.items()}
+        self.optimal_eqSenseCandidates = {k: [v] for k, v in self.eqSenseMap.items()}
 
         # build the dependency graph
         self.vertexes = []
@@ -75,17 +78,33 @@ class DependencyGraph(object):
                     if v not in visited:
                         queue.append(v)
                         visited.add(v)
-                        self.optimal_assign(u, v)
+                        self.optimal_eqSenseCandidates[u] += [self.refined_eqSenseMap[v]]
 
             else:
                 raise NotImplementedError
+
+        # select sense with minimal data repair from assigned candidates
+        if mode == 'optimal':
+            from algorithms.repair import Repair
+            Repair = Repair(self.eqTupleMap, self.senseMap)
+
+            for k, candidates in self.optimal_eqSenseCandidates.items():
+                min_repair = -1  # sentinel
+                selected_sense = None
+                for s in candidates:
+                    if s:
+                        temp_repair = Repair.identify_errors(k, s)
+                        if temp_repair < min_repair or min_repair == -1:
+                            min_repair = temp_repair
+                            selected_sense = s
+
+                self.optimal_eqSenseMap[k] = selected_sense
 
     # locally refine sense assignments
     def local_refine(self, u, v):
         """
         u is the parent of v
         """
-        self.refined_eqSenseMap = self.eqSenseMap.copy()
         val1 = self.eqTupleMap[u]
         val2 = self.eqTupleMap[v]
 
@@ -103,22 +122,8 @@ class DependencyGraph(object):
                 self.weight[(v, neighbor)] = w
                 self.weight[(neighbor, v)] = w
 
-    # optimal sense assignments for accuracy measure experiments
-    def optimal_assign(self, u, v):
-        """
-        u is the parent of v
-        """
-        self.optimal_eqSenseMap = {k: v for k, v in self.eqSenseMap.items()}
-        val1 = self.eqTupleMap[u]
-        val2 = self.eqTupleMap[v]
-
-        # replace v's sense with u's one
-        # self.optimal_eqSenseMap[v] += self.refined_eqSenseMap[u]
-
     # Earth mover's distance of transforming val1 to val2
     def EMD(self, val1, val2, sense1, sense2):
-        # print('val1:', val1)
-        # print('val2:', val2)
         # replace with the canonical value
         val1, val2 = self.replace(val1, sense1), self.replace(val2, sense2)
 
@@ -127,8 +132,6 @@ class DependencyGraph(object):
         dist2 = dist1.copy()
         dist1.update(dict(Counter(val1)))
         dist2.update(dict(Counter(val2)))
-        # print('dist1:', dist1)
-        # print('dist2:', dist2)
 
         # compute emd by dynamic programming
         emds = []
@@ -137,8 +140,6 @@ class DependencyGraph(object):
         for i, p_i, q_i in zip(range(len(dist1)), dist1, dist2):
             emds.append(p_i + emds[i] - q_i)
         emd = sum(abs(number) for number in emds)
-        # print('EMDs:', emds)
-        # print('emd:', emd)
 
         return emd
     

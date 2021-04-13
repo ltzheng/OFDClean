@@ -1,12 +1,5 @@
-from collections import Counter
-import numpy as np
 from utils import find_sense
 import math
-
-
-# # get the num of functional dependencies
-# def get_attribute(data, col_name):
-#     return data[col_name].unique()
 
 
 # def sense_reassign_cost(vals, sense1, sense2, sense_dict):
@@ -27,71 +20,49 @@ import math
 # if min(reassign_cost1, reassign_cost2) < repair_cost(overlap, sense1, sense2, self.sense_dict):
 
 
+# outliers w.r.t a given sense and right values
+def outliers(right_val, synonyms):
+    return [v for v in right_val if v not in synonyms]
+
+
 class Repair(object):
 
-    def __init__(self, refined_eqSenseMap, eqTupleMap, senseMap, beam_size=None):
-        self.refined_eqSenseMap = refined_eqSenseMap
+    def __init__(self, eqTupleMap, senseMap, beam_size=None):
         self.eqTupleMap = eqTupleMap
         self.senseMap = senseMap
-        self.ontologyCandidates = set()
-        self.nodeSenseMap = {}
-        if not beam_size:
-            self.beam_size = len(self.ontologyCandidates) / math.e
+        # self.ontologyCandidates = set()
+        # self.nodeSenseMap = {}
+        # if not beam_size:
+        #     self.beam_size = len(self.ontologyCandidates) / math.e
 
-    # identify tuples not covered by assigned senses, maintained in ontologyCandidates and nodeSenseMap
-    def identifyErrors(self):
-        for left_vals, right_val in self.eqTupleMap.items():
-            assigned_sense = self.refined_eqSenseMap[left_vals]
-            # print('right_val:', right_val)
-            print('assigned_sense:', assigned_sense)
-            if assigned_sense:
-                synonyms = find_sense(assigned_sense, self.senseMap)
-                missed_right_val = [v for v in right_val if v not in synonyms]
-                self.ontologyCandidates.update(missed_right_val)
-                for v in missed_right_val:
-                    if v in self.nodeSenseMap:
-                        if assigned_sense not in self.nodeSenseMap[v]:
-                            self.nodeSenseMap[v] += [assigned_sense]
-                    else:
-                        self.nodeSenseMap[v] = [assigned_sense]
+    # identify tuples not covered by assigned senses, maintaining ontologyCandidates and nodeSenseMap
+    def identify_errors(self, left_vals, assigned_sense):
+        right_val = self.eqTupleMap[left_vals]
+
+        if assigned_sense:
+            synonyms = find_sense(assigned_sense, self.senseMap)
+            return len(outliers(right_val, synonyms))
+
+            # self.ontologyCandidates.update(missed_right_val)
+            # for v in missed_right_val:
+            #     if v in self.nodeSenseMap:
+            #         if assigned_sense not in self.nodeSenseMap[v]:
+            #             self.nodeSenseMap[v] += [assigned_sense]
+            #     else:
+            #         self.nodeSenseMap[v] = [assigned_sense]
 
     # beam search to get minimal repair
     def beam_search(self):
         raise NotImplementedError
     
-    def repair_cost(self, vals, sense_name1, sense_name2):
-        rho1, R1 = outliers(vals, sense_name1)
-        rho2, R2 = outliers(vals, sense_name2)
-
-        # ontology repair cost
-        ontology_repair_cost = len(rho1) + len(rho2)  # number of unique outlier values
-
-        # data_repair_cost
-        data_repair_cost = R1 + R2
-
-        return ontology_repair_cost, data_repair_cost
-
-    # compute outliers w.r.t a given sense and values
-    def outliers(self, vals, sense, sense_dict):
-        """
-        vals: a list of attribute values of Omega (overlap set)
-        sense: a sense, i.e., a list of synonyms
-        sense_dict: map sense id->value synonyms
-        """
-        outlier_set = set()
-        total_outlier_num = 0
-
-        print('\nsynonyms:', sense)
-        print('vals:', vals)
-
-        if vals:
-            for item in vals:
-                if item not in sense:
-                    outlier_set.add(item)
-                    total_outlier_num += 1
-            outlier_set = list(outlier_set)
-            print('outliers:', outlier_set)
-        else:
-            outlier_set = []
-
-        return outlier_set, total_outlier_num
+    # def repair_cost(self, vals, sense_name1, sense_name2):
+    #     rho1, R1 = outliers(vals, sense_name1)
+    #     rho2, R2 = outliers(vals, sense_name2)
+    #
+    #     # ontology repair cost
+    #     ontology_repair_cost = len(rho1) + len(rho2)  # number of unique outlier values
+    #
+    #     # data_repair_cost
+    #     data_repair_cost = R1 + R2
+    #
+    #     return ontology_repair_cost, data_repair_cost
