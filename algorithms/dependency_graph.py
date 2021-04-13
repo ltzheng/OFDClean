@@ -2,79 +2,20 @@ from collections import Counter
 import numpy as np
 import itertools
 from collections import ChainMap
-
-
-# get the num of functional dependencies
-def get_attribute(data, col_name):
-    return data[col_name].unique()
-
-
-# compute outliers w.r.t a given sense and values
-def outliers(vals, sense, sense_dict):
-    """
-    vals: a list of attribute values of Omega (overlap set)
-    sense: a sense, i.e., a list of synonyms
-    sense_dict: map sense id->value synonyms
-    """
-    outlier_set = set()
-    total_outlier_num = 0
-
-    print('\nsynonyms:', sense)
-    print('vals:', vals)
-
-    if vals:
-        for item in vals:
-            if item not in sense:
-                outlier_set.add(item)
-                total_outlier_num += 1
-        outlier_set = list(outlier_set)
-        print('outliers:', outlier_set)
-    else:
-        outlier_set = []
-
-    return outlier_set, total_outlier_num
-
-
-def repair_cost(vals, sense1, sense2, sense_dict):
-    """
-    vals: a list of attribute values of Omega (overlap set)
-    sense1, sense2: lists of synonyms
-    sense_dict: map sense id->value synonyms
-    """
-    rho1, R1 = outliers(vals, sense1, sense_dict)
-    rho2, R2 = outliers(vals, sense2, sense_dict)
-
-    # ontology repair cost
-    ontology_repair_cost = len(rho1) + len(rho2)  # number of unique outlier values
-
-    # data_repair_cost
-    data_repair_cost = R1 + R2
-
-    return min(ontology_repair_cost, data_repair_cost)
-
-
-def sense_reassign_cost(vals, sense1, sense2, sense_dict):
-    """
-    vals: a list of attribute values of x
-    sense1, sense2: lists of synonyms
-    sense_dict: map sense id->value synonyms
-    """
-    _, R1 = outliers(vals, sense1, sense_dict)
-    _, R2 = outliers(vals, sense2, sense_dict)
-    cost = R2 - R1
-    return cost
+from utils import find_sense
 
 
 class DependencyGraph(object):
 
-    def __init__(self, eqTupleNumList, eqSenseList, senses, overlapMap, eqTupleMap, threshold):
+    def __init__(self, eqTupleNumList, eqSenseList, senseMap, overlapMap, eqTupleMap, eqRightAttrMap, threshold):
         self.eqSenseMap = dict(ChainMap(*eqSenseList))
         # self.eqSenseMap = {k: v for k, v in self.eqSenseMap.items() if v is not None}
         self.eqTupleNumMap = dict(ChainMap(*eqTupleNumList))
         # self.eqTupleNumMap = {k: v for k, v in self.eqTupleNumMap.items() if k in self.eqSenseMap}
-        self.senses = senses
+        self.senseMap = senseMap
         self.overlapMap = overlapMap
         self.eqTupleMap = eqTupleMap
+        self.eqRightAttrMap = eqRightAttrMap
         self.threshold = threshold
 
         # build the dependency graph
@@ -91,7 +32,6 @@ class DependencyGraph(object):
             # edge exists when classes overlap
             pairs = list(itertools.combinations(senses, 2))
             for pair in pairs:
-                # print('pair:', pair)
                 u = pair[0]
                 v = pair[1]
                 if not self.eqSenseMap[u] or not self.eqSenseMap[v]:
@@ -111,85 +51,75 @@ class DependencyGraph(object):
                 self.vertex_emd[v] += w
 
     # breadth-first traverse the dependency graph
-    def BFS(self):
+    def BFS(self, mode):
+        # start with max EMD node
         start = list(dict(sorted(self.vertex_emd.items(), key=lambda item: item[1], reverse=True)).keys())[0]
         queue = []
-        queue.append(start)  # start with max EMD node
+        queue.append(start)
         visited = set()
         visited.add(start)
-        self.refined_eqSenseMap = self.eqSenseMap.copy()
 
         while len(queue) > 0:
             u = queue.pop(0)
             neighbors = [v for v in self.edges[u] if self.weight[(u, v)] > self.threshold]
-            for v in neighbors:
-                self.local_refine(u, v)
-                if v not in visited:
-                    queue.append(v)
-                    visited.add(v)
+
+            if mode == 'local':
+                for v in neighbors:
+                    if v not in visited:
+                        queue.append(v)
+                        visited.add(v)
+                        self.local_refine(u, v)
+
+            elif mode == 'optimal':
+                for v in neighbors:
+                    if v not in visited:
+                        queue.append(v)
+                        visited.add(v)
+                        self.optimal_assign(u, v)
+
+            else:
+                raise NotImplementedError
 
     # locally refine sense assignments
     def local_refine(self, u, v):
+        """
+        u is the parent of v
+        """
+        self.refined_eqSenseMap = self.eqSenseMap.copy()
         val1 = self.eqTupleMap[u]
         val2 = self.eqTupleMap[v]
-        # replace u's sense with v's one
-        new_w = self.EMD(val1, val2, self.refined_eqSenseMap[v], self.refined_eqSenseMap[v])
+
+        # propagate v's sense to u
+        new_w = self.EMD(val1, val2, self.refined_eqSenseMap[u], self.refined_eqSenseMap[u])
         if new_w < self.weight[(u, v)]:
-            self.refined_eqSenseMap[u] = self.refined_eqSenseMap[v]
+            self.refined_eqSenseMap[v] = self.refined_eqSenseMap[u]
+            self.weight[(u, v)] = new_w
+            self.weight[(v, u)] = new_w
+
+            # update edge weight of all neighbors of v
+            for neighbor in self.edges[v]:
+                val2 = self.eqTupleMap[neighbor]
+                w = self.EMD(val1, val2, self.eqSenseMap[v], self.eqSenseMap[neighbor])
+                self.weight[(v, neighbor)] = w
+                self.weight[(neighbor, v)] = w
 
     # optimal sense assignments for accuracy measure experiments
-    def optimal_assign(self):
-        start = list(dict(sorted(self.vertex_emd.items(), key=lambda item: item[1], reverse=True)).keys())[0]
-        queue = []
-        queue.append(start)  # start with max EMD node
-        visited = set()
-        visited.add(start)
-        self.optimal_eqSenseMap = self.eqSenseMap.copy()
+    def optimal_assign(self, u, v):
+        """
+        u is the parent of v
+        """
+        self.optimal_eqSenseMap = {k: v for k, v in self.eqSenseMap.items()}
+        val1 = self.eqTupleMap[u]
+        val2 = self.eqTupleMap[v]
 
-        while len(queue) > 0:
-            u = queue.pop(0)
-            neighbors = [v for v in self.edges[u] if self.weight[(u, v)] > self.threshold]
-            for v in neighbors:
-                val1 = self.eqTupleMap[u]
-                val2 = self.eqTupleMap[v]
-                # replace u's sense with v's one
-                new_w = self.EMD(val1, val2, self.optimal_eqSenseMap[v], self.optimal_eqSenseMap[v])
-                
-                self.optimal_eqSenseMap[u] = self.optimal_eqSenseMap[v]
-                
-                if v not in visited:
-                    queue.append(v)
-                    visited.add(v)
-
-
-        # overlap = self.overlap_tuples(x1, x2)[self.right_col_name].values.tolist()
-        # reassign_cost1 = sense_reassign_cost(val1, sense1, sense2, self.sense_dict)
-        # reassign_cost2 = sense_reassign_cost(val2, sense2, sense1, self.sense_dict)
-        # if min(reassign_cost1, reassign_cost2) < repair_cost(overlap, sense1, sense2, self.sense_dict):
-        #     if reassign_cost1 > reassign_cost2:
-        #         # new_w = EMD(self.distribution(attr2, self.sense_dict[self.sense_assignment[attr2]]), self.distribution(attr2, sense1))
-        #         new_w = self.EMD(val2, val2, self.sense_assignment[attr2], sense1)
-        #         print('sense1:', self.sense_assignment[attr2])
-        #         print('sense2:', sense1)
-        #         if new_w < self.weight[(u, v)]:
-        #             self.sense_assignment[attr2] = sense1
-        #             self.weight[(u, v)] = new_w
-        #             self.weight[(v, u)] = new_w
-        #     else:
-        #         # new_w = EMD(self.distribution(attr1, self.sense_dict[self.sense_assignment[attr1]]), self.distribution(attr1, sense2))
-        #         new_w = self.EMD(val1, val1, self.sense_assignment[attr1], sense2)
-        #         print('sense1:', self.sense_assignment[attr1])
-        #         print('sense2:', sense2)
-        #         if new_w < self.weight[(u, v)]:
-        #             self.sense_assignment[attr1] = sense2
-        #             self.weight[(u, v)] = new_w
-        #             self.weight[(v, u)] = new_w
+        # replace v's sense with u's one
+        # self.optimal_eqSenseMap[v] += self.refined_eqSenseMap[u]
 
     # Earth mover's distance of transforming val1 to val2
     def EMD(self, val1, val2, sense1, sense2):
         # print('val1:', val1)
         # print('val2:', val2)
-        # replace with canonical values
+        # replace with the canonical value
         val1, val2 = self.replace(val1, sense1), self.replace(val2, sense2)
 
         # compute distributions
@@ -212,16 +142,16 @@ class DependencyGraph(object):
 
         return emd
     
-    def replace(self, vals, sense):
+    def replace(self, vals, sense_name):
         if isinstance(vals, list):
             for i, item in enumerate(vals):
-                # default the 1st value in sense
-                if item in sense:
-                    vals[i] = sense[0]
+                synonyms = find_sense(sense_name, self.senseMap)
+                if item in synonyms:
+                    # default the 1st value in sense
+                    vals[i] = synonyms[0]
         return vals
 
     def display(self):
         print('\ndependency graph:', self.edges)
         print('\nedge weight:', self.weight)
         print('\nvertex weight:', self.vertex_emd)
-        # print('\nsense assignment:\n', self.sense_assignment)
