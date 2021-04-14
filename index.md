@@ -4,7 +4,7 @@ Pythpn implementation of Contextual Data Cleaning with Ontological Functional De
 
 ## Datasets
 
-Dataset, ofds, senses of clinical data of [Python code](https://github.com/ltzheng/OFDClean/Python/datasets) and [Java code](https://github.com/ltzheng/OFDClean/Java/data). 
+Dataset, ofds, senses of clinical data of [Python code](https://github.com/ltzheng/OFDClean/tree/master/Python/datasets) and [Java code](https://github.com/ltzheng/OFDClean/tree/master/Java/data). 
 
 ## Source code
 
@@ -34,6 +34,7 @@ Configure the path of data, OFDs, and senses in `main.py`, then run `python main
 Figure 7 and 8 in the paper.
 
 - Figure 8 (c)
+
   ```
   # Scale font and line width (dpi) by changing the size! It will always display stretched.
   set terminal svg size 400,300 enhanced fname 'arial'  fsize 10 butt solid
@@ -55,6 +56,7 @@ Figure 7 and 8 in the paper.
   ```
 
 - Figure 8 (d)
+
   ```
   # Scale font and line width (dpi) by changing the size! It will always display stretched.
   set terminal svg size 400,300 enhanced fname 'arial'  fsize 10 butt solid
@@ -71,6 +73,7 @@ Figure 7 and 8 in the paper.
   ```
   
 - Figure 8 (e)
+
   ```
   # Scale font and line width (dpi) by changing the size! It will always display stretched.
   set terminal svg size 400,300 enhanced fname 'arial'  fsize 10 butt solid
@@ -92,6 +95,7 @@ Figure 7 and 8 in the paper.
   ```
 
 - Figure 8 (f)
+ 
   ```
   # Scale font and line width (dpi) by changing the size! It will always display stretched.
   set terminal svg size 400,300 enhanced fname 'arial'  fsize 10 butt solid
@@ -108,6 +112,7 @@ Figure 7 and 8 in the paper.
   ```
 
 - Figure 8 (g)
+  
   ```
   # Scale font and line width (dpi) by changing the size! It will always display stretched.
   set terminal svg size 400,300 enhanced fname 'arial'  fsize 10 butt solid
@@ -129,6 +134,7 @@ Figure 7 and 8 in the paper.
   ```
 
 - Figure 8 (h)
+  
   ```
   # Scale font and line width (dpi) by changing the size! It will always display stretched.
   set terminal svg size 400,300 enhanced fname 'arial'  fsize 10 butt solid
