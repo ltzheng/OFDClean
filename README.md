@@ -4,7 +4,7 @@ Pythpn implementation of Contextual Data Cleaning with Ontological Functional De
 
 ## Datasets
 
-Dataset, ofds, senses of clinical data of [Python code](https://github.com/ltzheng/OFDClean/Python/datasets) and [Java code](https://github.com/ltzheng/OFDClean/Java/data). 
+Dataset, ofds, senses of clinical data of [Python code](https://github.com/ltzheng/OFDClean/tree/master/Python/datasets) and [Java code](https://github.com/ltzheng/OFDClean/tree/master/Java/data). 
 
 ## Source code
 
