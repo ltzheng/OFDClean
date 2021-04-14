@@ -1,0 +1,2 @@
+workclass->salary
+ID->sex

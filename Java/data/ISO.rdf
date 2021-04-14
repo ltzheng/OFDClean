@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:ex="http://example.org/">
+	
+	<rdf:Description rdf:about="http://example.org/CAN">
+		<ex:is_a rdf:resource="http://example.org/CA"/>
+	</rdf:Description>	
+	
+	<rdf:Description rdf:about="http://example.org/CAD">
+		<ex:is_a rdf:resource="http://example.org/CA"/>
+	</rdf:Description>	
+	<rdf:Description rdf:about="http://example.org/CANADA">
+		<ex:is_a rdf:resource="http://example.org/CA"/>
+	</rdf:Description>	
+	
+	<rdf:Description rdf:about="http://example.org/IND">
+		<ex:is_a rdf:resource="http://example.org/IN"/>
+	</rdf:Description>	
+	
+	<rdf:Description rdf:about="http://example.org/INDIA">
+		<ex:is_a rdf:resource="http://example.org/IN"/>
+	</rdf:Description>	
+
+	<rdf:Description rdf:about="http://example.org/AUS">
+		<ex:is_a rdf:resource="http://example.org/AU"/>
+	</rdf:Description>	
+	
+	<rdf:Description rdf:about="http://example.org/INDIA">
+		<ex:is_a rdf:resource="http://example.org/IN"/>
+	</rdf:Description>	
+	
+	<rdf:Description rdf:about="http://example.org/USA">
+		<ex:is_a rdf:resource="http://example.org/US"/>
+	</rdf:Description>	
+	
+	<rdf:Description rdf:about="http://example.org/GER">
+		<ex:is_a rdf:resource="http://example.org/DE"/>
+	</rdf:Description>	
+	
+	<rdf:Description rdf:about="http://example.org/SW">
+		<ex:is_a rdf:resource="http://example.org/SE"/>
+	</rdf:Description>	
+	
+	<rdf:Description rdf:about="http://example.org/SP">
+		<ex:is_a rdf:resource="http://example.org/ES"/>
+	</rdf:Description>	
+	
+	<rdf:Description rdf:about="http://example.org/POL">
+		<ex:is_a rdf:resource="http://example.org/PL"/>
+	</rdf:Description>	
+	
+	<rdf:Description rdf:about="http://example.org/UK">
+		<ex:is_a rdf:resource="http://example.org/GB"/>
+	</rdf:Description>	
+	
+	<rdf:Description rdf:about="http://example.org/DN">
+		<ex:is_a rdf:resource="http://example.org/DK"/>
+	</rdf:Description>		
+</rdf:RDF>

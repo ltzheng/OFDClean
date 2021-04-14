@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<Config>
+
+	<ontology>
+		<name>medicine</name>
+		<threshold>0.3</threshold>
+		<path>data//medicine-EU.rdf</path>
+		<type>Minimum_Error</type>
+		<sense>EU</sense>
+		<class>syn</class>
+	</ontology>
+	<ontology>
+		<name>medicine</name>
+		<threshold>0.3</threshold>
+		<path>data//medicine-US.rdf</path>
+		<type>Minimum_Error</type>
+		<sense>US</sense>
+		<class>syn</class>
+	</ontology>
+	<ontology>
+		<name>disease</name>
+		<threshold>0.3</threshold>
+		<isathreshold>2</isathreshold>
+		<path>data//disease.rdf</path>
+		<type>Minimum_Error</type>
+		<sense>Medical</sense>
+		<class>isa</class>
+	</ontology>
+	<data>
+		<path>data//data_err3.csv</path>
+		<numberOfColumns>6</numberOfColumns>
+		<FastOFD>true</FastOFD>
+		<SynOFD>false</SynOFD>
+		<SynAOFD>false</SynAOFD>
+		<IsaOFD>true</IsaOFD>
+		<IsaAOFD>true</IsaAOFD>
+		<Tane>false</Tane>
+	</data>
+	<ofd>
+		<path>data//ofd.txt</path>
+	</ofd>
+</Config>

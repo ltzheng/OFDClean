@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<Config>
+	<ontology>
+		<name>native-country</name>
+		<threshold>0.06</threshold>
+		<path>data//Census//Abbreviation.rdf</path>
+		<type>Minimum_Error</type>
+		<sense>ISO</sense>
+		<class>syn</class>
+	</ontology>
+	<data>
+		<path>data//Census//census.csv</path>
+		<numberOfColumns>11</numberOfColumns>
+		<FastOFD>true</FastOFD>
+		<SynOFD>true</SynOFD>
+		<SynAOFD>false</SynAOFD>
+		<IsaOFD>false</IsaOFD>
+		<IsaAOFD>false</IsaAOFD>
+		<Tane>false</Tane>
+	</data>
+</Config>

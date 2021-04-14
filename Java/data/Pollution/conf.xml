@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<Config>
+	<ontology>
+		<name>Province</name>
+		<threshold>0.3</threshold>
+		<path>data//pollution//Abbreviation.rdf</path>
+		<type>Minimum_Error</type>
+		<sense>ISO</sense>
+		<class>syn</class>
+	</ontology>
+	<data>
+		<path>data//Pollution//pollution.csv</path>
+		<numberOfColumns>11</numberOfColumns>
+		<FastOFD>true</FastOFD>
+		<SynOFD>true</SynOFD>
+		<SynAOFD>false</SynAOFD>
+		<IsaOFD>false</IsaOFD>
+		<IsaAOFD>false</IsaAOFD>
+		<Tane>false</Tane>
+	</data>
+</Config>

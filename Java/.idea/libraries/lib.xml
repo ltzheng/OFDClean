@@ -1,0 +1,41 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/httpclient-4.5.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-lang3-3.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jackson-core-2.2.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jena-tdb-3.4.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jena-base-3.4.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/xml-apis-1.4.01.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jackson-databind-2.8.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/slf4j-api-1.7.25.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-cli-1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-io-2.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jena-arq-3.4.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/nxparser-model-2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jsonld-java-0.10.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/collection-0.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/log4j-1.2.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jena-cmds-3.4.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/eclipse-rdf4j-2.2.3-onejar.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/nxparser-api-2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jena-iri-3.4.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-codec-1.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-csv-1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/httpclient-cache-4.5.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/nxparser-commons-2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jcl-over-slf4j-1.7.25.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jena-shaded-guava-3.4.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/xercesImpl-2.11.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jena-rdfconnection-3.4.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/slf4j-log4j12-1.7.25.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/libthrift-0.9.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jackson-annotations-2.8.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/httpcore-4.4.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jackson-core-2.8.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jena-core-3.4.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

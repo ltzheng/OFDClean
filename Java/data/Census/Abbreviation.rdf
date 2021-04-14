@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:ex="http://example.org/">
+	
+	<rdf:Description rdf:about="http://example.org/US">
+		<ex:is_a rdf:resource="http://example.org/United-States"/>
+	</rdf:Description>	
+	
+	<rdf:Description rdf:about="http://example.org/USA">
+		<ex:is_a rdf:resource="http://example.org/United-States"/>
+	</rdf:Description>	
+	<rdf:Description rdf:about="http://example.org/Dominican">
+		<ex:is_a rdf:resource="http://example.org/Dominican-Republic"/>
+	</rdf:Description>	
+	
+	<rdf:Description rdf:about="http://example.org/United-Kingdom">
+		<ex:is_a rdf:resource="http://example.org/England"/>
+	</rdf:Description>	
+	
+	<rdf:Description rdf:about="http://example.org/Great-Britain">
+		<ex:is_a rdf:resource="http://example.org/England"/>
+	</rdf:Description>	
+
+	<rdf:Description rdf:about="http://example.org/Deutschland">
+		<ex:is_a rdf:resource="http://example.org/GERMANY"/>
+	</rdf:Description>	
+	
+	<rdf:Description rdf:about="http://example.org/Islamic-Republic-Iran">
+		<ex:is_a rdf:resource="http://example.org/Iran"/>
+	</rdf:Description>	
+</rdf:RDF>

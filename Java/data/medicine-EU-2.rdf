@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:ex="http://example.org/">
+	
+	<rdf:Description rdf:about="http://example.org/Advicor">
+		<ex:is_a rdf:resource="http://example.org/Advair"/>
+	</rdf:Description>	
+	<rdf:Description rdf:about="http://example.org/Celexa">
+		<ex:is_a rdf:resource="http://example.org/Celebrex"/>
+	</rdf:Description>	
+	<rdf:Description rdf:about="http://example.org/Loxitane">
+		<ex:is_a rdf:resource="http://example.org/Lexapro"/>
+	</rdf:Description>	
+	
+	<rdf:Description rdf:about="http://example.org/Levemir">
+		<ex:is_a rdf:resource="http://example.org/Lovenox"/>
+	</rdf:Description>	
+	<rdf:Description rdf:about="http://example.org/CoZaar">
+		<ex:is_a rdf:resource="http://example.org/Zocor"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://example.org/Celebra">
+		<ex:is_a rdf:resource="http://example.org/Zocor"/>
+	</rdf:Description>	
+	<rdf:Description rdf:about="http://example.org/Cipralex">
+		<ex:is_a rdf:resource="http://example.org/Zocor"/>
+	</rdf:Description>	
+	
+	<rdf:Description rdf:about="http://example.org/Clexane">
+		<ex:is_a rdf:resource="http://example.org/Zocor"/>
+	</rdf:Description>	
+	<rdf:Description rdf:about="http://example.org/Simovil">
+		<ex:is_a rdf:resource="http://example.org/Zocor"/>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://example.org/Gladem">
+		<ex:is_a rdf:resource="http://example.org/Zoloft"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://example.org/analgesic">
+		<ex:is_a rdf:resource="http://example.org/Zoloft"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://example.org/ibumetin">
+		<ex:is_a rdf:resource="http://example.org/Zoloft"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://example.org/NSAID">
+		<ex:is_a rdf:resource="http://example.org/ibuprofen"/>
+	</rdf:Description>
+	
+</rdf:RDF>

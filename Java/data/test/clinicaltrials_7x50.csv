@@ -1,0 +1,51 @@
+id,countrycode,country,disease,medicine,status,study_design
+1,CA,Canada,Anemia,Epoetin,complete,research
+2,CAN,Canada,Anemia,Epoetin,active,clinical
+3,IN,India,Anemia,Epoetin,active,clinical
+4,AU,Australia,Common cold,Codeine,active,clinical
+5,AU,Australia,Common cold,Narcotic,active,clinical
+6,US,United States,Fever,Advil,active,clinical
+7,IN,India,Common cold,Codeine,active,clinical
+8,IND,India,Anemia,Epoetin,active,research
+9,USA,United States,Fever,IbuProfen,active,clinical
+10,AUS,Australia,Common cold,Codeine,active,clinical
+11,CAN,Canada,Anemia,Epoetin,complete,clinical
+12,AU,Australia,Common cold,Codeine,active,clinical
+13,IND,India,Anemia,Epoetin,active,research
+14,US,United States,Fever,IbuProfen,active,clinical
+15,USA,United States,Common cold,Codeine,active,clinical
+16,IN,India,Anemia,Epoetin,active,clinical
+17,AUS,Australia,Fever,Advil,active,clinical
+18,IND,India,Common cold,Codeine,complete,research
+19,US,United States,Fever,Advil,active,clinical
+20,IN,India,Anemia,Epoetin,active,clinical
+21,CA,Canada,Achondroplasia,Lisinopril,active,research
+22,CAN,Canada,Acid Reflux Disease (GERD),Loratadine,active,clinical
+23,IN,India,Achilles tendon injury,Lorazepam,active,clinical
+24,AU,Australia,Acne,Losartan,active,clinical
+25,AU,Australia,Acute bronchitis,Lyrica,active,clinical
+26,US,United States,Acute gastroenteritis,Meloxicam,active,clinical
+27,IN,India,Adenoma,Metformin,active,clinical
+28,IND,India,Amblyopia (Lazy eye),Metoprolol,active,research
+29,USA,United States,Amoebiasis,Naproxen,active,clinical
+30,AUS,Australia,Amyotrophic lateral sclerosis,Omeprazole,active,clinical
+31,CAN,Canada,Anal and Rectal Problems,Oxycodone,active,clinical
+32,AU,Australia,Angiography,Pantoprazole,active,clinical
+33,IND,India,Angioplasty,Prednisone,active,research
+34,US,United States,Aphrodisiacs,Tramadol,active,clinical
+35,USA,United States,Arthroscopy,Trazodone,active,clinical
+36,IN,India,Gallstones,Viagra,active,clinical
+37,AUS,Australia,Ganglion cyst,Wellbutrin,active,clinical
+38,IND,India,Gardner Syndrome,Xanax,active,research
+39,US,United States,Gas Gangrene,Zoloft,active,clinical
+40,IN,India,Indigestion,Jakafi,active,clinical
+41,CA,Canada,Gastroparesis,Jalyn,active,research
+42,CAN,Canada,Shigellosis,Janumet,active,clinical
+43,IN,India,Shingles,Januvia,active,clinical
+44,AU,Australia,Shingles (herpes zoster),Jardiance,active,clinical
+45,AU,Australia,Strabismus,Jentadueto,active,clinical
+46,US,United States,Strep throat,Jetrea,active,clinical
+47,IN,India,Streptococcal infection,Jevtana,active,clinical
+48,IND,India,Stroke,Jublia,active,research
+49,USA,United States,Strumpell Disease,Juvederm,active,clinical
+50,AUS,Australia,Synovitis,Juvisync,active,clinical

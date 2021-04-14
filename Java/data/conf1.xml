@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<Config>
+	<data>
+		<path>data//dddddddddd.csv</path>
+		<numberOfColumns>12</numberOfColumns>
+		<FastOFD>false</FastOFD>
+		<SynOFD>false</SynOFD>
+		<SynAOFD>false</SynAOFD>
+		<IsaOFD>false</IsaOFD>
+		<IsaAOFD>false</IsaAOFD>
+		<Tane>true</Tane>
+	</data>
+</Config>

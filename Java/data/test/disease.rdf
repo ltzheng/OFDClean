@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:ex="http://example.org/">
+	
+	<rdf:Description rdf:about="http://example.org/Type 1 RCC">
+		<ex:is_a rdf:resource="http://example.org/Papillary RCC"/>
+	</rdf:Description>	
+	<rdf:Description rdf:about="http://example.org/Type 2 RCC">
+		<ex:is_a rdf:resource="http://example.org/Papillary RCC"/>
+	</rdf:Description>
+		<rdf:Description rdf:about="http://example.org/Papillary RCC">
+		<ex:is_a rdf:resource="http://example.org/Renal Cell"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://example.org/Chromophobe">
+		<ex:is_a rdf:resource="http://example.org/Renal Cell"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://example.org/Nodular BCC">
+		<ex:is_a rdf:resource="http://example.org/Basal Cell"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://example.org/Superficial BCC">
+		<ex:is_a rdf:resource="http://example.org/Basal Cell"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://example.org/Basal Cell">
+		<ex:is_a rdf:resource="http://example.org/Carcinoma"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://example.org/Laryngeal">
+		<ex:is_a rdf:resource="http://example.org/Head Cancer"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://example.org/Hypopharyngeal">
+		<ex:is_a rdf:resource="http://example.org/Head Cancer"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://example.org/Head Cancer">
+		<ex:is_a rdf:resource="http://example.org/Squamous Cell"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://example.org/Oral Cancer">
+		<ex:is_a rdf:resource="http://example.org/Neck Cancer"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://example.org/Salivary Gland Cancer">
+		<ex:is_a rdf:resource="http://example.org/Neck Cancer"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://example.org/Neck Cancer">
+		<ex:is_a rdf:resource="http://example.org/Squamous Cell"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://example.org/Squamous Cell">
+		<ex:is_a rdf:resource="http://example.org/Carcinoma"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://example.org/Renal Cell">
+		<ex:is_a rdf:resource="http://example.org/Carcinoma"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://example.org/Carcinoma">
+		<ex:is_a rdf:resource="http://example.org/Disease"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://example.org/DCIS">
+		<ex:is_a rdf:resource="http://example.org/Breast"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://example.org/IDC">
+		<ex:is_a rdf:resource="http://example.org/Breast"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://example.org/ILC">
+		<ex:is_a rdf:resource="http://example.org/Breast"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://example.org/Breast">
+		<ex:is_a rdf:resource="http://example.org/Metastatic"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://example.org/Metastatic">
+		<ex:is_a rdf:resource="http://example.org/Disease"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://example.org/Carcinoid">
+		<ex:is_a rdf:resource="http://example.org/Prostate"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://example.org/Lipo Sarcoma">
+		<ex:is_a rdf:resource="http://example.org/Sarcoma"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://example.org/Synavial Sarcoma">
+		<ex:is_a rdf:resource="http://example.org/Sarcoma"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://example.org/Sarcoma">
+		<ex:is_a rdf:resource="http://example.org/Prostate"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://example.org/Prostate">
+		<ex:is_a rdf:resource="http://example.org/Metastatic"/>
+	</rdf:Description>
+</rdf:RDF>

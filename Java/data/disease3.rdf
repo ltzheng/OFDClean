@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:ex="http://example.org/">
+
+	<rdf:Description rdf:about="http://example.org/asthma_attacks">
+		<ex:is_a rdf:resource="http://example.org/asthma"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://example.org/osteoarthritis">
+		<ex:is_a rdf:resource="http://example.org/arthritis"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://example.org/depression">
+		<ex:is_a rdf:resource="http://example.org/anxiety"/>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://example.org/obsessive-compulsive_disorder">
+		<ex:is_a rdf:resource="http://example.org/arthritis"/>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://example.org/OCD">
+		<ex:is_a rdf:resource="http://example.org/high_cholesterol"/>
+	</rdf:Description>	
+	
+	<rdf:Description rdf:about="http://example.org/phobias">
+		<ex:is_a rdf:resource="http://example.org/high_cholesterol"/>
+	</rdf:Description>
+
+    <rdf:Description rdf:about="http://example.org/hyperlipidemia">
+        <ex:is_a rdf:resource="http://example.org/anxiety"/>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://example.org/hypercholesterolemia">
+        <ex:is_a rdf:resource="http://example.org/anxiety"/>
+    </rdf:Description>
+
+</rdf:RDF>

@@ -1,0 +1,24 @@
+FD: id --> A
+FD: id --> B
+FD: id --> C
+FD: id --> D
+FD: id --> E
+FD: id --> F
+FD: id --> G
+FD: id --> H
+FD: id --> I
+FD: id --> J
+FD: id --> Y
+FD: A, J --> Y
+FD: A, D, E --> F
+FD: A, D, E --> G
+FD: A, G, J --> E
+FD: A, B, D, E --> H
+FD: A, B, D, E --> I
+FD: A, B, E, J --> C
+FD: A, C, D, E --> id
+FD: A, C, D, E --> B
+FD: A, C, D, E --> J
+FD: B, C, D, E, F, H, I --> Y
+------------------------------------------------------
+Running Time:46003 (ms) 0 (min) 0 (hour)

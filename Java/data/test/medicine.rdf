@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:ex="http://example.org/">
+	<rdf:Description rdf:about="http://example.org/Codeine">
+		<ex:is_a rdf:resource="http://example.org/Narcotic"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://example.org/Benz">
+		<ex:is_a rdf:resource="http://example.org/PainKiller"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://example.org/Codifen">
+		<ex:is_a rdf:resource="http://example.org/Narcotic"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://example.org/Advil">
+		<ex:is_a rdf:resource="http://example.org/IbuProfen"/>
+	</rdf:Description>
+</rdf:RDF>

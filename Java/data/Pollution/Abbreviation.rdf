@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:ex="http://example.org/">
+	
+	<rdf:Description rdf:about="http://example.org/ONTARIO">
+		<ex:is_a rdf:resource="http://example.org/ON"/>
+	</rdf:Description>	
+	
+	<rdf:Description rdf:about="http://example.org/Alberta">
+		<ex:is_a rdf:resource="http://example.org/AB"/>
+	</rdf:Description>	
+	<rdf:Description rdf:about="http://example.org/British-Columbia">
+		<ex:is_a rdf:resource="http://example.org/BC"/>
+	</rdf:Description>	
+	
+	<rdf:Description rdf:about="http://example.org/Manitoba">
+		<ex:is_a rdf:resource="http://example.org/MB"/>
+	</rdf:Description>	
+	
+	<rdf:Description rdf:about="http://example.org/New-Brunswick">
+		<ex:is_a rdf:resource="http://example.org/NB"/>
+	</rdf:Description>	
+
+	<rdf:Description rdf:about="http://example.org/Newfoundland">
+		<ex:is_a rdf:resource="http://example.org/NL"/>
+	</rdf:Description>	
+	
+	<rdf:Description rdf:about="http://example.org/Nova-Scotia">
+		<ex:is_a rdf:resource="http://example.org/NS"/>
+	</rdf:Description>	
+	
+	<rdf:Description rdf:about="http://example.org/Newfoundland-and-Labrador">
+		<ex:is_a rdf:resource="http://example.org/NL"/>
+	</rdf:Description>	
+
+	<rdf:Description rdf:about="http://example.org/Yukon">
+		<ex:is_a rdf:resource="http://example.org/YT"/>
+	</rdf:Description>	
+
+	<rdf:Description rdf:about="http://example.org/Saskatchewan">
+		<ex:is_a rdf:resource="http://example.org/SK"/>
+	</rdf:Description>	
+
+	<rdf:Description rdf:about="http://example.org/Que">
+		<ex:is_a rdf:resource="http://example.org/QC"/>
+	</rdf:Description>		
+	
+	<rdf:Description rdf:about="http://example.org/Quebec">
+		<ex:is_a rdf:resource="http://example.org/QC"/>
+	</rdf:Description>		
+
+	<rdf:Description rdf:about="http://example.org/Prince-Edward-Island">
+		<ex:is_a rdf:resource="http://example.org/PE"/>
+	</rdf:Description>		
+
+	<rdf:Description rdf:about="http://example.org/Prince-Edward">
+		<ex:is_a rdf:resource="http://example.org/PE"/>
+	</rdf:Description>		
+
+	<rdf:Description rdf:about="http://example.org/Nunavut">
+		<ex:is_a rdf:resource="http://example.org/NU"/>
+	</rdf:Description>		
+
+	<rdf:Description rdf:about="http://example.org/Northwest-Territories">
+		<ex:is_a rdf:resource="http://example.org/NT"/>
+	</rdf:Description>		
+</rdf:RDF>
